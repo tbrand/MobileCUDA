@@ -1,0 +1,11 @@
+Task : 2014/05/03
+
+Replay Failed => try to remove the flags to the one?
+
+Task : 2014/04/28
+
+Charange check for the device which has a process that has been migrated.
+- If the next charange failed, the device will not be searched until the proc on it finished.
+- If the next charange successed, the device will be searched again.
+
+//Making "Waiting Queue" for the processes which failed to allocate memory region on device memory.

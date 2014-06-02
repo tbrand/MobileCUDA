@@ -1,0 +1,3758 @@
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x135aa30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 106.930145
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1502a30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x180ea20
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x180ea20
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 123.456078
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x781a30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xa8da20
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xa8da20
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 125.144814
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1e64a30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x218aff0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x218aff0
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 137.852600
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1390a30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x169ca20
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x169ca20
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 212.183380
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x25a4a30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x28b0a20
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x28b0a20
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (2 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x2845ac0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x2845ac0
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 228.785751
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2305a30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x262bf60
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x262bf60
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 232.201050
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x7b7a30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xac3a20
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xac3a20
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (3 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xa58aa0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xa58aa0
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 243.533615
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1e5ba30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x2167a20
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x2167a20
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (1 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x20fcaa0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x20fcaa0
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 315.926453
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x631a30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x93d8f0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x93d8f0
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 332.812256
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x6d3a30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x9dfa20
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x9dfa20
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (2 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x974ac0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x974ac0
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 339.037720
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x716a30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xa3cff0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xa3cff0
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 349.951233
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2191a30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x249da50
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x249da50
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 418.951965
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x229da30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x25a9a20
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x25a9a20
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (3 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x253eaa0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x253eaa0
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 437.974670
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x845a30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xb51a20
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xb51a20
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 445.399719
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1d8bd40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1d971b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1d971b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1004ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1356b60
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1356b60
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (1 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x132f840
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x132f840
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x16b1a30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x19bda20
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x19bda20
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (1 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1952aa0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1952aa0
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 456.916382
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1065d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x10711b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x10711b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xa35d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xa411b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xa411b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x21f0ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x21fc150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x21fc150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1fddd40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1fe91b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1fe91b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xbcace0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xbd6150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xbd6150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x22f5d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 106.068947
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2875d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x28811b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x28811b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1d29d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1d351b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1d351b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1c59d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1c651b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1c651b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xcf4ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1046c00
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1046c00
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 109.380188
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1dd9d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1de51b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1de51b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1be6ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1bf2150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1bf2150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xdb6ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xdc2150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xdc2150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x14ddd40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x14e91b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x14e91b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2448ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x2454150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x2454150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1a90ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 106.470924
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1b24ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1b30150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1b30150
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 107.646164
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x14e9d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x14f51b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x14f51b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xf57d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xf631b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xf631b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x280dd40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x28191b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x28191b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1b64ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1b70150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1b70150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x26e1d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 106.524345
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2391d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x23ac0b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x23ac0b0
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 109.143723
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x15bece0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x15ca150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x15ca150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x24d5d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x24e11b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x24e11b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xeffd40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xf0b1b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xf0b1b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xaabd40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xab71b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xab71b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x189bd40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x18a71b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x18a71b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x951d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x95d1b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x95d1b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x26f7d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 108.812363
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xf9ace0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xfb5050
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xfb5050
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 108.674194
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x188bd40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 105.382103
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x14cdd40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x14d91b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x14d91b0
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 108.704865
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x10e8ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1103050
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1103050
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 122.685905
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1db0ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1dbc150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1dbc150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xa6fd40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xa7b1b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xa7b1b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x288ece0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x289a150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x289a150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1b3fd40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1b4b1b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1b4b1b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x9a8ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x9b4150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x9b4150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x12ffd40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x130b1b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x130b1b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x17b5d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 106.462029
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1b6fd40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1b7b1b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1b7b1b0
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 107.064064
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1acece0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1ada150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1ada150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1721d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x172d1b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x172d1b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x143ace0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1446150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1446150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1346ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1352150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1352150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x20f5d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x21011b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x21011b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2607d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 107.814774
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1fe8ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x2003050
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x2003050
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 108.283958
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xfc9d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 105.545891
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x22acce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x22b8150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x22b8150
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 108.045708
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x12f1d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x130c0b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x130c0b0
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 122.597389
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x128cce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1298150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1298150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x227fd40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x228b1b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x228b1b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x12a2ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x12ae150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x12ae150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1f25d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1f311b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1f311b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x91ebf0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x92a060
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x92a060
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x12d6ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x12e2150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x12e2150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xd27d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 106.275360
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x13e8ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x13f4150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x13f4150
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 106.713501
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x13b5d30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x13c11a0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x13c11a0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x14ffd40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x150b1b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x150b1b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x927d30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x9331a0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x9331a0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2569d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x25751b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x25751b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2653d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x265f1b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x265f1b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1e25d30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1e311a0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1e311a0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2224ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 107.164513
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xff6ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1011050
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1011050
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 108.542793
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1ef1d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1efd1b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1efd1b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xe2cbf0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xe38060
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xe38060
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1a48ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1a54150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1a54150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xbc2bf0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xbce060
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xbce060
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2813d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x281f1b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x281f1b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xda6ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0xdb2150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xdb2150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1e25d40
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1e311b0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1e311b0
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2236ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 108.146881
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x153bd30
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1556010
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1556010
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 107.909248
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x16b8ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x16c4150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x16c4150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2574ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x2580150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x2580150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2656ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x2662150
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x2662150
+[REPLAY] cudaMalloc               
+replay failed in cudaMalloc()
+a->devPtr   : 0x2300400000
+ptr         : 0x2300200000
+result code : 0
+Exit(-1)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x254cce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 107.055122
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1fa4ce0
+gyouretu size : 324000000
+[TRACE -runtime-] cudaSetDevice            
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x1fbf050
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1fbf050
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+[TRACE -runtime-] cudaHostAlloc            
+cudaHostAlloc : 0
+This Sample Application Uses 1235[Mbyte] per vector.(Total : 2471[Mbyte])
+>Result TEST : PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFreeHost             
+[TRACE -runtime-] cudaFreeHost             
+Application Closed...
+My RESULT : 109.139565
+[TRACE -runtime-] __cudaUnregisterFatBinary
+FINISH!!!!!!!
+Result time : 1710.000000[sec]

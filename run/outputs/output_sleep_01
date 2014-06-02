@@ -1,0 +1,4728 @@
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1516a30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 118.332039
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xbe0a30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401fc8
+fatCubinHandle : 0xf07000
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xf07000
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+size == 317440000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 221.146393
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x16f2a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x16f2a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x408b68
+fatCubinHandle : 0x1a1ccb0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1a1ccb0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1a1ccb0
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 83016.391 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 224.984756(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x116aa30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 224.830231
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1977a30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 225.171722
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1416a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1416a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x408b48
+fatCubinHandle : 0x1722b10
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1722b10
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1722b10
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 73979.414 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 327.739380(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xf27a30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401fc8
+fatCubinHandle : 0x1233a50
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1233a50
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401fc8
+fatCubinHandle : 0xfd7600
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xfd7600
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+size == 317440000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 363.347137
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2295a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2295a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x408b68
+fatCubinHandle : 0x25bfdd0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x25bfdd0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x25bfdd0
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.70 GFlop/s, Time= 83010.125 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 435.213135(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xeb2a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xeb2a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x408b68
+fatCubinHandle : 0x11beaa0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x11beaa0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x11beaa0
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x408b68
+fatCubinHandle : 0xf57e80
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xf57e80
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xf57e80
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 141.49 GFlop/s, Time= 151775.125 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 434.921204(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1ca0a30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401fc8
+fatCubinHandle : 0x1faca50
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1faca50
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 256000000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 435.981659
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xc51a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xc51a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x408a70
+fatCubinHandle : 0xf6fac0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xf6fac0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xf6fac0
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (1 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x408a70
+fatCubinHandle : 0xefc490
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xefc490
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xefc490
+[REPLAY] cudaMalloc               
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 236.33 GFlop/s, Time= 95116.883 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 458.491180
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x97ea30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0xc8ab20
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xc8ab20
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 539.215454
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xd37cd0
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xd37cd0
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.65 GFlop/s, Time= 83025.680 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.946266(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2770ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 106.176758
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x10eca30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x10eca30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x408b68
+fatCubinHandle : 0x1416db0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1416db0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1416db0
+[REPLAY] cudaMalloc               
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 129.36 GFlop/s, Time= 166002.172 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 637.281311(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x16f7d30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.444885
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x203fd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.732002
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2075c00
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2075c00
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 2: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 148.37 GFlop/s, Time= 144739.219 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 199.809692(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x22e3c70
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x22e3c70
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 145.22 GFlop/s, Time= 131777.688 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 185.442993(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1c9ba30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1c9ba30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x408a70
+fatCubinHandle : 0x1fa7990
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1fa7990
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1fa7990
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 120.71 GFlop/s, Time= 186223.906 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 741.157227
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1669c70
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1669c70
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 3: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.67 GFlop/s, Time= 86900.859 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.683060
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2010cc0
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2010cc0
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.66 GFlop/s, Time= 83022.797 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.784409(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1acfc70
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1acfc70
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 2: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 146.97 GFlop/s, Time= 130209.008 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 182.707550(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x9cbc70
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x9cbc70
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 2: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 121.03 GFlop/s, Time= 185734.344 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 207.428345
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x17e5c70
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x17e5c70
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 3: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 86895.016 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.734032
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x177fc70
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x177fc70
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.72 GFlop/s, Time= 73967.594 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.417183(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1b69c70
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1b69c70
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 129.24 GFlop/s, Time= 173936.562 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 195.469604
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x241dd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 105.675652
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x17a5c00
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x17a5c00
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 3: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 83013.602 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.728111(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x17fbd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 256000000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 107.375221
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x13cace0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 106.063690
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1df9c70
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1df9c70
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 83.94 GFlop/s, Time= 267798.688 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 294.978516
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2224bf0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 317440000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 96.936661
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x206fd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 105.638313
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1f7ace0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 256000000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 107.878746
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1665d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 105.891151
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x19cad30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x19cad30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 3: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 86893.320 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.664474
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xd44bb0
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xd44bb0
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.62 GFlop/s, Time= 73996.289 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.309746(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x15c0cc0
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x15c0cc0
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 2: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 128.99 GFlop/s, Time= 166481.953 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 397.281219(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xf21c70
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xf21c70
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 2: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 140.80 GFlop/s, Time= 159655.234 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 192.582047
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1df1d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 317440000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 97.783028
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2293c70
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2293c70
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.64 GFlop/s, Time= 73990.078 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.311615(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x9edc00
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x9edc00
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 129.12 GFlop/s, Time= 166315.297 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 300.412384(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x9bbc00
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x9bbc00
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 142.52 GFlop/s, Time= 150677.969 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 199.849396(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x263ed30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x263ed30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 3: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.70 GFlop/s, Time= 86892.727 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.672699
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x954ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 105.923538
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x15dece0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 256000000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 108.479958
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xf0ad30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xf0ad30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 3: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.70 GFlop/s, Time= 73972.711 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.477417(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2594ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 256000000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 107.511131
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x18c6d30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x18c6d30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 129.12 GFlop/s, Time= 174096.641 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 193.228195
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xa8cd30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xa8cd30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 2: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 130.78 GFlop/s, Time= 171882.391 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 293.284149
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x26bebb0
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x26bebb0
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 3: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 86895.281 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.614555
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x17cace0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.711037
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2654ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 256000000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 123.213058
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1cd2ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 317440000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 129.298859
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1f35d30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 317440000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 99.394653
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x266cd30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x266cd30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 79.43 GFlop/s, Time= 283006.219 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 416.080383
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1f82cc0
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1f82cc0
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 2: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 79.09 GFlop/s, Time= 271528.781 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 401.760071(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x989c00
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x989c00
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.70 GFlop/s, Time= 83011.203 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 148.225769(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1de2bf0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 256000000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 108.946983
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x247ed30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x247ed30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.65 GFlop/s, Time= 86909.031 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.773170
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1ababb0
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1ababb0
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.70 GFlop/s, Time= 73972.648 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.460091(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x16cad30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x16cad30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 2: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.70 GFlop/s, Time= 73972.562 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.956650(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1ed6d30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1ed6d30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 3: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 73977.953 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 106.210770(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1d83d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 256000000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 107.268349
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1c31d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.932037
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xf9dd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.813850
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x916ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 256000000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 107.870506
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2869d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 317440000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 98.647842
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x28e8ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 317440000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 97.213226
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2236ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 256000000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 107.539551
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1e38ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.638557
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x24a9c00
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x24a9c00
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 3: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 83017.789 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.885757(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x11abc00
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x11abc00
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 83013.617 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 106.150322(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x223bc00
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x223bc00
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 2: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.70 GFlop/s, Time= 83010.336 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 192.836472(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x9fbd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 317440000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 99.656052
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x22d7d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 317440000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 98.976830
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1d2ad30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1d2ad30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 3: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 73978.477 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.642136(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xbe2cc0
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xbe2cc0
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 2: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.71 GFlop/s, Time= 83008.703 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.942284(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xeccbb0
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xeccbb0
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.66 GFlop/s, Time= 73985.961 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.535583(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x16bcce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.859703
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1054ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 256000000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 106.559944
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2424bb0
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2424bb0
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 2: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 73976.570 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.984940(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1e8bc70
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1e8bc70
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 73980.609 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 106.149796(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2029d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 256000000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 107.552765
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1564ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 317440000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 100.909958
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1e35c00
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1e35c00
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 3: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.71 GFlop/s, Time= 83007.516 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.901566(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x13d2ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.856224
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x9e2ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.929985
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xfaabb0
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xfaabb0
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 2: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 73979.227 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.179955(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2477c00
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2477c00
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 3: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.71 GFlop/s, Time= 83007.344 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.841293(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1498cc0
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1498cc0
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.67 GFlop/s, Time= 83020.023 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.889572(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x270fc70
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x270fc70
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 86899.008 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 108.029366
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x26a1d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 317440000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 98.951645
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1cfdd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 317440000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 98.695625
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1054d30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1054d30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 2: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.67 GFlop/s, Time= 73982.945 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 119.615578(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x12efd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.560287
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1436ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+size == 256000000
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamCreate         
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+[TRACE -runtime-] cudaStreamSynchronize    
+[TRACE -runtime-] cudaStreamDestroy        
+Result test PASS!
+TIME RESULT : 107.249207
+[TRACE -runtime-] __cudaUnregisterFatBinary

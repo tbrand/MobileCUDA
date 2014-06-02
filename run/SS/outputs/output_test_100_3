@@ -1,0 +1,4105 @@
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x9a0a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x9a0a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.66 GFlop/s, Time= 86906.242 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 102.515411
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1472a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1472a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.71 GFlop/s, Time= 86888.359 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 102.817162
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1373a30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 108.339020
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1ca9a30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 108.957893
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x116da30
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 97.556702
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xba9a30
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 98.351654
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xd66a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xd66a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.71 GFlop/s, Time= 73969.719 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.521027(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2042a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2042a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 73977.508 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.798332(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x69ba30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x69ba30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 73980.672 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.391212(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x129ea30
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 97.853996
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2043a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2043a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 73980.359 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 106.135406(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xb62a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xb62a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.72 GFlop/s, Time= 83004.719 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 106.063766(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1d0ea30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.467400
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1f3ba30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1f3ba30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.71 GFlop/s, Time= 83007.602 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 106.655869(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x958a30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.977562
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xe7ba30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xe7ba30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 73980.977 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.826164(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xae5a30
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 97.833893
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1d17a30
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 96.736473
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1033a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1033a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.72 GFlop/s, Time= 83004.617 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 106.465698(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x77aa30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x77aa30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.71 GFlop/s, Time= 83008.016 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.987328(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x16f4a30
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 98.020630
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xa10a30
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 98.635704
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x20b0a30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.189667
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1affa30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.560760
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x12eaa30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x12eaa30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 83016.625 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.802574(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x7d3a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x7d3a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.70 GFlop/s, Time= 73974.844 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.584015(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x209ba30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x209ba30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 73976.867 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.564850(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xf35a30
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 96.840981
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x216ea30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.323517
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2210a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2210a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.65 GFlop/s, Time= 86907.289 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 102.173882
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1685a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1685a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.65 GFlop/s, Time= 86906.930 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.985023
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1597a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1597a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.66 GFlop/s, Time= 86905.664 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 102.337311
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xfd2a30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.358704
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x12e1a30
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 96.884384
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x15bba30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x15bba30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.66 GFlop/s, Time= 86906.438 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 102.346252
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x102ba30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x102ba30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.67 GFlop/s, Time= 73981.203 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.724686(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xfafa30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xfafa30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.64 GFlop/s, Time= 86910.586 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.822876
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xacfa30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xacfa30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.65 GFlop/s, Time= 86908.234 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.796471
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1884a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1884a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.66 GFlop/s, Time= 83022.031 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.851151(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2472a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2472a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 73980.688 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.506004(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2008a30
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 97.491051
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x115da30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x115da30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.72 GFlop/s, Time= 83003.672 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 106.311157(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1e8ba30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.427994
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x132fa30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x132fa30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 83013.398 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.846024(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x124fa30
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 98.049126
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x13f8a30
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 96.668884
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1c3ba30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1c3ba30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.62 GFlop/s, Time= 86917.156 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 102.077003
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xa17a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xa17a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.72 GFlop/s, Time= 86884.406 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.915260
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1b72a30
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 97.969620
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1f9ca30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1f9ca30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 86898.898 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.820694
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2047a30
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 96.806503
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x17cda30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x17cda30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 83012.344 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.880165(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x81da30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.348457
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1e12a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1e12a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.70 GFlop/s, Time= 73974.367 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.419632(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x89ba30
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 98.108154
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1929a30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.657402
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1b27a30
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 96.470032
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x194ca30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x194ca30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.66 GFlop/s, Time= 83023.492 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.921135(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2466a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2466a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 86897.867 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.782974
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1ec7a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1ec7a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.73 GFlop/s, Time= 83000.602 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.810791(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x199aa30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x199aa30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.63 GFlop/s, Time= 86915.188 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.901268
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x14faa30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.925652
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1f02a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1f02a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.70 GFlop/s, Time= 83010.320 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.942665(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xad0a30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.244240
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xc56a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xc56a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 73976.922 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.556686(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x117ba30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x117ba30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.72 GFlop/s, Time= 83002.938 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.850365(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xb41a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xb41a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.64 GFlop/s, Time= 83029.453 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 106.020615(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1f33a30
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 96.604675
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x98ba30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x98ba30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.67 GFlop/s, Time= 86902.445 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.920441
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2048a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2048a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 83013.516 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.790947(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1578a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1578a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.67 GFlop/s, Time= 86901.430 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.906471
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xbf8a30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.367546
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1e9ea30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.450394
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x16f4a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x16f4a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 73979.430 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.788200(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x98da30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x98da30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 83013.875 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 106.096367(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1505a30
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 96.493645
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xbf7a30
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 96.483795
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xd86a30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.432648
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x190ea30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x190ea30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.73 GFlop/s, Time= 83002.266 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 106.398079(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1149a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1149a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 73979.531 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.406334(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xb5ca30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xb5ca30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.66 GFlop/s, Time= 86903.914 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 101.818909
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x17baa30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x17baa30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.70 GFlop/s, Time= 83010.609 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.858803(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xbb8a30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.425117
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x254fa30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.243362
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x127fa30
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 96.498489
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x20b8a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x20b8a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.67 GFlop/s, Time= 83019.773 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.888969(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1043a30
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 97.842873
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x12e3a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x12e3a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.71 GFlop/s, Time= 83007.344 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.898376(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1883a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1883a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 83012.398 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.997971(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1177a30
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 97.558365
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xf95a30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.785667
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x15eca30
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 97.554749
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1019a30
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 97.870193
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2077a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2077a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.68 GFlop/s, Time= 73978.555 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.631210(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2170a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2170a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.69 GFlop/s, Time= 73977.711 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.513718(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x122aa30
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 96.852058
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xc4fa30
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 96.425903
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x814a30
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 97.728767
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1578a30
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1578a30
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Computing result using CUDA Kernel...
+		FIND NOT FLAGED REGION
+done
+[TRACE -runtime-] cudaDeviceSynchronize    
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 258.70 GFlop/s, Time= 73974.516 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 105.403206(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x204fa30
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+[TRACE -runtime-] cudaMemcpy               
+		cudaMemcpy (DIVICE FLAG CHECK)
+		FIND NOT FLAGED LOG (FLAG => ON)
+Result test PASS!
+TIME RESULT : 107.303848
+[TRACE -runtime-] __cudaUnregisterFatBinary
+child 0 complete
+child 1 complete
+child 2 complete
+child 3 complete
+child 4 complete
+child 5 complete
+child 6 complete
+child 7 complete
+child 8 complete
+child 9 complete
+child 10 complete
+child 11 complete
+child 12 complete
+child 13 complete
+child 14 complete
+child 15 complete
+child 16 complete
+child 17 complete
+child 18 complete
+child 19 complete
+child 20 complete
+child 21 complete
+child 22 complete
+child 23 complete
+child 24 complete
+child 25 complete
+child 26 complete
+child 27 complete
+child 28 complete
+child 29 complete
+child 30 complete
+child 31 complete
+child 32 complete
+child 33 complete
+child 34 complete
+child 35 complete
+child 36 complete
+child 37 complete
+child 38 complete
+child 39 complete
+child 40 complete
+child 41 complete
+child 42 complete
+child 43 complete
+child 44 complete
+child 45 complete
+child 46 complete
+child 47 complete
+child 48 complete
+child 49 complete
+child 50 complete
+child 51 complete
+child 52 complete
+child 53 complete
+child 54 complete
+child 55 complete
+child 56 complete
+child 57 complete
+child 58 complete
+child 59 complete
+child 60 complete
+child 61 complete
+child 62 complete
+child 63 complete
+child 64 complete
+child 65 complete
+child 66 complete
+child 67 complete
+child 68 complete
+child 69 complete
+child 70 complete
+child 71 complete
+child 72 complete
+child 73 complete
+child 74 complete
+child 75 complete
+child 76 complete
+child 77 complete
+child 78 complete
+child 79 complete
+child 80 complete
+child 81 complete
+child 82 complete
+child 83 complete
+child 84 complete
+child 85 complete
+child 86 complete
+child 87 complete
+child 88 complete
+child 89 complete
+child 90 complete
+child 91 complete
+child 92 complete
+child 93 complete
+child 94 complete
+child 95 complete
+child 96 complete
+child 97 complete
+child 98 complete
+child 99 complete
+Result time : 2615.222900[sec]

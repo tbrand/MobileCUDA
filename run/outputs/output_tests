@@ -1,0 +1,1940 @@
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x769a30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 105.675484
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x10f6a30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 182.570862
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x227ba30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0x25a2020
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x25a2020
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Result test PASS!
+TIME RESULT : 209.307693
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x174fa30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0x1a76020
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1a76020
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Result test PASS!
+TIME RESULT : 209.856552
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x23bfa30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0x26cba50
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x26cba50
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 210.707840
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x997a30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0xcbe020
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xcbe020
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Result test PASS!
+TIME RESULT : 291.004242
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1e87a30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0x2193a50
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x2193a50
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 314.591003
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x23a1a30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0x26ada50
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x26ada50
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 314.113861
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x16d9a30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0x19e5a50
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x19e5a50
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 318.263824
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x78ea30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0xa9aa50
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0xa9aa50
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0x83e880
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x83e880
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Result test PASS!
+TIME RESULT : 394.046173
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x111ca30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0x1428a50
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1428a50
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 414.941315
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1e88a30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0x2194a50
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x2194a50
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 420.476746
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2581a30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0x288da50
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x288da50
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 494.076294
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x21d9a30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0x24e5a50
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x24e5a50
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(7)
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (1 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0x22898f0
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x22898f0
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Result test PASS!
+TIME RESULT : 496.080627
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(1)
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1ca0a30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+::::::::::::::::::::::::failed to allocate
+::::::::::::::::::suspended...
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+[REPLAY] cudaRegisterFatBinary    
+fatCubin       : 0x401c30
+fatCubinHandle : 0x1faca50
+[REPLAY] cudaRegisterFunction     
+fatCubinHandle : 0x1faca50
+:::::::::::::::::migdone
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 515.164124
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x104ace0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 105.197594
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x131ace0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.690910
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x28abd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.871979
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xa08ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.741203
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xa5ece0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.855118
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x16dcce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.315506
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x15bdd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 105.358383
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1d65d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.681137
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1a80ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 102.143593
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1864ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.912216
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x24d0ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.867508
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x282fd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.786575
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xce6ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.728607
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1d1ece0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.366165
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2286ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.767212
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x196dd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.762451
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x205dd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.577133
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x153fd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.684258
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x184cce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.073013
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x18c2ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.907135
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x929d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.746284
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xe51d30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.265068
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x15e1d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.936028
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xd86ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.958374
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x248ace0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.796814
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x15cbd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 102.129845
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1733d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.618889
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x24a9d30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.753960
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1280ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 105.014427
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2850ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.732101
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xbf0ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.826477
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1120ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.540169
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x27bfd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 105.132652
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1c36ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.344749
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x12f5d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.681503
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x18dfd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.720955
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1154ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.759903
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1f09d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.727417
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2595d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.868416
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x25b0ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.623650
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xda4ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.865730
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x22c0ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.328827
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2689d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.703941
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x19a9d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.757584
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x11d1d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.782677
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x19b3d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.886391
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1a4bd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.815193
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1bf2ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.630043
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1da1d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.958923
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1b8ace0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.581551
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1661d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.791527
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x9eebf0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 102.085762
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1d88bf0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.654015
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2705d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.573433
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x27f4ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.905319
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1163d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.603157
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xed1d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.790260
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1948ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.772079
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x11fdd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.849228
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1af6ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.655624
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1660ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.657257
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xe45d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.538803
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1414ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.882713
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xd97d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 105.046471
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1cb0ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.554405
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1ab4ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.603882
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2878ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.780708
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xa70ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.731300
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x26c2bf0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.787239
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1ae2ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.445816
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1c0fd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.824097
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x14e2ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.784096
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xdf6bf0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.883080
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1bc6ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.540840
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x2341d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 105.060005
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1006ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.827179
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x200ece0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.972061
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x238bd40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.401329
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x146fd30
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.922249
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x26f1d40
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.903557
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 0)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1298ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 101.831856
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 3)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0x1960ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.769485
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 1)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xa96ce0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 104.918533
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Registered signal...
+Request From Daemon ...(11)
+::::::::::::::::::cannot enter ...
+Request From Daemon ...(3)
+MIGRATE REQUEST (0 TO THE 2)!!!!!!!!!!!!!!!
+[REPLAY] cudaMalloc               
+:::::::::::::::::migdone
+Success to connect mocu server!!
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+fatCubinHandle : 0xccece0
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+[TRACE -runtime-] cudaMalloc               
+Request From Daemon ...(1)
+Result test PASS!
+TIME RESULT : 103.613037
+[TRACE -runtime-] __cudaUnregisterFatBinary
+Suspended ...
+FINISH!!!!!!!
+Result time : 2792.000000[sec]

@@ -1,0 +1,2125 @@
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(9) (QUEUESIZE   :0)
+            (NUM OF PROCS:0)
+mem.free : 723628032
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(18) (QUEUESIZE   :0)
+            (NUM OF PROCS:1)
+mem.free : 723382272
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(19) (QUEUESIZE   :0)
+            (NUM OF PROCS:2)
+mem.free : 723251200
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CUDAMALLOC(9)
+DEVPOS : 0
+	GOAHEAD
+	RESERVED[0] : 1048576000[byte]
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(20) (QUEUESIZE   :0)
+            (NUM OF PROCS:3)
+mem.free : 658210816
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+MALLOCDONE(9)
+	RESERVED[0] : 0[byte]
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CUDAMALLOC(9)
+DEVPOS : 0
+	GOAHEAD
+	RESERVED[0] : 1048576000[byte]
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+MALLOCDONE(9)
+	RESERVED[0] : 0[byte]
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(21) (QUEUESIZE   :0)
+            (NUM OF PROCS:4)
+mem.free : 2854354944
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(22) (QUEUESIZE   :0)
+            (NUM OF PROCS:5)
+mem.free : 2854223872
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(23) (QUEUESIZE   :0)
+            (NUM OF PROCS:6)
+mem.free : 2854092800
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(24) (QUEUESIZE   :0)
+            (NUM OF PROCS:7)
+mem.free : 2853961728
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(25) (QUEUESIZE   :0)
+            (NUM OF PROCS:8)
+mem.free : 2853830656
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(26) (QUEUESIZE   :0)
+            (NUM OF PROCS:9)
+mem.free : 2853699584
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(27) (QUEUESIZE   :0)
+            (NUM OF PROCS:10)
+mem.free : 2853568512
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(28) (QUEUESIZE   :0)
+            (NUM OF PROCS:11)
+mem.free : 2853568512
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(29) (QUEUESIZE   :0)
+            (NUM OF PROCS:12)
+mem.free : 2853306368
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CUDAMALLOC(18)
+DEVPOS : 0
+	GOAHEAD
+	RESERVED[0] : 1048576000[byte]
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(30) (QUEUESIZE   :0)
+            (NUM OF PROCS:13)
+mem.free : 2788270080
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(31) (QUEUESIZE   :0)
+            (NUM OF PROCS:14)
+mem.free : 2788265984
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(32) (QUEUESIZE   :0)
+            (NUM OF PROCS:15)
+mem.free : 2786844672
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+MALLOCDONE(18)
+	RESERVED[0] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CUDAMALLOC(18)
+DEVPOS : 0
+	GOAHEAD
+	RESERVED[0] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+MALLOCDONE(18)
+	RESERVED[0] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(33) (QUEUESIZE   :0)
+            (NUM OF PROCS:16)
+mem.free : 689176576
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(34) (QUEUESIZE   :1)
+            (NUM OF PROCS:17)
+mem.free : 689045504
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CUDAMALLOC(19)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (19) from 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(35) (QUEUESIZE   :3)
+            (NUM OF PROCS:18)
+mem.free : 624160768
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(36) (QUEUESIZE   :4)
+            (NUM OF PROCS:19)
+mem.free : 623861760
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CUDAMALLOC(20)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (20) from 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(37) (QUEUESIZE   :6)
+            (NUM OF PROCS:20)
+mem.free : 624726016
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+BACKUPED(19)
+MIGRATE(33) to 0
+	device[0] cannot be selected...
+MIGRATE(19) to 1
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(38) (QUEUESIZE   :5)
+            (NUM OF PROCS:21)
+mem.free : 623247360
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(39) (QUEUESIZE   :6)
+            (NUM OF PROCS:22)
+mem.free : 622624768
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+MIGDONE(19) (1)
+	SUCCESS TO MIGRATE
+MIGRATE(20) to 1
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+MALLOCDONE(19)
+	RESERVED[1] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CUDAMALLOC(19)
+DEVPOS : 1
+	GOAHEAD
+	RESERVED[1] : 2097152000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(40) (QUEUESIZE   :6)
+            (NUM OF PROCS:23)
+mem.free : 623861760
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+MALLOCDONE(19)
+	RESERVED[1] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CUDAMALLOC(21)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (21) from 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+BACKUPED(20)
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(41) (QUEUESIZE   :8)
+            (NUM OF PROCS:24)
+mem.free : 622395392
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(42) (QUEUESIZE   :9)
+            (NUM OF PROCS:25)
+mem.free : 622231552
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(43) (QUEUESIZE   :10)
+            (NUM OF PROCS:26)
+mem.free : 623013888
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+MIGDONE(20) (1)
+	SUCCESS TO MIGRATE
+MIGRATE(34) to 1
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+MALLOCDONE(20)
+	RESERVED[1] : 0[byte]
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CUDAMALLOC(20)
+DEVPOS : 1
+	GOAHEAD
+	RESERVED[1] : 1048576000[byte]
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+MALLOCDONE(20)
+	RESERVED[1] : 0[byte]
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+CONNECT(44) (QUEUESIZE   :10)
+            (NUM OF PROCS:27)
+mem.free : 623198208
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+BACKUPED(21)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+MIGRATE(21) to 2
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 0
+CONNECT(45) (QUEUESIZE   :10)
+            (NUM OF PROCS:28)
+mem.free : 686264320
+_mem : 0
+_req : 0
+			DEV POS : 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 0
+CUDAMALLOC(22)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (22) from 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 0
+MIGDONE(21) (2)
+	SUCCESS TO MIGRATE
+MIGRATE(22) to 2
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 0
+MALLOCDONE(21)
+	RESERVED[2] : 1048576000[byte]
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 0
+CUDAMALLOC(21)
+DEVPOS : 2
+	GOAHEAD
+	RESERVED[2] : 2097152000[byte]
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 0
+MALLOCDONE(21)
+	RESERVED[2] : 1048576000[byte]
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 0
+BACKUPED(22)
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 0
+CUDAMALLOC(23)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (23) from 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 0
+MIGDONE(22) (2)
+	SUCCESS TO MIGRATE
+MIGRATE(35) to 2
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 0
+MALLOCDONE(22)
+	RESERVED[2] : 0[byte]
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 0
+CUDAMALLOC(22)
+DEVPOS : 2
+	GOAHEAD
+	RESERVED[2] : 1048576000[byte]
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 0
+MALLOCDONE(22)
+	RESERVED[2] : 0[byte]
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 0
+CUDAMALLOC(24)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (24) from 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 0
+BACKUPED(23)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+MIGRATE(23) to 3
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 0
+MIGDONE(23) (3)
+	SUCCESS TO MIGRATE
+MIGRATE(24) to 3
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 1
+MALLOCDONE(23)
+	RESERVED[3] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 1
+CUDAMALLOC(23)
+DEVPOS : 3
+	GOAHEAD
+	RESERVED[3] : 2097152000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 1
+CUDAMALLOC(25)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (25) from 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 1
+MALLOCDONE(23)
+	RESERVED[3] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 1
+BACKUPED(24)
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 1
+CUDAMALLOC(26)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (26) from 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(24) (3)
+	SUCCESS TO MIGRATE
+MIGRATE(36) to 3
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(24)
+	RESERVED[3] : 0[byte]
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(24)
+DEVPOS : 3
+	GOAHEAD
+	RESERVED[3] : 1048576000[byte]
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(24)
+	RESERVED[3] : 0[byte]
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(25)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(27)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (27) from 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(28)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (28) from 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(26)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(29)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (29) from 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(27)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(28)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(30)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (30) from 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(31)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (31) from 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(29)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(32)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (32) from 0
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(33)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (33) from 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(30)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(31)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(34)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (34) from 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(32)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(33) (0)
+	SUCCESS TO MIGRATE
+MIGRATE(37) to 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FAILEDTOGET(33)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(35)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (35) from 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(33)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 2
+MIGDONE(34) (1)
+	SUCCESS TO MIGRATE
+MIGRATE(38) to 1
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 2
+FAILEDTOGET(34)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 2
+CUDAMALLOC(36)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (36) from 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 2
+MIGDONE(35) (2)
+	SUCCESS TO MIGRATE
+MIGRATE(39) to 2
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 3
+BACKUPED(34)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 3
+FAILEDTOGET(35)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 3
+CUDAMALLOC(37)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (37) from 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 3
+MIGDONE(36) (3)
+	SUCCESS TO MIGRATE
+MIGRATE(40) to 3
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 3
+FAILEDTOGET(36)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 3
+CUDAMALLOC(38)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (38) from 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 3
+BACKUPED(35)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 3
+BACKUPED(33)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 2
+CUDAMALLOC(39)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (39) from 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 2
+MIGDONE(37) (0)
+	SUCCESS TO MIGRATE
+MIGRATE(41) to 0
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 2
+BACKUPED(36)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 2
+FAILEDTOGET(37)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 2
+CUDAMALLOC(40)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (40) from 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 3
+MIGDONE(38) (1)
+	SUCCESS TO MIGRATE
+MIGRATE(42) to 1
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 3
+FAILEDTOGET(38)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 4
+BACKUPED(34)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 4
+BACKUPED(37)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 4
+CUDAMALLOC(41)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (41) from 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 4
+MIGDONE(39) (2)
+	SUCCESS TO MIGRATE
+MIGRATE(43) to 2
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 4
+FAILEDTOGET(39)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 4
+BACKUPED(38)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 4
+CUDAMALLOC(42)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (42) from 0
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 4
+BACKUPED(35)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 4
+MIGDONE(40) (3)
+	SUCCESS TO MIGRATE
+MIGRATE(44) to 3
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 3
+FAILEDTOGET(40)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 3
+CUDAMALLOC(43)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (43) from 0
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 3
+BACKUPED(39)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 3
+BACKUPED(36)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 2
+MIGDONE(41) (0)
+	SUCCESS TO MIGRATE
+MIGRATE(45) to 0
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 2
+FAILEDTOGET(41)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 2
+CUDAMALLOC(44)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (44) from 0
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 2
+BACKUPED(40)
+	device[0] cannot be selected...
+	device[1] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 2
+MIGDONE(42) (1)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 4
+FAILEDTOGET(42)
+	device[0] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 4
+CUDAMALLOC(45)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (45) from 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 4
+BACKUPED(37)
+	device[0] cannot be selected...
+	device[2] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 4
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 4
+MIGDONE(43) (2)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 4
+BACKUPED(41)
+	device[0] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 4
+FAILEDTOGET(43)
+	device[0] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 4
+			DEV[3] : PROCS == 4
+BACKUPED(38)
+	device[0] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 4
+BACKUPED(42)
+	device[0] cannot be selected...
+	device[3] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 4
+MIGDONE(44) (3)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 4
+FAILEDTOGET(44)
+	device[0] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 4
+BACKUPED(43)
+	device[0] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(39)
+	device[0] cannot be selected...
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 2
+MIGDONE(45) (0)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 2
+FAILEDTOGET(45)
+			DEV[0] : PROCS == 4
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 2
+BACKUPED(44)
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 2
+BACKUPED(40)
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 3
+BACKUPED(45)
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 3
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 3
+BACKUPED(41)
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 3
+			DEV[3] : PROCS == 3
+BACKUPED(42)
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 3
+BACKUPED(43)
+			DEV[0] : PROCS == 3
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(44)
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(45)
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(9) (NUM OF PROCS:28)
+MIGRATE(25) to 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(25) (0)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(25)
+	RESERVED[0] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(25)
+DEVPOS : 0
+	GOAHEAD
+	RESERVED[0] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(25)
+	RESERVED[0] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(18) (NUM OF PROCS:27)
+MIGRATE(26) to 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(26) (0)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(26)
+	RESERVED[0] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(26)
+DEVPOS : 0
+	GOAHEAD
+	RESERVED[0] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(26)
+	RESERVED[0] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(19) (NUM OF PROCS:26)
+MIGRATE(27) to 1
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(27) (1)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(27)
+	RESERVED[1] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(27)
+DEVPOS : 1
+	GOAHEAD
+	RESERVED[1] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(27)
+	RESERVED[1] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(20) (NUM OF PROCS:25)
+MIGRATE(28) to 1
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(28) (1)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(28)
+	RESERVED[1] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(28)
+DEVPOS : 1
+	GOAHEAD
+	RESERVED[1] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(28)
+	RESERVED[1] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(21) (NUM OF PROCS:24)
+MIGRATE(29) to 2
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 2
+MIGDONE(29) (2)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(29)
+	RESERVED[2] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(29)
+DEVPOS : 2
+	GOAHEAD
+	RESERVED[2] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(29)
+	RESERVED[2] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(22) (NUM OF PROCS:23)
+MIGRATE(30) to 2
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 2
+MIGDONE(30) (2)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(30)
+	RESERVED[2] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(30)
+DEVPOS : 2
+	GOAHEAD
+	RESERVED[2] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(30)
+	RESERVED[2] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(23) (NUM OF PROCS:22)
+MIGRATE(31) to 3
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 1
+MIGDONE(31) (3)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(31)
+	RESERVED[3] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(31)
+DEVPOS : 3
+	GOAHEAD
+	RESERVED[3] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(31)
+	RESERVED[3] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(24) (NUM OF PROCS:21)
+MIGRATE(32) to 3
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 1
+MIGDONE(32) (3)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(32)
+	RESERVED[3] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(32)
+DEVPOS : 3
+	GOAHEAD
+	RESERVED[3] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(32)
+	RESERVED[3] : 0[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(25) (NUM OF PROCS:20)
+MIGRATE(33) to 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(33) (0)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(33)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (33) from 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(33)
+MIGRATE(33) to 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(33) (0)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(33)
+	RESERVED[0] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(26) (NUM OF PROCS:19)
+MIGRATE(34) to 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(34) (0)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(34)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (34) from 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(34)
+MIGRATE(34) to 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(34) (0)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(34)
+	RESERVED[0] : 2097152000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(27) (NUM OF PROCS:18)
+MIGRATE(35) to 1
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(35) (1)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(35)
+DEVPOS : 1
+	OOPS(POS:1)
+SUSPEND (35) from 1
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(35)
+MIGRATE(35) to 1
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(35) (1)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(35)
+	RESERVED[1] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(28) (NUM OF PROCS:17)
+MIGRATE(36) to 1
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(29) (NUM OF PROCS:16)
+MIGRATE(37) to 2
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 2
+MIGDONE(36) (1)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(36)
+DEVPOS : 1
+	OOPS(POS:1)
+SUSPEND (36) from 1
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(37) (2)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(36)
+MIGRATE(36) to 1
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(37)
+DEVPOS : 2
+	OOPS(POS:2)
+SUSPEND (37) from 2
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(37)
+MIGRATE(37) to 2
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 2
+MIGDONE(36) (1)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(36)
+	RESERVED[1] : 2097152000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(37) (2)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(37)
+	RESERVED[2] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(30) (NUM OF PROCS:15)
+MIGRATE(38) to 2
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 2
+MIGDONE(38) (2)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(38)
+DEVPOS : 2
+	OOPS(POS:2)
+SUSPEND (38) from 2
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(38)
+MIGRATE(38) to 2
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 2
+MIGDONE(38) (2)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(38)
+	RESERVED[2] : 2097152000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(31) (NUM OF PROCS:14)
+MIGRATE(39) to 3
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 1
+MIGDONE(39) (3)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(39)
+DEVPOS : 3
+	OOPS(POS:3)
+SUSPEND (39) from 3
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(39)
+MIGRATE(39) to 3
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 1
+MIGDONE(39) (3)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(39)
+	RESERVED[3] : 1048576000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(32) (NUM OF PROCS:13)
+MIGRATE(40) to 3
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 1
+MIGDONE(40) (3)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(40)
+DEVPOS : 3
+	OOPS(POS:3)
+SUSPEND (40) from 3
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(40)
+MIGRATE(40) to 3
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 1
+MIGDONE(40) (3)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(40)
+	RESERVED[3] : 2097152000[byte]
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(33) (NUM OF PROCS:12)
+MIGRATE(41) to 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(41) (0)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(41)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (41) from 0
+			DEV[0] : PROCS == 2
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(41)
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(34) (NUM OF PROCS:11)
+MIGRATE(41) to 0
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(41) (0)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(41)
+	RESERVED[0] : 3145728000[byte]
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(35) (NUM OF PROCS:10)
+MIGRATE(42) to 1
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(42) (1)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(42)
+DEVPOS : 1
+	OOPS(POS:1)
+SUSPEND (42) from 1
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 2
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(42)
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(36) (NUM OF PROCS:9)
+MIGRATE(42) to 1
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MIGDONE(42) (1)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+MALLOCDONE(42)
+	RESERVED[1] : 3145728000[byte]
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+FIN(37) (NUM OF PROCS:8)
+MIGRATE(43) to 2
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 2
+MIGDONE(43) (2)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+CUDAMALLOC(43)
+DEVPOS : 2
+	OOPS(POS:2)
+SUSPEND (43) from 2
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 2
+			DEV[3] : PROCS == 2
+BACKUPED(43)
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 2
+FIN(38) (NUM OF PROCS:7)
+MIGRATE(43) to 2
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 2
+MIGDONE(43) (2)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 2
+MALLOCDONE(43)
+	RESERVED[2] : 3145728000[byte]
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 2
+FIN(39) (NUM OF PROCS:6)
+MIGRATE(44) to 3
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 1
+MIGDONE(44) (3)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 2
+CUDAMALLOC(44)
+DEVPOS : 3
+	OOPS(POS:3)
+SUSPEND (44) from 3
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 2
+BACKUPED(44)
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 1
+FIN(40) (NUM OF PROCS:5)
+MIGRATE(44) to 3
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 0
+MIGDONE(44) (3)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 1
+MALLOCDONE(44)
+	RESERVED[3] : 3145728000[byte]
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 1
+FIN(41) (NUM OF PROCS:4)
+MIGRATE(45) to 0
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 1
+MIGDONE(45) (0)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 1
+CUDAMALLOC(45)
+DEVPOS : 0
+	OOPS(POS:0)
+SUSPEND (45) from 0
+			DEV[0] : PROCS == 1
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 1
+BACKUPED(45)
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 1
+FIN(42) (NUM OF PROCS:3)
+MIGRATE(45) to 1
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 1
+MIGDONE(45) (1)
+	SUCCESS TO MIGRATE
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 1
+MALLOCDONE(45)
+	RESERVED[1] : 3145728000[byte]
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 1
+			DEV[3] : PROCS == 1
+FIN(43) (NUM OF PROCS:2)
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 1
+FIN(44) (NUM OF PROCS:1)
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 1
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0
+FIN(45) (NUM OF PROCS:0)
+			DEV[0] : PROCS == 0
+			DEV[1] : PROCS == 0
+			DEV[2] : PROCS == 0
+			DEV[3] : PROCS == 0

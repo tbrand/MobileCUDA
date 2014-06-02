@@ -1,0 +1,1 @@
+export LD_LIBRARY_PATH=~/migrate_runtime/lib64

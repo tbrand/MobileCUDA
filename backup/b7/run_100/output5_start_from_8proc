@@ -1,0 +1,611 @@
+fatCubin       : 0x408b68
+fatCubinHandle : 0xda7270
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+[REPLAY] cudaMalloc               
+[REPLAY] cudaMalloc               
+Computing result using CUDA Kernel...
+done
+Performance= 258.72 GFlop/s, Time= 83005.453 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+after calling cudaDeviceReset()
+My RESULT : 120.747467(matrixMul)
+fatCubin       : 0x408b68
+fatCubinHandle : 0x14ff270
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+[REPLAY] cudaMalloc               
+Computing result using CUDA Kernel...
+done
+Performance= 242.74 GFlop/s, Time= 88467.430 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+after calling cudaDeviceReset()
+My RESULT : 142.683395(matrixMul)
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x20e2cd0
+gyouretu size : 225000000
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+[REPLAY] cudaMalloc               
+[REPLAY] cudaMalloc               
+cudaHostAlloc : 0
+cudaHostAlloc : 0
+This Sample Application Uses 858[Mbyte] per vector.(Total : 1716[Mbyte])
+>Result TEST : PASS
+Application Closed...
+My RESULT : 143.534546
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x2508cd0
+gyouretu size : 225000000
+cudaHostAlloc : 0
+cudaHostAlloc : 0
+This Sample Application Uses 858[Mbyte] per vector.(Total : 1716[Mbyte])
+>Result TEST : PASS
+Application Closed...
+My RESULT : 136.975449
+fatCubin       : 0x408b68
+fatCubinHandle : 0x1705270
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+Computing result using CUDA Kernel...
+done
+Performance= 241.82 GFlop/s, Time= 88804.180 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+after calling cudaDeviceReset()
+My RESULT : 127.657669(matrixMul)
+fatCubin       : 0x408b68
+fatCubinHandle : 0x135e270
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+[REPLAY] cudaMalloc               
+[REPLAY] cudaMalloc               
+Computing result using CUDA Kernel...
+done
+Performance= 210.64 GFlop/s, Time= 101951.555 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+after calling cudaDeviceReset()
+My RESULT : 170.972443(matrixMul)
+fatCubin       : 0x408b68
+fatCubinHandle : 0x1e9c270
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+[REPLAY] cudaMalloc               
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+[REPLAY] cudaMalloc               
+[REPLAY] cudaMalloc               
+Computing result using CUDA Kernel...
+done
+Performance= 220.70 GFlop/s, Time= 97301.766 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+after calling cudaDeviceReset()
+My RESULT : 167.389084(matrixMul)
+fatCubin       : 0x408b68
+fatCubinHandle : 0x1ef2270
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+[REPLAY] cudaMalloc               
+[REPLAY] cudaMalloc               
+Computing result using CUDA Kernel...
+done
+Performance= 128.92 GFlop/s, Time= 166571.000 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+after calling cudaDeviceReset()
+My RESULT : 213.157501(matrixMul)
+fatCubin       : 0x408b68
+fatCubinHandle : 0x2369270
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+[REPLAY] cudaMalloc               
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+[REPLAY] cudaMalloc               
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+[REPLAY] cudaMalloc               
+[REPLAY] cudaMalloc               
+Computing result using CUDA Kernel...
+done
+Performance= 130.08 GFlop/s, Time= 165095.000 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+after calling cudaDeviceReset()
+My RESULT : 210.607483(matrixMul)
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x9bdcd0
+gyouretu size : 225000000
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+[REPLAY] cudaMalloc               
+cudaHostAlloc : 0
+cudaHostAlloc : 0
+This Sample Application Uses 858[Mbyte] per vector.(Total : 1716[Mbyte])
+>Result TEST : PASS
+Application Closed...
+My RESULT : 127.354912
+fatCubin       : 0x408b68
+fatCubinHandle : 0xfc3270
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+Computing result using CUDA Kernel...
+done
+Performance= 258.74 GFlop/s, Time= 82996.305 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+after calling cudaDeviceReset()
+My RESULT : 105.502403(matrixMul)
+fatCubin       : 0x401ca0
+fatCubinHandle : 0x2396cd0
+gyouretu size : 225000000
+[MOCU] Start mocu_backup()
+[MOCU] Finished events update
+[MOCU] Finished device backup
+[REPLAY] cudaMalloc               
+[REPLAY] cudaMalloc               
+cudaHostAlloc : 0
+cudaHostAlloc : 0
+This Sample Application Uses 858[Mbyte] per vector.(Total : 1716[Mbyte])
+>Result TEST : PASS
+Application Closed...
+My RESULT : 138.526764
+22:41:32
+--------------
+22:41:32
+matrixMul to 0
+memcpy    to 1
+--------------
+Process 1 launch.
+--------------
+22:41:32
+matrixMul to 1
+memcpy    to 1
+--------------
+Process 2 launch.
+--------------
+22:41:32
+matrixMul to 2
+memcpy    to 1
+--------------
+Process 3 launch.
+--------------
+22:41:32
+matrixMul to 3
+memcpy    to 1
+--------------
+Process 4 launch.
+--------------
+22:41:32
+matrixMul to 4
+memcpy    to 1
+--------------
+Process 5 launch.
+--------------
+22:41:32
+matrixMul to 4
+memcpy    to 2
+--------------
+Process 6 launch.
+--------------
+22:41:32
+matrixMul to 4
+memcpy    to 3
+--------------
+Process 7 launch.
+--------------
+22:41:32
+matrixMul to 5
+memcpy    to 3
+--------------
+Process 8 launch.
+First Step End...
+--------------
+22:43:42
+matrixMul to 4
+memcpy    to 3
+--------------
+Process 1 finished.
+--------------
+22:43:42
+matrixMul to 4
+memcpy    to 4
+--------------
+Process 9 launch.
+--------------
+22:44:04
+matrixMul to 3
+memcpy    to 4
+--------------
+Process 2 finished.
+--------------
+22:44:04
+matrixMul to 4
+memcpy    to 4
+--------------
+Process 10 launch.
+--------------
+22:44:05
+matrixMul to 4
+memcpy    to 3
+--------------
+Process 3 finished.
+--------------
+22:44:05
+matrixMul to 5
+memcpy    to 3
+--------------
+Process 11 launch.
+--------------
+22:44:59
+matrixMul to 5
+memcpy    to 2
+--------------
+Process 4 finished.
+--------------
+22:44:59
+matrixMul to 6
+memcpy    to 2
+--------------
+Process 12 launch.
+--------------
+22:44:59
+matrixMul to 6
+memcpy    to 1
+--------------
+Process 5 finished.
+--------------
+22:44:59
+matrixMul to 6
+memcpy    to 2
+--------------
+Process 13 launch.
+--------------
+22:45:14
+matrixMul to 5
+memcpy    to 2
+--------------
+Process 6 finished.
+--------------
+22:45:14
+matrixMul to 6
+memcpy    to 2
+--------------
+Process 14 launch.
+--------------
+22:45:15
+matrixMul to 5
+memcpy    to 2
+--------------
+Process 7 finished.
+--------------
+22:45:15
+matrixMul to 6
+memcpy    to 2
+--------------
+Process 15 launch.
+--------------
+22:45:16
+matrixMul to 5
+memcpy    to 2
+--------------
+Process 8 finished.
+--------------
+22:45:16
+matrixMul to 6
+memcpy    to 2
+--------------
+Process 16 launch.
+--------------
+22:45:17
+matrixMul to 6
+memcpy    to 1
+--------------
+Process 9 finished.
+--------------
+22:45:17
+matrixMul to 7
+memcpy    to 1
+--------------
+Process 17 launch.
+--------------
+22:46:46
+matrixMul to 6
+memcpy    to 1
+--------------
+Process 10 finished.
+--------------
+22:46:46
+matrixMul to 6
+memcpy    to 2
+--------------
+Process 18 launch.
+--------------
+22:46:48
+matrixMul to 5
+memcpy    to 2
+--------------
+Process 11 finished.
+--------------
+22:46:48
+matrixMul to 5
+memcpy    to 3
+--------------
+Process 19 launch.
+--------------
+22:47:18
+matrixMul to 5
+memcpy    to 2
+--------------
+Process 12 finished.
+--------------
+22:47:18
+matrixMul to 6
+memcpy    to 2
+--------------
+Process 20 launch.
+Second Step End...
+--------------
+22:47:23
+matrixMul to 5
+memcpy    to 2
+--------------
+Process 13 finished.
+pid == 19122 finish ... 
+--------------
+22:47:51
+matrixMul to 4
+memcpy    to 2
+--------------
+Process 14 finished.
+pid == 19107 finish ... 
+--------------
+22:48:05
+matrixMul to 3
+memcpy    to 2
+--------------
+Process 15 finished.
+pid == 19129 finish ... 
+--------------
+22:48:48
+matrixMul to 2
+memcpy    to 2
+--------------
+Process 16 finished.
+pid == 19120 finish ... 
+--------------
+22:48:48
+matrixMul to 1
+memcpy    to 2
+--------------
+Process 17 finished.
+pid == 19124 finish ... 
+--------------
+22:48:56
+matrixMul to 1
+memcpy    to 1
+--------------
+Process 18 finished.
+pid == 19151 finish ... 
+--------------
+22:49:04
+matrixMul to 0
+memcpy    to 1
+--------------
+Process 19 finished.
+pid == 19162 finish ... 
+--------------
+22:49:06
+matrixMul to 0
+memcpy    to 0
+--------------
+Process 20 finished.
+pid == 19148 finish ... 
+Every processes completed!
+Result time : 454.000000[sec]
+22:49:06
+PID == 18965
+pos : 0
+Proc : 1
+Start : 0(0)
+End   : 225
+Time  : 225(180)
+PID == 18966
+pos : 1
+Proc : 0
+Start : 0(0)
+End   : 222
+Time  : 222(177)
+PID == 18967
+pos : 2
+Proc : 0
+Start : 0(0)
+End   : 223
+Time  : 223(178)
+PID == 18968
+pos : 3
+Proc : 0
+Start : 0(0)
+End   : 130
+Time  : 130(104)
+PID == 18969
+pos : 4
+Proc : 0
+Start : 0(0)
+End   : 224
+Time  : 224(179)
+PID == 18970
+pos : 5
+Proc : 1
+Start : 0(0)
+End   : 153
+Time  : 153(122)
+PID == 18971
+pos : 6
+Proc : 1
+Start : 0(0)
+End   : 207
+Time  : 207(165)
+PID == 18972
+pos : 7
+Proc : 0
+Start : 0(0)
+End   : 152
+Time  : 152(121)
+PID == 19074
+pos : 8
+Proc : 1
+Start : 130(104)
+End   : 207
+Time  : 77(61)
+PID == 19078
+pos : 9
+Proc : 0
+Start : 152(121)
+End   : 314
+Time  : 162(129)
+PID == 19079
+pos : 10
+Proc : 0
+Start : 153(122)
+End   : 316
+Time  : 163(130)
+PID == 19107
+pos : 11
+Proc : 0
+Start : 207(165)
+End   : 379
+Time  : 172(137)
+PID == 19108
+pos : 12
+Proc : 1
+Start : 207(165)
+End   : 346
+Time  : 139(111)
+PID == 19120
+pos : 13
+Proc : 0
+Start : 222(177)
+End   : 436
+Time  : 214(171)
+PID == 19122
+pos : 14
+Proc : 0
+Start : 223(178)
+End   : 351
+Time  : 128(102)
+PID == 19124
+pos : 15
+Proc : 0
+Start : 224(179)
+End   : 436
+Time  : 212(169)
+PID == 19129
+pos : 16
+Proc : 0
+Start : 225(180)
+End   : 393
+Time  : 168(134)
+PID == 19148
+pos : 17
+Proc : 1
+Start : 314(251)
+End   : 454
+Time  : 140(112)
+PID == 19151
+pos : 18
+Proc : 1
+Start : 316(252)
+End   : 444
+Time  : 128(102)
+PID == 19162
+pos : 19
+Proc : 0
+Start : 346(276)
+End   : 452
+Time  : 106(84)
+matrixMul       : 13
+memcpyIteration : 7
