@@ -9,8 +9,10 @@ int MAXPROC;
 DEM dem;
 
 void _end_server(int sig){
-  if(sig == SIGINT)
+  if(sig == SIGINT){
+    print_records();
     end_server = TRUE;
+  }
 }
 
 int main(int argc,char* argv[]){

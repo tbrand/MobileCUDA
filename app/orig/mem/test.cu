@@ -31,7 +31,7 @@ static float elapsed(struct timeval tv0,struct timeval tv1){
   return (float)(tv1.tv_sec - tv0.tv_sec)
     + (float)(tv1.tv_usec - tv0.tv_usec)
     * 0.000001f;
-}
+} 
 
 int main(){
 

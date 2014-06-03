@@ -9,6 +9,7 @@ OBJS =  mocu_daemon.o \
 	proc.o        \
 	cons.o        \
 	connect.o     \
+	stamp.o       \
 
 DAEMON = mocu_daemon
 

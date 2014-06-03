@@ -65,6 +65,7 @@ extern int MAXPROC;
 #define BACKUP        4
 #define EXC_READY     5
 #define SENT_REQUEST  6
+#define FIN           7
 
 extern DEM dem;
 
@@ -114,3 +115,7 @@ extern void add_cons(cons*);
 extern void remove_cons(cons*);
 extern cons* create_cons(int);
 extern void print_cons();
+
+//stamp.c
+extern void TIME_STAMP(proc*);
+extern void print_records();

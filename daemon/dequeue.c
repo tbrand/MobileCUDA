@@ -36,6 +36,8 @@ void dequeueSpecifyProc(proc* p){
 	dem.flags[devPos].flag = 1;
 	dem.flags[devPos].sd = p->sd;
 
+	TIME_STAMP(p);
+
 	return;
 	
       }
@@ -52,6 +54,8 @@ void dequeueSpecifyProc(proc* p){
 	dem.flags[devPos].flag = 0;
 
 	p->queued = ACTIVE;
+
+	TIME_STAMP(p);
 
 	return;
 	
@@ -104,6 +108,8 @@ void dequeueSpecifyDevNO(int devPos){
 
 	  printf("MIGRATE to %d\n",devPos);
 
+	  TIME_STAMP(ptemp);
+
 	  return;
 	}
 	
@@ -119,6 +125,8 @@ void dequeueSpecifyDevNO(int devPos){
 
 	  dem.flags[devPos].sd = -1;
 	  dem.flags[devPos].flag = 0;
+
+	  TIME_STAMP(ptemp);
 
 	  return;
 	}
@@ -192,6 +200,8 @@ void exclusive_check(int pos){
 
     p->queued = SENT_REQUEST;
 
+    TIME_STAMP(p);
+
     printf("\tSIGNAL RESULT : %d\n",res);
 
   }else{
@@ -216,6 +226,8 @@ void exclusive_check(int pos){
       dem.flags[pos].exclusive = 0;
 
       p->queued = ACTIVE;
+
+      TIME_STAMP(p);
 
     }
   }

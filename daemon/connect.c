@@ -40,6 +40,10 @@ void _FIN(int sd){
 
   printf("\tPID : %d\n",p->data->pid);
 
+  p->queued = FIN;
+
+  TIME_STAMP(p);
+
   cons_remove(p);
     
   remove_proc(p);
@@ -74,6 +78,8 @@ void _FIN(int sd){
 
       exclusive_check(devPos);
 
+      TIME_STAMP(excp);
+
       return;
 
     }else if(dem.staying_procs > 0){
@@ -96,6 +102,8 @@ void _FIN(int sd){
       MSEND(stayp->sd,CONNECT,0,0,devPos,0,0);
 	
       dem.flags[devPos].stayed = 1;
+
+      TIME_STAMP(stayp);
 
       return;
       
@@ -143,6 +151,8 @@ void _FIN(int sd){
 
 	  ps->queued = ACTIVE;
 
+	  TIME_STAMP(ps);
+
 	  return;
 
 	}
@@ -177,6 +187,8 @@ void _FIN(int sd){
 	  
 	  exclusive_check(devPos);
 
+	  TIME_STAMP(ps);
+
 	}else{
 	  
 	  ps = staying_proc();
@@ -195,6 +207,8 @@ void _FIN(int sd){
 	  ps->queued = ACTIVE;
 
 	  ps->data->pos = devPos;
+
+	  TIME_STAMP(ps);
 
 	}
 	
@@ -242,6 +256,8 @@ void _CONNECT(int sd,proc_data* data){
 	  
 	  printf("Queued cannot-move proc(%d)\n",dem.staying_procs);
 
+	  TIME_STAMP(p);
+
 	  return;
 	  
 	}
@@ -251,6 +267,8 @@ void _CONNECT(int sd,proc_data* data){
 	p->queued = QUEUED;
 
 	printf("Queued proc(%d)\n",queue_size());
+
+	TIME_STAMP(p);
 
 	return;
 	
@@ -309,6 +327,8 @@ void _CONNECT(int sd,proc_data* data){
 
 	  exclusive_check(i);
 
+	  TIME_STAMP(p);
+
 	  return;
 	    
 	}else{
@@ -324,6 +344,8 @@ void _CONNECT(int sd,proc_data* data){
 	  p->data->pos = i;
 
 	  MSEND(sd,CONNECT,0,0,i,0,0);
+
+	  TIME_STAMP(p);
 	    
 	  return; 
 	    
@@ -341,6 +363,8 @@ void _CONNECT(int sd,proc_data* data){
 
 	MSEND(sd,CONNECT,0,0,i,0,0);
 
+	TIME_STAMP(p);
+
 	return;
 
       }
@@ -356,10 +380,14 @@ void _CONNECT(int sd,proc_data* data){
     p->queued = STAYED_QUEUED;
     
     printf("\tQueued staying procs[%d]\n",dem.staying_procs);
+
+    TIME_STAMP(p);
     
   }else{
 
     p->queued = QUEUED;
+
+    TIME_STAMP(p);
     
   }
 }
@@ -402,6 +430,8 @@ void _MIGDONE(int sd,proc_data* data){
   dem.flags[devPos].reserved -= p->data->mem;
 
   p->queued = ACTIVE;
+
+  TIME_STAMP(p);
 
   if(p->data->flag&CANNOTMIG){
 
@@ -446,6 +476,8 @@ void _CANRECEIVE(int sd,proc_data* data){
 
   p->queued = BACKUP;
 
+  TIME_STAMP(p);
+
 }
 
 void _FAILEDTOALLOC(int sd,proc_data* data){
@@ -461,6 +493,8 @@ void _FAILEDTOALLOC(int sd,proc_data* data){
 
   memcpy(p->data,data,sizeof(proc_data));
   p->queued = BACKUP;
+
+  TIME_STAMP(p);
 
   for(i = 0 ; i < dem.ndev ; i ++){
     if(dem.flags[i].sd == p->sd){
@@ -525,6 +559,8 @@ void _CUDAMALLOC(int sd,proc_data* data){
     
     p->queued = BACKUP;
 
+    TIME_STAMP(p);
+
     return;
   }
 
@@ -544,6 +580,8 @@ void _CUDAMALLOC(int sd,proc_data* data){
 
       p->queued = STAYED;
       p->staying_pos = devp;
+
+      TIME_STAMP(p);
       
     }else{
 
@@ -560,6 +598,8 @@ void _CUDAMALLOC(int sd,proc_data* data){
       p->queued = BACKUP;
 
       MSEND(sd,SUSPEND,0,0,0,0,0);
+
+      TIME_STAMP(p);
       
     }
   }
@@ -587,6 +627,8 @@ void _BACKUPED(int sd,proc_data* data){
   memcpy(p->data,data,sizeof(proc_data));
 
   p->queued = QUEUED;
+
+  TIME_STAMP(p);
 
   if(dem.flags[p->data->pos].exclusive){
 
