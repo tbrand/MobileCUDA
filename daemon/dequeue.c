@@ -10,7 +10,9 @@ void dequeueSpecifyProc(proc* p){
 
   for(devPos = 0 ; devPos < dem.ndev ; devPos ++){
 
-    if(dem.flags[devPos].flag||dem.flags[devPos].stayed)continue;
+    if(dem.flags[devPos].flag||dem.flags[devPos].stayed){
+      continue;
+    }
 
     dem.flags[devPos].flag = 1;
 
@@ -30,6 +32,9 @@ void dequeueSpecifyProc(proc* p){
 	MSEND(p->sd,MIGRATE,0,0,devPos,0,0);
 
 	p->queued = ACTIVE;
+
+	dem.flags[devPos].flag = 1;
+	dem.flags[devPos].sd = p->sd;
 
 	return;
 	
@@ -61,7 +66,9 @@ void dequeueSpecifyProc(proc* p){
 
 void dequeueSpecifyDevNO(int devPos){
 
-  if(dem.flags[devPos].flag||dem.flags[devPos].stayed)return;
+  if(dem.flags[devPos].flag||dem.flags[devPos].stayed){
+    return;
+  }
 
   dem.flags[devPos].flag = 1;
 
@@ -91,6 +98,9 @@ void dequeueSpecifyDevNO(int devPos){
 	  dem.flags[devPos].reserved += ptemp->data->mem + ptemp->data->req;
 
 	  MSEND(ptemp->sd,MIGRATE,0,0,devPos,0,0);
+
+	  dem.flags[devPos].flag = 1;
+	  dem.flags[devPos].sd = ptemp->sd;
 
 	  printf("MIGRATE to %d\n",devPos);
 
@@ -207,8 +217,6 @@ void exclusive_check(int pos){
 
       p->queued = ACTIVE;
 
-      print_procs();//TEST
-      //      sleep(10);
     }
   }
 }

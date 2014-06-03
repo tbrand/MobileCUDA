@@ -177,8 +177,6 @@ void _FIN(int sd){
 	  
 	  exclusive_check(devPos);
 
-	  printf("\t\t\t\tFINISH CHECKING!!!!!!\n");
-
 	}else{
 	  
 	  ps = staying_proc();
@@ -494,7 +492,7 @@ void _MALLOCDONE(int sd,proc_data* data){
 
   dem.flags[devp].reserved -= p->data->req;
 
-  //  dequeueSpecifyDevNO(devp);
+  dequeueSpecifyDevNO(p->data->pos);//TEST
 }
 
 void _CUDAMALLOC(int sd,proc_data* data){

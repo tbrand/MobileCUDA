@@ -248,14 +248,14 @@ void mocu_check(){
 
   for(i = 0 ; i < dem.ndev ; i ++){
     
-    infoCount = 64;
+    infoCount = 100;
     infos = (nvmlProcessInfo_t*)malloc(sizeof(nvmlProcessInfo_t)*infoCount);
 
     res = nvmlDeviceGetComputeRunningProcesses(dem.devs[i],&infoCount,infos);
 
     if(res != NVML_SUCCESS){
       printf("Failed to get proc info\n");
-      //      exit(-1);
+      exit(-1);
     }else{
 
 #if 1

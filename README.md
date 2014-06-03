@@ -1,6 +1,7 @@
 Mobile CUDA
 
-Mobile CUDA is a runtime library witch does "Dynamicaly Managing Multiple CUDA Processes for Hyper-Q".
+Mobile CUDA is a runtime library witch does "Managing Multiple CUDA Processes Dynamicaly for Hyper-Q".
+Support CUDA-5.5.
 
 *Utilize
 

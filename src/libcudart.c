@@ -158,8 +158,6 @@ void** __cudaRegisterFatBinary(void* fatCubin){
 
   mocu_connect();
 
-  printf("COME HERE !!!5\n");
-
 #if 0
   printf("fatCubin       : %p\n",fatCubin);
   printf("fatCubinHandle : %p\n",fHandle);

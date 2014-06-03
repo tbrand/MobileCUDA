@@ -7,8 +7,9 @@
 
 #include <nvml.h>
 
-#define num 20
+#define num 100
 
+#if 0
 #define P1  "/home/taichirou/migrate_runtime/app/0_Simple/matrixMul/matrixMul"
 #define P2  "/home/taichirou/migrate_runtime/app/0_Simple/matrixMulBig/matrixMul"
 #define P3  "/home/taichirou/migrate_runtime/app/0_Simple/matrixMulSmall/matrixMul"
@@ -19,6 +20,18 @@
 #define P8  "/home/taichirou/migrate_runtime/app/orig/memBig/test"
 #define P9  "/home/taichirou/migrate_runtime/app/orig/memSmall/test"
 #define P10 "/home/taichirou/migrate_runtime/app/orig/devmem/devmem"
+#else
+#define P1  "/home/taichirou/migrate_runtime/app/orig/mem/test"
+#define P2  "/home/taichirou/migrate_runtime/app/orig/mem/test"
+#define P3  "/home/taichirou/migrate_runtime/app/orig/mem/test"
+#define P4  "/home/taichirou/migrate_runtime/app/orig/mem/test"
+#define P5  "/home/taichirou/migrate_runtime/app/orig/devmem/devmem"
+#define P6  "/home/taichirou/migrate_runtime/app/orig/devmem/devmem"
+#define P7  "/home/taichirou/migrate_runtime/app/orig/devmem/devmem"
+#define P8  "/home/taichirou/migrate_runtime/app/orig/malloc_in_kernel/mik"
+#define P9  "/home/taichirou/migrate_runtime/app/orig/malloc_in_kernel/mik"
+#define P10 "/home/taichirou/migrate_runtime/app/orig/malloc_in_kernel/mik"
+#endif
 
 typedef struct _record{
   pid_t pid;
