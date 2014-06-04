@@ -89,8 +89,6 @@ void mocu_parse(void* fatCubin){
 
 	if(strncmp(p,"malloc",6) == 0){
 
-	  printf("find malloc!!\n");//TEST
-
 	  mocu.cp->msg->flag = (EXCLUSIVE|CANNOTMIG);
 	  
 	  find = 1;

@@ -46,8 +46,6 @@ void _FIN(int sd){
 
   TIME_STAMP(p);
 
-  //  cons_remove(p);
-    
   remove_proc(p);
 
   if(flag&CANNOTMIG){
@@ -73,6 +71,9 @@ void _FIN(int sd){
       dem.flags[devPos].stayed = 1;
 
       dem.flags[devPos].exclusive = 1;
+
+      //TEST
+      dem.flags[devPos].reserved += M64;
 
       excp->queued = EXC_READY;
 
@@ -104,6 +105,9 @@ void _FIN(int sd){
       MSEND(stayp->sd,CONNECT,0,0,devPos,0,0);
 	
       dem.flags[devPos].stayed = 1;
+
+      //TEST
+      dem.flags[devPos].reserved += M64;
 
       TIME_STAMP(stayp);
 
@@ -144,7 +148,8 @@ void _FIN(int sd){
 	
 	printf("\tUSED : %u\n",ps->data->mem);
 	printf("\tFREE : %u\n",mem.free);
-	
+
+	//Need More Implementation
 	if(mem.free > ps->data->req + ps->data->sym + M64 + dem.flags[devPos].reserved){
 	  
 	  dem.flags[devPos].reserved += ps->data->req + ps->data->sym;
@@ -175,8 +180,9 @@ void _FIN(int sd){
 	    exit(-1);
 	  }
 
-	  dem.flags[devPos].reserved += ps->data->sym;
-	  
+	  //	  dem.flags[devPos].reserved += ps->data->sym;
+	  dem.flags[devPos].reserved += ps->data->sym + M64;
+
 	  dem.flags[devPos].stayed = 1;
 	  
 	  dem.flags[devPos].exclusive = 1;
@@ -199,6 +205,9 @@ void _FIN(int sd){
 	    printf("Failed to find staying proc(not exclusive)\n");
 	    exit(-1);
 	  }
+
+	  //TEST
+	  dem.flags[devPos].reserved += ps->data->sym + M64;
 	  
 	  MSEND(ps->sd,CONNECT,0,0,devPos,0,0);
 	  
@@ -256,7 +265,7 @@ void _CONNECT(int sd,proc_data* data){
 	  
 	  p->queued = STAYED_QUEUED;
 	  
-	  printf("Queued cannot-move proc(%d)\n",dem.staying_procs);
+	  printf("\tQueued cannot-move proc(%d)\n",dem.staying_procs);
 
 	  TIME_STAMP(p);
 
@@ -268,7 +277,7 @@ void _CONNECT(int sd,proc_data* data){
 
 	p->queued = QUEUED;
 
-	printf("Queued proc(%d)\n",queue_size());
+	printf("\tQueued proc(%d)\n",queue_size());
 
 	TIME_STAMP(p);
 
@@ -296,6 +305,10 @@ void _CONNECT(int sd,proc_data* data){
 
   if(p->data->pos >= 0)
     dem.flags[p->data->pos].reserved -= prev_sym;
+
+  //TEST
+  if(!p->created_context)
+    dem.flags[p->data->pos].reserved -= M64;
   
   for(i = 0 ; i < dem.ndev ; i ++){
     
@@ -317,7 +330,8 @@ void _CONNECT(int sd,proc_data* data){
 
 	  printf("\tENTERING EXCLUSIVE MODE!!!\n");
 
-	  dem.flags[i].reserved += p->data->sym;
+	  //	  dem.flags[i].reserved += p->data->sym;
+	  dem.flags[i].reserved += p->data->sym + M64;
 
 	  dem.flags[i].stayed = 1;
 
@@ -337,7 +351,8 @@ void _CONNECT(int sd,proc_data* data){
 
 	  printf("\tGOAHEAD(%d)\n",i);
 	    
-	  dem.flags[i].reserved += p->data->sym;
+	  //	  dem.flags[i].reserved += p->data->sym;
+	  dem.flags[i].reserved += p->data->sym + M64;
 	    
 	  dem.flags[i].stayed = 1;
 
@@ -357,7 +372,8 @@ void _CONNECT(int sd,proc_data* data){
 
 	printf("\tGOAHEAD(%d)\n",i);
 
-	dem.flags[i].reserved += p->data->sym;
+	//	dem.flags[i].reserved += p->data->sym;
+	dem.flags[i].reserved += p->data->sym + M64;
 
 	p->queued = ACTIVE;
 
@@ -477,6 +493,10 @@ void _CANRECEIVE(int sd,proc_data* data){
 
   p->queued = BACKUP;
 
+  //TEST
+  if(!p->created_context)
+    dem.flags[p->data->pos].reserved -= M64;
+
   TIME_STAMP(p);
 
 }
@@ -505,6 +525,19 @@ void _FAILEDTOALLOC(int sd,proc_data* data){
     }
   }
 
+#if 1
+  printf("REQ : %lu\n",data->req);
+  printf("SYM : %lu\n",data->sym);
+  printf("MEM : %lu\n",data->mem);
+  printf("POS : %lu\n",data->pos);
+
+  nvmlMemory_t mem;
+
+  nvmlDeviceGetMemoryInfo(dem.devs[data->pos],&mem);
+
+  printf("FREE : %lu\n",mem.free);
+#endif
+
   dequeueSpecifyProc(p);
 
 }
@@ -526,7 +559,7 @@ void _MALLOCDONE(int sd,proc_data* data){
 
   dem.flags[devp].reserved -= p->data->req;
 
-  dequeueSpecifyDevNO(p->data->pos);//TEST
+  dequeueSpecifyDevNO(p->data->pos);
 }
 
 void _CUDAMALLOC(int sd,proc_data* data){
@@ -555,6 +588,10 @@ void _CUDAMALLOC(int sd,proc_data* data){
   }
 
   if(dem.flags[devp].exclusive){
+
+    //TEST
+    if(!p->created_context)
+      dem.flags[devp].reserved -= M64;
 
     MSEND(sd,SUSPEND,0,0,0,0,0);
     
@@ -587,7 +624,7 @@ void _CUDAMALLOC(int sd,proc_data* data){
       
       MSEND(sd,GOAHEAD,0,0,0,0,0);
       
-      dem.flags[devp].reserved += p->data->req;
+      dem.flags[devp].reserved += p->data->req + p->data->sym;
 
       return;
       
@@ -608,6 +645,10 @@ void _CUDAMALLOC(int sd,proc_data* data){
 
     printf("\tOOPS(POS:%d)\n",devp);
     printf("SUSPEND (%d) from %d\n",p->sd,devp);
+
+    //TEST
+    if(!p->created_context)
+      dem.flags[devp].reserved -= M64;
 
     p->queued = BACKUP;
 
@@ -694,7 +735,11 @@ void _CONTEXT_CHECK(int sd,proc_data* data){
 
     MSEND(p->sd,CCHECK_OK,0,0,0,0,0);
 
-    dem.flags[p->data->pos].reserved -= p->data->sym;
+    //    dem.flags[p->data->pos].reserved -= p->data->sym;
+    dem.flags[p->data->pos].reserved -= (p->data->sym+M64);
+
+    p->data->mem += p->data->sym;
+    p->data->sym = 0;
 
     p->created_context = 1;
 

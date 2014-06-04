@@ -288,8 +288,8 @@ typedef struct _mocu{
 } MOCU;
 
 #define CUDA_LIB_PATH  "/usr/local/cuda-5.5/lib64/libcudart.so"  
-#define TRACE(func)  printf("[TRACE -runtime-] %-25s\n",func);
-#define REPLAY(func) printf("[REPLAY] %-25s\n",func);
+#define TRACE(func)  //printf("[TRACE -runtime-] %-25s\n",func);
+#define REPLAY(func) //printf("[REPLAY] %-25s\n",func);
 #define ENCAP 1
 
 extern MOCU mocu;

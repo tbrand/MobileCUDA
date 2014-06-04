@@ -46,7 +46,8 @@ void dequeueSpecifyProc(proc* p){
 
       if(mem.free > p->data->sym + p->data->req + M64 + dem.flags[devPos].reserved){
 
-	dem.flags[devPos].reserved += p->data->sym + p->data->req;
+	//	dem.flags[devPos].reserved += p->data->sym + p->data->req;
+	dem.flags[devPos].reserved += p->data->sym + p->data->req + M64;
 
 	MSEND(p->sd,CONNECT,0,0,devPos,0,0);
 
@@ -70,21 +71,20 @@ void dequeueSpecifyProc(proc* p){
 
 void dequeueSpecifyDevNO(int devPos){
 
-  if(dem.flags[devPos].flag||dem.flags[devPos].stayed){
+  if(dem.flags[devPos].flag||dem.flags[devPos].stayed)
     return;
-  }
 
   dem.flags[devPos].flag = 1;
 
-  proc* ptemp;
+  proc* p;
   nvmlReturn_t res;
   nvmlMemory_t mem;
   
-  ptemp = dem.p0->next;
+  p = dem.p0->next;
   
-  while(ptemp->next != NULL){
+  while(p->next != NULL){
 
-    if(ptemp->queued == QUEUED){
+    if(p->queued == QUEUED){
       
       res = nvmlDeviceGetMemoryInfo(dem.devs[devPos],&mem);
       
@@ -93,47 +93,48 @@ void dequeueSpecifyDevNO(int devPos){
 	exit(-1);
       }
 
-      if(ptemp->created_context){
+      if(p->created_context){
 
-	if(mem.free > ptemp->data->mem + ptemp->data->req + M64 + dem.flags[devPos].reserved){
+	if(mem.free > p->data->mem + p->data->req + M64 + dem.flags[devPos].reserved){
 
-	  ptemp->queued = ACTIVE;
+	  p->queued = ACTIVE;
 
-	  dem.flags[devPos].reserved += ptemp->data->mem + ptemp->data->req;
+	  dem.flags[devPos].reserved += p->data->mem + p->data->req;
 
-	  MSEND(ptemp->sd,MIGRATE,0,0,devPos,0,0);
+	  MSEND(p->sd,MIGRATE,0,0,devPos,0,0);
 
 	  dem.flags[devPos].flag = 1;
-	  dem.flags[devPos].sd = ptemp->sd;
+	  dem.flags[devPos].sd = p->sd;
 
 	  printf("MIGRATE to %d\n",devPos);
 
-	  TIME_STAMP(ptemp);
+	  TIME_STAMP(p);
 
 	  return;
 	}
 	
       }else{
 
-	if(mem.free > ptemp->data->sym + ptemp->data->req + M64 + dem.flags[devPos].reserved){
+	if(mem.free > p->data->sym + p->data->req + M64 + dem.flags[devPos].reserved){
 
-	  ptemp->queued = ACTIVE;
+	  p->queued = ACTIVE;
 
-	  dem.flags[devPos].reserved += ptemp->data->sym + ptemp->data->req;
+	  //	  dem.flags[devPos].reserved += p->data->sym + p->data->req;
+	  dem.flags[devPos].reserved += p->data->sym + p->data->req + M64;
 
-	  MSEND(ptemp->sd,CONNECT,0,0,devPos,0,0);
+	  MSEND(p->sd,CONNECT,0,0,devPos,0,0);
 
 	  dem.flags[devPos].sd = -1;
 	  dem.flags[devPos].flag = 0;
 
-	  TIME_STAMP(ptemp);
+	  TIME_STAMP(p);
 
 	  return;
 	}
       }
     }
 
-    ptemp = ptemp->next;
+    p = p->next;
 
   }
 
@@ -143,35 +144,35 @@ void dequeueSpecifyDevNO(int devPos){
 
 void dequeue(){
 
-  proc* ptemp;
+  proc* p;
   
-  ptemp = dem.p0->next;
+  p = dem.p0->next;
   
-  while(ptemp->next != NULL){
+  while(p->next != NULL){
 
-    if(ptemp->queued == QUEUED){
+    if(p->queued == QUEUED){
 
-      dequeueSpecifyProc(ptemp);
+      dequeueSpecifyProc(p);
 
     }
 
-    ptemp = ptemp->next;
+    p = p->next;
   }
 }
 
 int queue_size(){
 
-  proc* ptemp;
+  proc* p;
   int res = 0;
 
-  ptemp = dem.p0->next;
-  while(ptemp->next != NULL){
+  p = dem.p0->next;
+  while(p->next != NULL){
 
-    if(ptemp->queued == QUEUED){
+    if(p->queued == QUEUED){
       res++;
     }
     
-    ptemp = ptemp->next;
+    p = p->next;
 
   }
 
@@ -217,7 +218,8 @@ void exclusive_check(int pos){
 	printf("\tFailed to find staying exclusive proc\n");
 	printf("\tMay be the proc was interruped??\n");
 	dem.flags[pos].exclusive = 0;
-
+	dem.flags[pos].reserved -= M64;
+	dem.flags[pos].stayed = 0;
 	return;
       }
 
