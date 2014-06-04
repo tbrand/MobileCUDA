@@ -4,6 +4,7 @@ unsigned long launchPos = 0;
 
 void _FIN(int sd){
 
+#if 0
   if(!has_proc_sd(sd)){
 
     cons* c;
@@ -16,6 +17,7 @@ void _FIN(int sd){
 
     return;
   }
+#endif
 
   dem.procCounter--;
 
@@ -44,7 +46,7 @@ void _FIN(int sd){
 
   TIME_STAMP(p);
 
-  cons_remove(p);
+  //  cons_remove(p);
     
   remove_proc(p);
 
@@ -406,7 +408,7 @@ void _RENEW(int sd,proc_data* data){
 
   memcpy(p->data,data,sizeof(proc_data));
 
-  cons_renew(p);
+  //  cons_renew(p);
 
 #endif
 
@@ -460,7 +462,6 @@ void _MIGDONE(int sd,proc_data* data){
     dequeueSpecifyDevNO(devPos);
   }
 
-  cons_renew(p);
 
 }
 
@@ -506,7 +507,6 @@ void _FAILEDTOALLOC(int sd,proc_data* data){
 
   dequeueSpecifyProc(p);
 
-  cons_renew(p);
 }
 
 void _MALLOCDONE(int sd,proc_data* data){
@@ -616,7 +616,6 @@ void _CUDAMALLOC(int sd,proc_data* data){
     TIME_STAMP(p);
   }
 
-  cons_renew(p);
 }
 
 void _BACKUPED(int sd,proc_data* data){
@@ -653,7 +652,6 @@ void _BACKUPED(int sd,proc_data* data){
     
   }
 
-  cons_renew(p);
 }
 
 void _CONTEXT_CHECK(int sd,proc_data* data){
@@ -713,6 +711,7 @@ void _CONTEXT_CHECK(int sd,proc_data* data){
 
 void _CONSOLE(int sd){
 
+#if 0
   printf("CONSOLE JOIN\n");
 
   cons* c;
@@ -758,6 +757,8 @@ void _CONSOLE(int sd){
   send(sd,sendd,sizeof(proc_data)*pnum,0);
 
   print_cons();
+
+#endif
 
 }
 
