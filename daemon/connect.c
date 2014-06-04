@@ -143,9 +143,9 @@ void _FIN(int sd){
 	printf("\tUSED : %u\n",ps->data->mem);
 	printf("\tFREE : %u\n",mem.free);
 	
-	if(mem.free > ps->data->req + M64 + dem.flags[devPos].reserved){
+	if(mem.free > ps->data->req + ps->data->sym + M64 + dem.flags[devPos].reserved){
 	  
-	  dem.flags[devPos].reserved += ps->data->req;
+	  dem.flags[devPos].reserved += ps->data->req + ps->data->sym;
 
 	  MSEND(ps->sd,GOAHEAD,0,0,devPos,0,0);
 
@@ -539,6 +539,7 @@ void _CUDAMALLOC(int sd,proc_data* data){
   int devp;
 
   p = get_proc(sd);
+
   memcpy(p->data,data,sizeof(proc_data));
 
   devp = data->pos;
@@ -564,44 +565,55 @@ void _CUDAMALLOC(int sd,proc_data* data){
     return;
   }
 
-  if(mem.free > p->data->req + M64 + dem.flags[devp].reserved){
+  if(p->created_context){
+    
+    if(mem.free > p->data->req + M64 + dem.flags[devp].reserved){
+      
+      printf("\tGOAHEAD (REQ : %lu[MB])\n",p->data->req >> 20);
+      
+      MSEND(sd,GOAHEAD,0,0,0,0,0);
+      
+      dem.flags[devp].reserved += p->data->req;
 
-    printf("\tGOAHEAD (REQ : %lu[MB])\n",p->data->req >> 20);
-
-    MSEND(sd,GOAHEAD,0,0,0,0,0);
-
-    dem.flags[devp].reserved += p->data->req;
+      return;
+      
+    }
     
   }else{
 
-    if(p->data->flag&CANNOTMIG){
-
-      printf("\tOOPS(BUT THIS PROC CANNOT MOVE)\n");
-
-      p->queued = STAYED;
-      p->staying_pos = devp;
-
-      TIME_STAMP(p);
+    if(mem.free > p->data->req + p->data->sym + M64 + dem.flags[devp].reserved){
       
-    }else{
+      printf("\tGOAHEAD (REQ : %lu[MB])\n",p->data->req >> 20);
+      
+      MSEND(sd,GOAHEAD,0,0,0,0,0);
+      
+      dem.flags[devp].reserved += p->data->req;
 
-      printf("\tOOPS(POS:%d)\n",devp);
-#if 0
-      printf("\t\tFREE : %lu\n",mem.free);
-      printf("\t\tUSED : %lu\n",mem.used);
-      printf("\t\tTOTAL: %lu\n",mem.total);
-      printf("\t\tWANT : %lu\n",data->req);
-#endif
-
-      printf("SUSPEND (%d) from %d\n",p->sd,devp);
-
-      p->queued = BACKUP;
-
-      MSEND(sd,SUSPEND,0,0,0,0,0);
-
-      TIME_STAMP(p);
+      return;
       
     }
+    
+  }
+
+  if(p->data->flag&CANNOTMIG){
+
+    printf("\tOOPS(BUT THIS PROC CANNOT MOVE)\n");
+
+    p->queued = STAYED;
+    p->staying_pos = devp;
+
+    TIME_STAMP(p);
+      
+  }else{
+
+    printf("\tOOPS(POS:%d)\n",devp);
+    printf("SUSPEND (%d) from %d\n",p->sd,devp);
+
+    p->queued = BACKUP;
+
+    MSEND(sd,SUSPEND,0,0,0,0,0);
+
+    TIME_STAMP(p);
   }
 
   cons_renew(p);
@@ -687,6 +699,8 @@ void _CONTEXT_CHECK(int sd,proc_data* data){
     dem.flags[p->data->pos].reserved -= p->data->sym;
 
     p->created_context = 1;
+
+    register_name(sd);
 
   }else{
 

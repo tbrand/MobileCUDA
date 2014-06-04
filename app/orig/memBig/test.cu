@@ -62,8 +62,12 @@ int main(){
   cudaMalloc((void**)&d_a,sizeof(float)*size);
   cudaMalloc((void**)&d_b,sizeof(float)*size);
 
+  /*
   h_a = (float*)malloc(sizeof(float)*size);
   h_b = (float*)malloc(sizeof(float)*size);
+  */
+  cudaHostAlloc((void**)&h_a,sizeof(float)*size,0);
+  cudaHostAlloc((void**)&h_b,sizeof(float)*size,0);
 
   for(int i = 0 ; i < size ; i ++){
     h_a[i] = 0.0f;

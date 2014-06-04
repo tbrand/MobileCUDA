@@ -13,6 +13,8 @@
 #define PATH_TO_PROG7 "../../app/orig/mem/test"
 #define PATH_TO_PROG8 "../../app/orig/memBig/test"
 #define PATH_TO_PROG9 "../../app/orig/memSmall/test"
+#define PATH_TO_PROG10 "/home/taichirou/migrate_runtime/app/orig/devmem/devmem"
+#define PATH_TO_PROG11  "/home/taichirou/migrate_runtime/app/orig/malloc_in_kernel/mik" 
 
 #define PROC_NUM 100
 #define DEV_NUM 4
@@ -115,7 +117,7 @@ int rpos = 0;
 
 void fork_orig_proc(int pos){
 
-  int random = rand()%9;
+  int random = rand()%11;
   
   pids[pos] = fork();
 
@@ -161,6 +163,12 @@ void fork_orig_proc(int pos){
       break;
     case 8:
       execl(PATH_TO_PROG9,PATH_TO_PROG9,NULL);
+      break;
+    case 9:
+      execl(PATH_TO_PROG10,PATH_TO_PROG10,NULL);
+      break;
+    case 10:
+      execl(PATH_TO_PROG11,PATH_TO_PROG11,NULL);
       break;
     }
 

@@ -119,3 +119,4 @@ extern void print_cons();
 //stamp.c
 extern void TIME_STAMP(proc*);
 extern void print_records();
+extern void register_name(int);
