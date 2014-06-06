@@ -9,23 +9,35 @@
 int sockfd;
 int created_context = 0;
 
-void mocu_connect(){
-  
+int connected = 0;
+
+void first_connect(){
+
+  if(connected)return;
+
   int result;
   struct sockaddr_un address;
-
+  
   sockfd = socket(AF_UNIX,SOCK_STREAM,0);
-
+  
   address.sun_family = AF_UNIX;
-
+  
   strcpy(address.sun_path,"/home/taichirou/migrate_runtime/daemon/mocu_server");
-
+  
   result = connect(sockfd,(struct sockaddr*)&address,sizeof(address));
-
+  
   if(result == -1){
     perror("oops: client(Failed to connect to daemon)\n");
     exit(-1);
   }
+
+  connected = 1;
+  
+}
+
+void mocu_connect(){
+
+  first_connect();
 
   int canmig = NONE;
 

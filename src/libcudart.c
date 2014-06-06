@@ -1658,7 +1658,6 @@ cudaError_t cudaHostAlloc(void **pHost,  size_t size,  unsigned int flags){
 
   cudaError_t res;
 
-
   if(flags&cudaHostAllocMapped){
 
     *pHost = valloc(size);
