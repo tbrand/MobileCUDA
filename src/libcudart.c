@@ -1658,7 +1658,18 @@ cudaError_t cudaHostAlloc(void **pHost,  size_t size,  unsigned int flags){
 
   cudaError_t res;
 
-  res = mocu.mocudaHostAlloc(pHost, size, flags|cudaHostAllocPortable);
+
+  if(flags&cudaHostAllocMapped){
+
+    *pHost = valloc(size);
+
+    res = cudaHostRegister(*pHost,size,flags|cudaHostRegisterMapped);
+
+  }else{
+    
+    res = mocu.mocudaHostAlloc(pHost, size, flags|cudaHostAllocPortable);
+
+  }
 
   LEAVE;
 
@@ -1675,7 +1686,20 @@ cudaError_t cudaHostRegister(void *ptr,  size_t size,  unsigned int flags){
 
   cudaError_t res;
 
-  res = mocu.mocudaHostRegister(ptr, size, flags);
+  res = mocu.mocudaHostRegister(ptr, size, flags|cudaHostRegisterPortable);
+
+  apilog* a;
+
+  a = (apilog*)malloc(sizeof(apilog));
+
+  a->type = HOSTREGISTER;
+  a->data.hostRegister.ptr = ptr;
+  a->data.hostRegister.size = size;
+  a->data.hostRegister.flags = flags;
+  a->prev = mocu.cp->a1->prev;
+  a->next = mocu.cp->a1;
+  a->prev->next = a;
+  a->next->prev = a;
 
   LEAVE;
 

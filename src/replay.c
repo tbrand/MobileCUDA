@@ -4,13 +4,14 @@ void** mocu_cubin_handle;
 
 int replay(apilog* a){
 
+  cudaError_t res;
+
   switch(a->type){
 
   case MALLOC:
 
     REPLAY("cudaMalloc");
 
-    cudaError_t res;
     void* ptr;
     res = mocu.mocudaMalloc(&ptr,a->data.malloc.size);
     if(res != cudaSuccess || ptr != a->data.malloc.devPtr){
@@ -28,11 +29,10 @@ int replay(apilog* a){
 
     REPLAY("cudaFree");
       
-    cudaError_t _res;
-    _res = mocu.mocudaFree(a->data.free.devPtr);
-    if(_res != cudaSuccess){
+    res = mocu.mocudaFree(a->data.free.devPtr);
+    if(res != cudaSuccess){
       printf("replay failed in cudaFree()\n");
-      printf("result code : %d\n",_res);
+      printf("result code : %d\n",res);
       return -1;
     }else{
       return 0;
@@ -109,6 +109,27 @@ int replay(apilog* a){
 
 #endif
 
+  case HOSTREGISTER:
+
+    REPLAY("cudaHostRegister");
+
+    res = mocu.mocudaHostRegister(
+				  a->data.hostRegister.ptr,
+				  a->data.hostRegister.size,
+				  a->data.hostRegister.flags|cudaHostRegisterPortable
+				  );
+
+    if(res != cudaSuccess){
+      printf("replay failed in cudaHostRegister()\n");
+      printf("ptr  : %p\n",a->data.hostRegister.ptr);
+      printf("size : %d\n",a->data.hostRegister.size);
+      printf("a->flags : %d\n",a->data.hostRegister.flags);
+      printf("result code : %d\n",res);
+      return -1;      
+    }else{
+      return 0;
+    }
+    
   default:
 
     REPLAY("Invalid function(Error)");
