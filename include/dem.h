@@ -55,7 +55,8 @@ typedef struct _DEM{
 extern int MAXPROC;
 extern int CONTEXT_NUM;
 
-#define M64 (64 << 20)
+#define M64    (64 << 20)
+#define MARGIN (64 << 20)
 
 #define TRUE  1
 #define FALSE 0
@@ -76,6 +77,7 @@ extern void dequeueSpecifyProc(proc*);
 extern void dequeueSpecifyDevNO(int);
 extern void dequeue();
 extern int queue_size();
+extern int* opt_devs();
 extern void exclusive_check(int);
 
 //proc.c

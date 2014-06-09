@@ -46,6 +46,13 @@
 
    TIME_STAMP(p);
 
+   if(dem.flags[devPos].exclusive)exclusive_check(devPos);
+
+   if(!p->created_context){
+     dem.flags[p->data->pos].reserved -= (M64 + p->data->sym);
+     dem.flags[p->data->pos].context--;
+   }
+
    remove_proc(p);
 
    if(flag&CANNOTMIG){
@@ -255,6 +262,8 @@ void _CONNECT(int sd,proc_data* data){
   printf("CONNECT(%d) (QUEUESIZE   :%d)\n",sd,queue_size());
   printf("            (NUM OF PROCS:%d)\n",dem.procCounter+1);
 
+  opt_devs();
+
   proc* p;
   int i;
   size_t prev_sym;
@@ -328,9 +337,92 @@ void _CONNECT(int sd,proc_data* data){
     dem.flags[p->data->pos].reserved -= M64;
     dem.flags[p->data->pos].context --;
   }
+
+  int *devopt = opt_devs();
   
   for(i = 0 ; i < dem.ndev ; i ++){
+
+#if 1
+    if(dem.flags[devopt[i]].stayed)
+      continue;
+
+    if(dem.flags[devopt[i]].context >= CONTEXT_NUM)
+      continue;
     
+    res = nvmlDeviceGetMemoryInfo(dem.devs[devopt[i]],&mem);
+
+    if(res != NVML_SUCCESS){
+      printf("Failed to get memory info(%d)\n",res);
+      exit(-1);
+    }
+
+    if(mem.free > p->data->sym + dem.flags[devopt[i]].reserved + M64){
+
+      if(p->data->flag&CANNOTMIG){
+
+	if(p->data->flag&EXCLUSIVE){
+
+	  printf("\tENTERING EXCLUSIVE MODE!!!\n");
+
+	  dem.flags[devopt[i]].reserved += p->data->sym + M64;
+
+	  dem.flags[devopt[i]].stayed = 1;
+
+	  dem.flags[devopt[i]].exclusive = 1;
+
+	  p->queued = EXC_READY;
+
+	  p->data->pos = devopt[i];
+
+	  exclusive_check(devopt[i]);
+
+	  TIME_STAMP(p);
+
+	  return;
+	    
+	}else{
+
+	  printf("\tGOAHEAD(%d)\n",devopt[i]);
+	    
+	  dem.flags[devopt[i]].reserved += p->data->sym + M64;
+	    
+	  dem.flags[devopt[i]].stayed = 1;
+
+	  dem.flags[devopt[i]].context ++;
+
+	  p->queued = ACTIVE;
+
+	  p->data->pos = devopt[i];
+
+	  MSEND(sd,CONNECT,0,0,devopt[i],0,0);
+
+	  TIME_STAMP(p);
+	    
+	  return; 
+	    
+	}
+
+      }else{
+
+	printf("\tGOAHEAD(%d)\n",devopt[i]);
+
+	dem.flags[devopt[i]].reserved += p->data->sym + M64;
+
+	dem.flags[devopt[i]].context ++;
+
+	p->queued = ACTIVE;
+
+	p->data->pos = devopt[i];
+
+	MSEND(sd,CONNECT,0,0,devopt[i],0,0);
+
+	TIME_STAMP(p);
+
+	return;
+
+      }
+    }
+#else    
     if(dem.flags[i].stayed)
       continue;
 
@@ -410,6 +502,7 @@ void _CONNECT(int sd,proc_data* data){
 
       }
     }
+#endif
   }
 
   printf("\tOOPS\n");
