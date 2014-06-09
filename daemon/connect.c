@@ -496,8 +496,6 @@ void _MIGDONE(int sd,proc_data* data){
 
     dequeueSpecifyDevNO(devPos);
   }
-
-
 }
 
 void _CANRECEIVE(int sd,proc_data* data){
