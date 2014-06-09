@@ -38,6 +38,7 @@ typedef struct _dflag{
   int flag;
   int stayed;
   int exclusive;
+  int context;
   size_t reserved;
 } dflag;
 
@@ -52,6 +53,7 @@ typedef struct _DEM{
 } DEM;
 
 extern int MAXPROC;
+extern int CONTEXT_NUM;
 
 #define M64 (64 << 20)
 

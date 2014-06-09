@@ -1,241 +1,245 @@
 #include <dem.h>
 
-unsigned long launchPos = 0;
+ unsigned long launchPos = 0;
 
-void _FIN(int sd){
+ void _FIN(int sd){
 
-#if 0
-  if(!has_proc_sd(sd)){
+ #if 0
+   if(!has_proc_sd(sd)){
 
-    cons* c;
+     cons* c;
 
-    c = get_cons(sd);
+     c = get_cons(sd);
 
-    remove_cons(c);
+     remove_cons(c);
 
-    printf("CONS LEAVE\n");
+     printf("CONS LEAVE\n");
 
-    return;
-  }
-#endif
+     return;
+   }
+ #endif
 
-  dem.procCounter--;
+   dem.procCounter--;
 
-  printf("FIN(SD:%d) (NUM OF PROCS:%d)\n",dem.procCounter);
-  
-  proc *p;
-  int devPos,i,flag;
+   printf("FIN(SD:%d) (NUM OF PROCS:%d)\n",dem.procCounter);
 
-  for(i = 0 ; i < dem.ndev ; i ++){
-    if(dem.flags[i].sd == sd){
-      printf("\tFIND FAILED PROC(SD:%d)\n",sd);
-      dem.flags[i].flag = 0;
-      dem.flags[i].sd   = 0;
-    }
-  }
+   proc *p;
+   int devPos,i,flag;
 
-  p = get_proc(sd);
+   for(i = 0 ; i < dem.ndev ; i ++){
+     if(dem.flags[i].sd == sd){
+       printf("\tFIND FAILED PROC(SD:%d)\n",sd);
+       dem.flags[i].flag = 0;
+       dem.flags[i].sd   = 0;
+     }
+   }
 
-  devPos = p->data->pos;
+   p = get_proc(sd);
 
-  flag = p->data->flag;
+   devPos = p->data->pos;
 
-  printf("\tPID : %d\n",p->data->pid);
+   flag = p->data->flag;
 
-  p->queued = FIN;
+   printf("\tPID : %d\n",p->data->pid);
 
-  TIME_STAMP(p);
+   p->queued = FIN;
 
-  remove_proc(p);
+   TIME_STAMP(p);
 
-  if(flag&CANNOTMIG){
+   remove_proc(p);
 
-    printf("\tStaying proc @ %d finished.\n",devPos);
-    printf("\tRemains staying procs == %d\n",dem.staying_procs);
+   if(flag&CANNOTMIG){
 
-    dem.flags[devPos].stayed = 0;
+     printf("\tStaying proc @ %d finished.\n",devPos);
+     printf("\tRemains staying procs == %d\n",dem.staying_procs);
 
-    if(num_of_staying_exclusive_procs() > 0){
+     dem.flags[devPos].stayed = 0;
 
-      proc* excp;
+     if(num_of_staying_exclusive_procs() > 0){
 
-      excp = staying_exclusive_proc();
+       proc* excp;
 
-      if(excp == NULL){
-	printf("Failed to find staying exclusive-proc\n");
-	exit(-1);
-      }
-	
-      dem.staying_procs --;
+       excp = staying_exclusive_proc();
 
-      dem.flags[devPos].stayed = 1;
+       if(excp == NULL){
+	 printf("Failed to find staying exclusive-proc\n");
+	 exit(-1);
+       }
 
-      dem.flags[devPos].exclusive = 1;
+       dem.staying_procs --;
 
-      dem.flags[devPos].reserved += M64;
+       dem.flags[devPos].stayed = 1;
 
-      excp->queued = EXC_READY;
+       dem.flags[devPos].exclusive = 1;
 
-      excp->data->pos = devPos;
+       dem.flags[devPos].reserved += M64;
 
-      exclusive_check(devPos);
+       excp->queued = EXC_READY;
 
-      TIME_STAMP(excp);
+       excp->data->pos = devPos;
 
-      return;
+       exclusive_check(devPos);
 
-    }else if(dem.staying_procs > 0){
+       TIME_STAMP(excp);
 
-      proc* stayp;
-	
-      stayp = (proc*)staying_proc();
-	
-      if(stayp == NULL){
-	printf("oops ... failed to find staying proc...\n");
-	exit(-1);
-      }
-	
-      dem.staying_procs --;
-	
-      stayp->queued = ACTIVE;
+       return;
 
-      stayp->data->pos = devPos;
-	
-      MSEND(stayp->sd,CONNECT,0,0,devPos,0,0);
-	
-      dem.flags[devPos].stayed = 1;
+     }else if(dem.staying_procs > 0){
 
-      dem.flags[devPos].reserved += M64;
+       proc* stayp;
 
-      TIME_STAMP(stayp);
+       stayp = (proc*)staying_proc();
 
-      return;
-      
-    }else{
-      
-      dequeueSpecifyDevNO(devPos);
-      
-    }
-	
-  }else{
+       if(stayp == NULL){
+	 printf("oops ... failed to find staying proc...\n");
+	 exit(-1);
+       }
 
-    if(dem.flags[devPos].stayed){
+       dem.staying_procs --;
 
-      if(has_staying_cannot_move_proc(devPos)){
+       stayp->queued = ACTIVE;
 
-	proc* ps;
-	
-	ps = (proc*)get_proc_staying_pos(devPos);
-	
-	if(ps == NULL){
-	  
-	  printf("Failed to find active staying proc on device %d\n",devPos);
-	  exit(-1);
+       stayp->data->pos = devPos;
 
-	}
+       MSEND(stayp->sd,CONNECT,0,0,devPos,0,0);
 
-	nvmlReturn_t res;
-	nvmlMemory_t mem;
-	
-	res = nvmlDeviceGetMemoryInfo(dem.devs[devPos],&mem);
-	
-	if(res != NVML_SUCCESS){
-	  printf("Failed to get Memory Information\n");
-	  exit(-1);
-	}
-	
-	printf("\tUSED : %u\n",ps->data->mem);
-	printf("\tFREE : %u\n",mem.free);
+       dem.flags[devPos].stayed = 1;
 
-	if(ps->created_context){
+       dem.flags[devPos].reserved += M64;
 
-	  if(mem.free > ps->data->req + M64 + dem.flags[devPos].reserved){
-	    
-	    dem.flags[devPos].reserved += ps->data->req;
-	    
-	    MSEND(ps->sd,GOAHEAD,0,0,devPos,0,0);
-	    
-	    ps->queued = ACTIVE;
-	    
-	    TIME_STAMP(ps);
-	    
-	    return;
-	    
-	  }
+       dem.flags[devPos].context ++;
 
-	}else{
+       TIME_STAMP(stayp);
 
-	  if(mem.free > ps->data->req + ps->data->sym + M64 + dem.flags[devPos].reserved){
-	    
-	    dem.flags[devPos].reserved += ps->data->req + ps->data->sym;
-	    
-	    MSEND(ps->sd,GOAHEAD,0,0,devPos,0,0);
-	    
-	    ps->queued = ACTIVE;
-	    
-	    TIME_STAMP(ps);
-	    
-	    return;
-	    
-	  } 
-	}
-      }
-      
-    }else{
+       return;
 
-      if(dem.staying_procs > 0){
+     }else{
 
-	proc* ps;
-		
-	if(num_of_staying_exclusive_procs() > 0){
+       dequeueSpecifyDevNO(devPos);
 
-	  ps = staying_exclusive_proc();
+     }
 
-	  if(ps == NULL){
-	    printf("Failed to find staying exclusive proc\n");
-	    exit(-1);
-	  }
+   }else{
 
-	  dem.flags[devPos].reserved += ps->data->sym + M64;
+     if(dem.flags[devPos].stayed){
 
-	  dem.flags[devPos].stayed = 1;
-	  
-	  dem.flags[devPos].exclusive = 1;
+       if(has_staying_cannot_move_proc(devPos)){
 
-	  dem.staying_procs --;
-	  
-	  ps->queued = EXC_READY;
+	 proc* ps;
 
-	  ps->data->pos = devPos;
-	  
-	  exclusive_check(devPos);
+	 ps = (proc*)get_proc_staying_pos(devPos);
 
-	  TIME_STAMP(ps);
+	 if(ps == NULL){
 
-	}else{
-	  
-	  ps = staying_proc();
-	  
-	  if(ps == NULL){
-	    printf("Failed to find staying proc(not exclusive)\n");
-	    exit(-1);
-	  }
+	   printf("Failed to find active staying proc on device %d\n",devPos);
+	   exit(-1);
 
-	  dem.flags[devPos].reserved += ps->data->sym + M64;
-	  
-	  MSEND(ps->sd,CONNECT,0,0,devPos,0,0);
-	  
-	  dem.staying_procs --;
-	  
-	  dem.flags[devPos].stayed = 1;
-	  
-	  ps->queued = ACTIVE;
+	 }
 
-	  ps->data->pos = devPos;
+	 nvmlReturn_t res;
+	 nvmlMemory_t mem;
 
-	  TIME_STAMP(ps);
+	 res = nvmlDeviceGetMemoryInfo(dem.devs[devPos],&mem);
 
-	}
+	 if(res != NVML_SUCCESS){
+	   printf("Failed to get Memory Information\n");
+	   exit(-1);
+	 }
+
+	 printf("\tUSED : %u\n",ps->data->mem);
+	 printf("\tFREE : %u\n",mem.free);
+
+	 if(ps->created_context){
+
+	   if(mem.free > ps->data->req + M64 + dem.flags[devPos].reserved){
+
+	     dem.flags[devPos].reserved += ps->data->req;
+
+	     MSEND(ps->sd,GOAHEAD,0,0,devPos,0,0);
+
+	     ps->queued = ACTIVE;
+
+	     TIME_STAMP(ps);
+
+	     return;
+
+	   }
+
+	 }else{
+
+	   if(mem.free > ps->data->req + ps->data->sym + M64 + dem.flags[devPos].reserved){
+
+	     dem.flags[devPos].reserved += ps->data->req + ps->data->sym;
+
+	     MSEND(ps->sd,GOAHEAD,0,0,devPos,0,0);
+
+	     ps->queued = ACTIVE;
+
+	     TIME_STAMP(ps);
+
+	     return;
+
+	   } 
+	 }
+       }
+
+     }else{
+
+       if(dem.staying_procs > 0){
+
+	 proc* ps;
+
+	 if(num_of_staying_exclusive_procs() > 0){
+
+	   ps = staying_exclusive_proc();
+
+	   if(ps == NULL){
+	     printf("Failed to find staying exclusive proc\n");
+	     exit(-1);
+	   }
+
+	   dem.flags[devPos].reserved += ps->data->sym + M64;
+
+	   dem.flags[devPos].stayed = 1;
+
+	   dem.flags[devPos].exclusive = 1;
+
+	   dem.staying_procs --;
+
+	   ps->queued = EXC_READY;
+
+	   ps->data->pos = devPos;
+
+	   exclusive_check(devPos);
+
+	   TIME_STAMP(ps);
+
+	 }else{
+
+	   ps = staying_proc();
+
+	   if(ps == NULL){
+	     printf("Failed to find staying proc(not exclusive)\n");
+	     exit(-1);
+	   }
+
+	   dem.flags[devPos].reserved += ps->data->sym + M64;
+
+	   MSEND(ps->sd,CONNECT,0,0,devPos,0,0);
+
+	   dem.staying_procs --;
+
+	   dem.flags[devPos].stayed = 1;
+
+	   dem.flags[devPos].context ++;
+
+	   ps->queued = ACTIVE;
+
+	   ps->data->pos = devPos;
+
+	   TIME_STAMP(ps);
+
+	 }
 	
       }else{
 
@@ -320,12 +324,17 @@ void _CONNECT(int sd,proc_data* data){
   if(p->data->pos >= 0)
     dem.flags[p->data->pos].reserved -= prev_sym;
 
-  if(!p->created_context)
+  if(!p->created_context){
     dem.flags[p->data->pos].reserved -= M64;
+    dem.flags[p->data->pos].context --;
+  }
   
   for(i = 0 ; i < dem.ndev ; i ++){
     
     if(dem.flags[i].stayed)
+      continue;
+
+    if(dem.flags[i].context >= CONTEXT_NUM)
       continue;
     
     res = nvmlDeviceGetMemoryInfo(dem.devs[i],&mem);
@@ -367,6 +376,8 @@ void _CONNECT(int sd,proc_data* data){
 	    
 	  dem.flags[i].stayed = 1;
 
+	  dem.flags[i].context ++;
+
 	  p->queued = ACTIVE;
 
 	  p->data->pos = i;
@@ -384,6 +395,8 @@ void _CONNECT(int sd,proc_data* data){
 	printf("\tGOAHEAD(%d)\n",i);
 
 	dem.flags[i].reserved += p->data->sym + M64;
+
+	dem.flags[i].context ++;
 
 	p->queued = ACTIVE;
 
@@ -457,10 +470,6 @@ void _MIGDONE(int sd,proc_data* data){
 
   dem.flags[devPos].reserved -= p->data->mem;
 
-  p->queued = ACTIVE;
-
-  TIME_STAMP(p);
-
   if(p->data->flag&CANNOTMIG){
 
     printf("PROC(CANMIG==NO) STARTED\n");
@@ -503,8 +512,10 @@ void _CANRECEIVE(int sd,proc_data* data){
 
   p->queued = BACKUP;
 
-  if(!p->created_context)
+  if(!p->created_context){
     dem.flags[p->data->pos].reserved -= M64;
+    dem.flags[p->data->pos].context--;
+  }
 
   TIME_STAMP(p);
 
@@ -598,8 +609,10 @@ void _CUDAMALLOC(int sd,proc_data* data){
 
   if(dem.flags[devp].exclusive){
 
-    if(!p->created_context)
+    if(!p->created_context){
       dem.flags[devp].reserved -= M64;
+      dem.flags[devp].context --;
+    }
 
     MSEND(sd,SUSPEND,0,0,0,0,0);
     
@@ -654,8 +667,10 @@ void _CUDAMALLOC(int sd,proc_data* data){
     printf("\tOOPS(POS:%d)\n",devp);
     printf("SUSPEND (%d) from %d\n",p->sd,devp);
 
-    if(!p->created_context)
+    if(!p->created_context){
       dem.flags[devp].reserved -= M64;
+      dem.flags[devp].context--;
+    }
 
     p->queued = BACKUP;
 
@@ -733,7 +748,7 @@ void _CONTEXT_CHECK(int sd,proc_data* data){
 
     if(infos[j].pid == p->data->pid){
       find = 1;
-    }      
+    }
   }
 
   if(find){
@@ -743,6 +758,7 @@ void _CONTEXT_CHECK(int sd,proc_data* data){
     MSEND(p->sd,CCHECK_OK,0,0,0,0,0);
 
     dem.flags[p->data->pos].reserved -= (p->data->sym+M64);
+    dem.flags[p->data->pos].context --;
 
     p->data->mem += p->data->sym;
     p->data->sym = 0;
@@ -750,6 +766,8 @@ void _CONTEXT_CHECK(int sd,proc_data* data){
     p->created_context = 1;
 
     register_name(sd);
+
+    TIME_STAMP(p);
 
   }else{
 

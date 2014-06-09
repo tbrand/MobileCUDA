@@ -15,8 +15,9 @@
 #define PATH_TO_PROG9 "../../app/orig/memSmall/test"
 #define PATH_TO_PROG10 "/home/taichirou/migrate_runtime/app/orig/devmem/devmem"
 #define PATH_TO_PROG11  "/home/taichirou/migrate_runtime/app/orig/malloc_in_kernel/mik" 
+#define PATH_TO_PROG12  "/home/taichirou/migrate_runtime/app/map/map"
 
-#define PROC_NUM 100
+#define PROC_NUM 20
 #define DEV_NUM 4
 
 time_t tt;
@@ -25,6 +26,7 @@ struct tm* ts;
 typedef struct _record{
   pid_t pid;
   int proc;
+  int pos;
   int s_h,s_m,s_s;
   int e_h,e_m,e_s;
 } record;
@@ -100,6 +102,7 @@ int main(){
     printf("PROC[%d]\n",i);
     printf("\tIden : %d\n",records[i].proc);
     printf("\tPid  : %d\n",records[i].pid);
+    printf("^tPos  : %d\n",records[i].pos);
     printf("\t\tTIME  : %d[sec]\n",
 	   (records[i].e_h-records[i].s_h)*60*60+
 	   (records[i].e_m-records[i].s_m)*60+
@@ -117,7 +120,7 @@ int rpos = 0;
 
 void fork_orig_proc(int pos){
 
-  int random = rand()%11;
+  int random = rand()%12;
   
   pids[pos] = fork();
 
@@ -170,6 +173,9 @@ void fork_orig_proc(int pos){
     case 10:
       execl(PATH_TO_PROG11,PATH_TO_PROG11,NULL);
       break;
+    case 11:
+      execl(PATH_TO_PROG12,PATH_TO_PROG12,NULL);
+      break;
     }
 
     exit(-1);
@@ -184,7 +190,7 @@ void fork_orig_proc(int pos){
       records[rpos].s_h = ts->tm_hour;
       records[rpos].s_m = ts->tm_min;
       records[rpos].s_s = ts->tm_sec;
-
+      records[rpos].pos = pos;
       rpos++;
 
   }
@@ -210,7 +216,6 @@ pid_t wait_proc(){
       records[i].e_h = ts->tm_hour;
       records[i].e_m = ts->tm_min;
       records[i].e_s = ts->tm_sec;
-      
     }
   }
   

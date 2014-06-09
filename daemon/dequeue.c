@@ -31,6 +31,7 @@ void dequeueSpecifyProc(proc* p){
 	
 	MSEND(p->sd,MIGRATE,0,0,devPos,0,0);
 
+	p->data->pos = devPos;
 	p->queued = ACTIVE;
 
 	dem.flags[devPos].flag = 1;
@@ -46,14 +47,15 @@ void dequeueSpecifyProc(proc* p){
 
       if(mem.free > p->data->sym + p->data->req + M64 + dem.flags[devPos].reserved){
 
-	//	dem.flags[devPos].reserved += p->data->sym + p->data->req;
 	dem.flags[devPos].reserved += p->data->sym + p->data->req + M64;
 
 	MSEND(p->sd,CONNECT,0,0,devPos,0,0);
 
 	dem.flags[devPos].sd = -1;
 	dem.flags[devPos].flag = 0;
+	dem.flags[devPos].context ++;
 
+	p->data->pos = devPos;
 	p->queued = ACTIVE;
 
 	TIME_STAMP(p);
@@ -97,6 +99,7 @@ void dequeueSpecifyDevNO(int devPos){
 
 	if(mem.free > p->data->mem + p->data->req + M64 + dem.flags[devPos].reserved){
 
+	  p->data->pos = devPos;
 	  p->queued = ACTIVE;
 
 	  dem.flags[devPos].reserved += p->data->mem + p->data->req;
@@ -117,15 +120,16 @@ void dequeueSpecifyDevNO(int devPos){
 
 	if(mem.free > p->data->sym + p->data->req + M64 + dem.flags[devPos].reserved){
 
+	  p->data->pos = devPos;
 	  p->queued = ACTIVE;
-
-	  //	  dem.flags[devPos].reserved += p->data->sym + p->data->req;
+	  
 	  dem.flags[devPos].reserved += p->data->sym + p->data->req + M64;
 
 	  MSEND(p->sd,CONNECT,0,0,devPos,0,0);
 
 	  dem.flags[devPos].sd = -1;
 	  dem.flags[devPos].flag = 0;
+	  dem.flags[devPos].context ++;
 
 	  TIME_STAMP(p);
 
@@ -226,6 +230,7 @@ void exclusive_check(int pos){
       MSEND(p->sd,CONNECT,0,0,pos,0,0);
 
       dem.flags[pos].exclusive = 0;
+      dem.flags[pos].context ++;
 
       p->queued = ACTIVE;
 

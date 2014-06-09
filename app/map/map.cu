@@ -5,7 +5,7 @@
 #include <sys/wait.h>
 #include <sys/time.h>
 
-__global__ void kernel(float* d,int size){
+__global__ void kernel(float* d,float* d1,int size){
   
   int length_per_block;
   int length_per_thread;
@@ -18,12 +18,22 @@ __global__ void kernel(float* d,int size){
   end   = length_per_block*blockIdx.x + length_per_thread*(threadIdx.x+1);
 
   for(int i = start ; i < end ; i ++ ){
-    d[i] += 1.0f;
+    d1[i] += 1.0f;
+    d[i]  += d1[i];
   }
+}
 
+static float elapsed(struct timeval tv0,struct timeval tv1){
+  return (float)(tv1.tv_sec - tv0.tv_sec)
+    + (float)(tv1.tv_usec - tv0.tv_usec)
+    * 0.000001f;
 }
 
 int main(){
+
+  struct timeval t0,t1;
+
+  gettimeofday(&t0,NULL);
 
   int res,length,ite;
 
@@ -33,12 +43,16 @@ int main(){
 
   printf("cudaSetDeviceFlags(%d)\n",res);
 
-  float* h;
-  float* d;
+  float *h;
+  float *d,*d1;
 
-  length = 1000000000;
+  length = 500000000;
 
-  res = cudaHostAlloc((void**)&h,sizeof(float)*length,cudaHostAllocMapped|cudaHostAllocPortable);
+  //  res = cudaHostAlloc((void**)&h,sizeof(float)*length,cudaHostAllocMapped|cudaHostAllocPortable);
+
+  h = (float*)valloc(sizeof(float)*length);
+
+  res = cudaHostRegister(h,sizeof(float)*length,cudaHostRegisterMapped);
 
   printf("cudaHostAlloc(%d)\n",res);
 
@@ -60,9 +74,17 @@ int main(){
 
   printf("cudaMemcpyHostToDevice(%d)\n",res);
 
+  res = cudaMalloc((void**)&d1,sizeof(float)*length);
+
+  printf("cudaMalloc(%d) : Address %p\n",res,d1);
+
+  res = cudaMemcpy(d1,h,sizeof(float)*length,cudaMemcpyHostToDevice);
+
+  printf("cudaMemcpyHostToDevice(%d)\n",res);
+
   for(int i = 0 ; i < ite ; i ++){
 
-    kernel<<<blocks,threads>>>(d,length);
+    kernel<<<blocks,threads>>>(d,d1,length);
 
   }
 
@@ -71,7 +93,7 @@ int main(){
   printf("cudaMemcpyDeviceToHost(%d)\n",res);
   
   for(int i = 0 ; i < length ; i ++){
-    if(h[i] != ite){
+    if(h[i] != ((ite+1)*ite)/2 ){
       printf("Result test : Failed\n");
       printf("h[%d] == %f\n",i,h[i]);
       return -1;
@@ -79,6 +101,10 @@ int main(){
   }
 
   printf("Result test PASS\n");
+
+  gettimeofday(&t1,NULL);
+
+  printf("TIME RESULT : %f[sec](MAP)\n",elapsed(t0,t1));
       
   return 0;
 

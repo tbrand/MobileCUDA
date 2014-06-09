@@ -260,8 +260,9 @@ void mocu_check(){
 
 #if 1
       printf("\tDEV[%d]\n",i);
-      printf("\t\t: PROCS %d\n",infoCount);
-      printf("\t\t: RESERVED %lu[byte]\n",dem.flags[i].reserved);
+      printf("\t\t: PROCS             : %d\n",infoCount);
+      printf("\t\t: RESERVED          : %lu[byte]\n",dem.flags[i].reserved);
+      printf("\t\t: CONTEXT(Reserved) : %d\n",dem.flags[i].context);
 #endif
 
       int j;

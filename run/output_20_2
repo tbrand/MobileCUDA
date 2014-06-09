@@ -1,0 +1,557 @@
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+[TRACE -runtime-] cudaMalloc               
+Result test PASS
+TIME RESULT : 33.655979[sec](MIK)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaMalloc               
+[TRACE -runtime-] cudaHostAlloc            
+[TRACE -runtime-] cudaHostAlloc            
+Result test PASS!
+TIME RESULT : 86.416878(MEM BIG)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaHostAlloc            
+[TRACE -runtime-] cudaHostAlloc            
+Result test PASS!
+TIME RESULT : 95.544762(MEM SMALL)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+[TRACE -runtime-] __cudaRegisterFunction   
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 235.90 GFlop/s, Time= 71466.977 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 102.113731
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+[TRACE -runtime-] cudaSetDeviceFlags       
+cudaSetDeviceFlags(0)
+[TRACE -runtime-] cudaHostRegister         
+cudaHostAlloc(0)
+[TRACE -runtime-] cudaHostGetDevicePointer 
+cudaHostGetDevicePointer(0)
+device address : 0x200000000
+cudaMemcpyHostToDevice(0)
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaHostRegister         
+cudaMalloc(0) : Address 0x2300200000
+cudaMemcpyHostToDevice(0)
+cudaMemcpyDeviceToHost(0)
+Result test PASS
+TIME RESULT : 144.863144[sec](MAP)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaMalloc               
+Result test PASS!
+TIME RESULT : 145.267502(TEST SMALL)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+blockNum  : 37000
+threadNum : 1024
+size      : 303104000
+vector size : 1212416000
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaMalloc               
+Result test PASS!
+TIME RESULT : 158.362045(TEST BIG)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+[TRACE -runtime-] __cudaRegisterFunction   
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 123.20 GFlop/s, Time= 136844.516 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 165.938110
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+[TRACE -runtime-] __cudaRegisterFunction   
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaMalloc               
+[REPLAY] cudaMalloc               
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 123.25 GFlop/s, Time= 136782.984 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 182.813782
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+[TRACE -runtime-] cudaSetDeviceFlags       
+cudaSetDeviceFlags(0)
+[TRACE -runtime-] cudaHostRegister         
+cudaHostAlloc(0)
+[TRACE -runtime-] cudaHostGetDevicePointer 
+cudaHostGetDevicePointer(0)
+device address : 0x200000000
+cudaMemcpyHostToDevice(0)
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaHostRegister         
+cudaMalloc(0) : Address 0x2300200000
+cudaMemcpyHostToDevice(0)
+cudaMemcpyDeviceToHost(0)
+Result test PASS
+TIME RESULT : 194.038132[sec](MAP)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+[TRACE -runtime-] __cudaRegisterFunction   
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 218.61 GFlop/s, Time= 58359.496 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 200.894409(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+[TRACE -runtime-] cudaSetDeviceFlags       
+cudaSetDeviceFlags(0)
+[TRACE -runtime-] cudaHostRegister         
+cudaHostAlloc(0)
+[TRACE -runtime-] cudaHostGetDevicePointer 
+cudaHostGetDevicePointer(0)
+device address : 0x200000000
+cudaMemcpyHostToDevice(0)
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaHostRegister         
+cudaMalloc(0) : Address 0x2300200000
+cudaMemcpyHostToDevice(0)
+cudaMemcpyDeviceToHost(0)
+Result test PASS
+TIME RESULT : 230.331909[sec](MAP)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+[TRACE -runtime-] __cudaRegisterFunction   
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaMalloc               
+[REPLAY] cudaMalloc               
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 218.76 GFlop/s, Time= 58320.840 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 256.838440(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+[TRACE -runtime-] __cudaRegisterVar        
+[TRACE -runtime-] __cudaRegisterVar        
+Vector SIZE : 976[Mbyte]
+[TRACE -runtime-] cudaMemcpyToSymbol       
+[TRACE -runtime-] cudaMemcpyToSymbol       
+cudaMemcpyToSymbol(0)
+[TRACE -runtime-] cudaMemcpyFromSymbol     
+cudaMemcpyFromSymbol(0)
+Result test : PASS
+TIME RESULT : 261.161804[sec](DEV MEM)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaMalloc               
+Result test PASS!
+TIME RESULT : 281.068390(TEST SMALL)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+[TRACE -runtime-] __cudaRegisterFunction   
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaMalloc               
+[REPLAY] cudaMalloc               
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 165.91 GFlop/s, Time= 101613.961 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+[TRACE -runtime-] cudaDeviceReset          
+My RESULT : 278.735748
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+Result test PASS!
+TIME RESULT : 305.437408(TEST SMALL)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+[TRACE -runtime-] __cudaRegisterFunction   
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaMalloc               
+[REPLAY] cudaMalloc               
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 126.98 GFlop/s, Time= 100470.977 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 317.691833(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+[TRACE -runtime-] __cudaRegisterFunction   
+[Matrix Multiply Using CUDA] - Starting...
+[TRACE -runtime-] cudaGetDevice            
+[TRACE -runtime-] cudaGetDeviceProperties  
+GPU Device 1: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaMalloc               
+[REPLAY] cudaMalloc               
+Computing result using CUDA Kernel...
+done
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventCreate          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventRecord          
+[TRACE -runtime-] cudaEventSynchronize     
+[TRACE -runtime-] cudaEventElapsedTime     
+Performance= 172.00 GFlop/s, Time= 99883.883 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+[TRACE -runtime-] cudaFree                 
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+[TRACE -runtime-] cudaDeviceReset          
+after calling cudaDeviceReset()
+My RESULT : 326.116882(matrixMul)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+[TRACE -runtime-] __cudaRegisterFatBinary  
+[TRACE -runtime-] __cudaRegisterFunction   
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+[TRACE -runtime-] cudaMalloc               
+[TRACE -runtime-] cudaMalloc               
+[REPLAY] cudaMalloc               
+Result test PASS!
+TIME RESULT : 329.841949(TEST SMALL)
+[TRACE -runtime-] __cudaUnregisterFatBinary
+
+
+Result Time : 365[sec]
+
+PROC[0]
+	Iden : 5
+	Pid  : 25019
+		TIME  : 300[sec]
+		START : 14:27:57
+		END   : 14:32:57
+PROC[1]
+	Iden : 5
+	Pid  : 25020
+		TIME  : 324[sec]
+		START : 14:27:57
+		END   : 14:33:21
+PROC[2]
+	Iden : 7
+	Pid  : 25021
+		TIME  : 106[sec]
+		START : 14:27:57
+		END   : 14:29:43
+PROC[3]
+	Iden : 1
+	Pid  : 25022
+		TIME  : 337[sec]
+		START : 14:27:57
+		END   : 14:33:34
+PROC[4]
+	Iden : 2
+	Pid  : 25023
+		TIME  : 202[sec]
+		START : 14:27:57
+		END   : 14:31:19
+PROC[5]
+	Iden : 9
+	Pid  : 25024
+		TIME  : 281[sec]
+		START : 14:27:57
+		END   : 14:32:38
+PROC[6]
+	Iden : 5
+	Pid  : 25025
+		TIME  : 164[sec]
+		START : 14:27:57
+		END   : 14:30:41
+PROC[7]
+	Iden : 5
+	Pid  : 25026
+		TIME  : 365[sec]
+		START : 14:27:57
+		END   : 14:34:02
+PROC[8]
+	Iden : 10
+	Pid  : 25027
+		TIME  : 52[sec]
+		START : 14:27:57
+		END   : 14:28:49
+PROC[9]
+	Iden : 2
+	Pid  : 25028
+		TIME  : 185[sec]
+		START : 14:27:57
+		END   : 14:31:02
+PROC[10]
+	Iden : 1
+	Pid  : 25029
+		TIME  : 276[sec]
+		START : 14:27:57
+		END   : 14:32:33
+PROC[11]
+	Iden : 4
+	Pid  : 25030
+		TIME  : 177[sec]
+		START : 14:27:57
+		END   : 14:30:54
+PROC[12]
+	Iden : 1
+	Pid  : 25031
+		TIME  : 220[sec]
+		START : 14:27:57
+		END   : 14:31:37
+PROC[13]
+	Iden : 2
+	Pid  : 25032
+		TIME  : 313[sec]
+		START : 14:27:57
+		END   : 14:33:10
+PROC[14]
+	Iden : 8
+	Pid  : 25033
+		TIME  : 115[sec]
+		START : 14:27:57
+		END   : 14:29:52
+PROC[15]
+	Iden : 11
+	Pid  : 25034
+		TIME  : 164[sec]
+		START : 14:27:57
+		END   : 14:30:41
+PROC[16]
+	Iden : 11
+	Pid  : 25035
+		TIME  : 265[sec]
+		START : 14:27:57
+		END   : 14:32:22
+PROC[17]
+	Iden : 11
+	Pid  : 25036
+		TIME  : 213[sec]
+		START : 14:27:57
+		END   : 14:31:30
+PROC[18]
+	Iden : 0
+	Pid  : 25037
+		TIME  : 361[sec]
+		START : 14:27:57
+		END   : 14:33:58
+PROC[19]
+	Iden : 2
+	Pid  : 25038
+		TIME  : 121[sec]
+		START : 14:27:57
+		END   : 14:29:58

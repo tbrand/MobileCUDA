@@ -109,7 +109,7 @@ int main(){
 
   gettimeofday(&t1,NULL);
 
-  printf("TIME RESULT : %f\n",elapsed(t0,t1));
+  printf("TIME RESULT : %f(TEST SMALL)\n",elapsed(t0,t1));
 
   return 0;
 

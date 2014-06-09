@@ -57,7 +57,7 @@ int main(){
 
   printf("vector size : %d\n",sizeof(float)*size);
 
-  int ite = 2200;
+  int ite = 1800;
 
   cudaMalloc((void**)&d_a,sizeof(float)*size);
   cudaMalloc((void**)&d_b,sizeof(float)*size);
@@ -109,7 +109,7 @@ int main(){
 
   gettimeofday(&t1,NULL);
 
-  printf("TIME RESULT : %f\n",elapsed(t0,t1));
+  printf("TIME RESULT : %f(TEST BIG)\n",elapsed(t0,t1));
 
   return 0;
 

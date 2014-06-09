@@ -258,7 +258,7 @@ int matrixMultiply(int argc, char **argv, int block_size, dim3 &dimsA, dim3 &dim
     }
 
     // Execute the kernel
-    int nIter = 2;//normal
+    int nIter = 1;//normal
     //    int nIter = 10000;
 
     for (int j = 0; j < nIter; j++)

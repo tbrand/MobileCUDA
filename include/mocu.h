@@ -102,12 +102,19 @@ typedef struct{
   int global;
 } RegisterVar;
 
+typedef struct{
+  void* ptr;
+  size_t size;
+  unsigned int flags;
+} HostRegister;
+
 enum{
   MALLOC,
   FREE,
   REGISTERFATBINARY,
   REGISTERFUNCTION,
   REGISTERVAR,
+  HOSTREGISTER,
 };
 
 typedef struct _apilog{
@@ -119,6 +126,7 @@ typedef struct _apilog{
     RegisterFatBinary registerFatBinary;
     RegisterFunction registerFunction;
     RegisterVar registerVar;
+    HostRegister hostRegister;
   } data;
 } apilog;
 
@@ -288,8 +296,8 @@ typedef struct _mocu{
 } MOCU;
 
 #define CUDA_LIB_PATH  "/usr/local/cuda-5.5/lib64/libcudart.so"  
-#define TRACE(func)  //printf("[TRACE -runtime-] %-25s\n",func);
-#define REPLAY(func) //printf("[REPLAY] %-25s\n",func);
+#define TRACE(func)  printf("[TRACE -runtime-] %-25s\n",func);
+#define REPLAY(func) printf("[REPLAY] %-25s\n",func);
 #define ENCAP 1
 
 extern MOCU mocu;

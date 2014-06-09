@@ -5,6 +5,7 @@
 int isDaemon = 0;
 int end_server = FALSE;
 int MAXPROC;
+int CONTEXT_NUM;
 
 DEM dem;
 
@@ -89,7 +90,8 @@ int main(int argc,char* argv[]){
   dem.devs = (nvmlDevice_t*)malloc(sizeof(nvmlDevice_t)*dem.ndev);
   dem.flags = (dflag*)malloc(sizeof(dflag)*dem.ndev);
 
-  MAXPROC = dem.ndev * 4;
+  MAXPROC     = dem.ndev * 4;
+  CONTEXT_NUM = 4;
 
   for(i = 0 ; i < dem.ndev ; i ++){
 
@@ -105,6 +107,7 @@ int main(int argc,char* argv[]){
     dem.flags[i].stayed = 0;
     dem.flags[i].reserved = 0;
     dem.flags[i].exclusive = 0;
+    dem.flags[i].context = 0;
   }
 
   dem.procCounter = 0;
@@ -242,7 +245,7 @@ int main(int argc,char* argv[]){
 
 	      _FAILEDTOALLOC(i,receivedProc);
 
-	      exit(-1);//TEST
+	      exit(-1);
 	      
 	    }else if(receivedProc->REQUEST == MALLOCDONE){
 

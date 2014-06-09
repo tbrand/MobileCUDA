@@ -7,7 +7,7 @@
 
 #include <nvml.h>
 
-#define num 100
+#define num 20
 
 #define P1  "/home/taichirou/migrate_runtime/app/0_Simple/matrixMul/matrixMul"
 #define P2  "/home/taichirou/migrate_runtime/app/0_Simple/matrixMulBig/matrixMul"
@@ -20,7 +20,7 @@
 #define P9  "/home/taichirou/migrate_runtime/app/orig/memSmall/test"
 #define P10 "/home/taichirou/migrate_runtime/app/orig/devmem/devmem"
 #define P11  "/home/taichirou/migrate_runtime/app/orig/malloc_in_kernel/mik" 
-
+#define P12  "/home/taichirou/migrate_runtime/app/map/map" 
 
 typedef struct _record{
   pid_t pid;
@@ -71,7 +71,7 @@ void main(int argc,char* argv[]){
     pid_t child;
     int random;
 
-    random = rand()%11;
+    random = rand()%12;
     
     child = fork();
     
@@ -110,6 +110,9 @@ void main(int argc,char* argv[]){
 	break;
       case 10:
 	execl(P11,P11,NULL);
+	break;
+      case 11:
+	execl(P12,P12,NULL);
 	break;
       }
 

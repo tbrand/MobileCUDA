@@ -110,7 +110,7 @@ int main(){
 
   gettimeofday(&t1,NULL);
 
-  printf("TIME RESULT : %f[sec]\n",elapsed(t0,t1));
+  printf("TIME RESULT : %f[sec](TEST)\n",elapsed(t0,t1));
 
   return 0;
 

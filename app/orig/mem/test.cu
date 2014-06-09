@@ -57,15 +57,19 @@ int main(){
 
   printf("vector size : %d\n",sizeof(float)*size);
 
-  int ite = 80;
+  int ite = 100;
 
   cudaMalloc((void**)&d_a,sizeof(float)*size);
   cudaMalloc((void**)&d_b,sizeof(float)*size);
+
+  printf("d_a : %p\n",d_a);
+  printf("d_b : %p\n",d_b);
 
   /*
   h_a = (float*)malloc(sizeof(float)*size);
   h_b = (float*)malloc(sizeof(float)*size);
   */
+
   cudaHostAlloc((void**)&h_a,sizeof(float)*size,0);
   cudaHostAlloc((void**)&h_b,sizeof(float)*size,0);
 
@@ -113,7 +117,7 @@ int main(){
 
   gettimeofday(&t1,NULL);
 
-  printf("TIME RESULT : %f\n",elapsed(t0,t1));
+  printf("TIME RESULT : %f[sec](MEM)\n",elapsed(t0,t1));
 
   return 0;
 

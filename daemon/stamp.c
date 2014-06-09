@@ -47,6 +47,8 @@ void init_stamp(){
 void TIME_STAMP(proc* p){
 
   if(!init)init_stamp();
+
+  if(!p->created_context)return;
   
   record* r;
   time_t tt;
@@ -85,10 +87,49 @@ char* get_process_name(int sd){
 void print_records(){
 
   record* r;
+  int base_h,base_m,base_s;
 
   r = r0->next;
+
+  base_h = r->h;
+  base_m = r->m;
+  base_s = r->s;
+
   while(r->next != NULL){
-    fprintf(fp,"%02d:%02d:%02d\tSD[%d]\tSTATUS[%d]\t%s\n",r->h,r->m,r->s,r->sd,r->status,get_process_name(r->sd));
+
+    int sec;
+    int secp;
+    int status;
+
+    record* rp;
+    
+    rp = r->prev;
+    while(rp->prev != NULL){
+
+      if(rp->sd == r->sd)break;
+
+      rp = rp->prev;
+    }
+
+    sec = (r->h - base_h)*3600 + (r->m - base_m)*60 + (r->s - base_s);
+
+    if(rp->prev != NULL){
+
+      secp = (rp->h - base_h)*3600 + (rp->m - base_m)*60 + (rp->s - base_s);
+      status = rp->status;
+
+      if(sec == secp){
+	secp--;
+      }
+
+      fprintf(
+	      fp,
+	      "SD[%d]\t%4d[sec]\tSTATUS[%d]\tPOS[%d]\t%s\n"
+	      ,r->sd,sec-secp,status,r->pos,get_process_name(r->sd)
+	      );
+      
+    }
+
     r = r->next;
   }
 
