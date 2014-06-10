@@ -47,6 +47,8 @@ void dequeueSpecifyProc(proc* p){
       
     }else{
 
+      if(dem.flags[devPos].context >= CONTEXT_NUM)continue;
+
       if(mem.free > p->data->sym + p->data->req + M64 + dem.flags[devPos].reserved + MARGIN){
 
 	dem.flags[devPos].reserved += p->data->sym + p->data->req + M64;
@@ -119,6 +121,8 @@ void dequeueSpecifyDevNO(int devPos){
 	}
 	
       }else{
+
+	if(dem.flags[devPos].context >= CONTEXT_NUM)return;
 
 	if(mem.free > p->data->sym + p->data->req + M64 + dem.flags[devPos].reserved + MARGIN){
 
