@@ -12,9 +12,12 @@ void dequeueSpecifyProc(proc* p){
 
   for(devPos = 0 ; devPos < dem.ndev ; devPos ++){
 
-    if(dem.flags[devPos].flag||dem.flags[devPos].stayed){
+    //    if(dem.flags[devPos].flag||dem.flags[devPos].stayed||dem.flags[devPos].exclusive){
+    if(dem.flags[devPos].stayed||dem.flags[devPos].exclusive){
       continue;
     }
+
+    printf("Try to dequeue[%d]\n",devPos);
 
     dem.flags[devPos].flag = 1;
 
@@ -77,8 +80,11 @@ void dequeueSpecifyProc(proc* p){
 
 void dequeueSpecifyDevNO(int devPos){
 
-  if(dem.flags[devPos].flag||dem.flags[devPos].stayed)
+  //  if(dem.flags[devPos].flag||dem.flags[devPos].stayed||dem.flags[devPos].exclusive)
+  if(dem.flags[devPos].stayed||dem.flags[devPos].exclusive)
     return;
+
+  printf("Try to dequeue[%d]\n",devPos);
 
   dem.flags[devPos].flag = 1;
 

@@ -346,7 +346,7 @@ void _CONNECT(int sd,proc_data* data){
     if(dem.flags[devopt[i]].stayed)
       continue;
 
-    if(dem.flags[devopt[i]].context >= CONTEXT_NUM)
+    if(dem.flags[devopt[i]].context >= CONTEXT_NUM && (!p->data->flag&EXCLUSIVE))
       continue;
     
     res = nvmlDeviceGetMemoryInfo(dem.devs[devopt[i]],&mem);
