@@ -12,14 +12,9 @@ void dequeueSpecifyProc(proc* p){
 
   for(devPos = 0 ; devPos < dem.ndev ; devPos ++){
 
-    //    if(dem.flags[devPos].flag||dem.flags[devPos].stayed||dem.flags[devPos].exclusive){
     if(dem.flags[devPos].stayed||dem.flags[devPos].exclusive){
       continue;
     }
-
-    printf("Try to dequeue[%d]\n",devPos);
-
-    dem.flags[devPos].flag = 1;
 
     res = nvmlDeviceGetMemoryInfo(dem.devs[devPos],&mem);
 
@@ -39,7 +34,6 @@ void dequeueSpecifyProc(proc* p){
 	p->data->pos = devPos;
 	p->queued = ACTIVE;
 
-	dem.flags[devPos].flag = 1;
 	dem.flags[devPos].sd = p->sd;
 
 	TIME_STAMP(p);
@@ -59,7 +53,6 @@ void dequeueSpecifyProc(proc* p){
 	MSEND(p->sd,CONNECT,0,0,devPos,0,0);
 
 	dem.flags[devPos].sd = -1;
-	dem.flags[devPos].flag = 0;
 	dem.flags[devPos].context ++;
 
 	p->data->pos = devPos;
@@ -70,23 +63,14 @@ void dequeueSpecifyProc(proc* p){
 	return;
 	
       }
-
     }
-
-    dem.flags[devPos].flag = 0;
-    
   }
 }
 
 void dequeueSpecifyDevNO(int devPos){
 
-  //  if(dem.flags[devPos].flag||dem.flags[devPos].stayed||dem.flags[devPos].exclusive)
   if(dem.flags[devPos].stayed||dem.flags[devPos].exclusive)
     return;
-
-  printf("Try to dequeue[%d]\n",devPos);
-
-  dem.flags[devPos].flag = 1;
 
   proc* p;
   nvmlReturn_t res;
@@ -116,7 +100,6 @@ void dequeueSpecifyDevNO(int devPos){
 
 	  MSEND(p->sd,MIGRATE,0,0,devPos,0,0);
 
-	  dem.flags[devPos].flag = 1;
 	  dem.flags[devPos].sd = p->sd;
 
 	  printf("MIGRATE to %d\n",devPos);
@@ -140,7 +123,6 @@ void dequeueSpecifyDevNO(int devPos){
 	  MSEND(p->sd,CONNECT,0,0,devPos,0,0);
 
 	  dem.flags[devPos].sd = -1;
-	  dem.flags[devPos].flag = 0;
 	  dem.flags[devPos].context ++;
 
 	  TIME_STAMP(p);
@@ -153,9 +135,6 @@ void dequeueSpecifyDevNO(int devPos){
     p = p->next;
 
   }
-
-  dem.flags[devPos].flag = 0;
-
 }
 
 void dequeue(){

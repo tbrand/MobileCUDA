@@ -1,0 +1,364 @@
+Result test PASS
+TIME RESULT : 31.751677[sec](MIK)
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+Computing result using CUDA Kernel...
+done
+Performance= 258.67 GFlop/s, Time= 24660.385 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+after calling cudaDeviceReset()
+My RESULT : 57.494335(matrixMul)
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+Computing result using CUDA Kernel...
+done
+Performance= 258.70 GFlop/s, Time= 49806.352 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+after calling cudaDeviceReset()
+My RESULT : 74.254288(matrixMul)
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+Computing result using CUDA Kernel...
+done
+Performance= 258.70 GFlop/s, Time= 49806.355 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+after calling cudaDeviceReset()
+My RESULT : 74.364563(matrixMul)
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+Computing result using CUDA Kernel...
+done
+Performance= 258.72 GFlop/s, Time= 24655.592 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+after calling cudaDeviceReset()
+My RESULT : 56.293156(matrixMul)
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+Result test PASS!
+TIME RESULT : 45.453548[sec](TEST)
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+Result test PASS!
+TIME RESULT : 72.592529(MEM SMALL)
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+Computing result using CUDA Kernel...
+done
+Performance= 258.68 GFlop/s, Time= 43448.508 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+My RESULT : 58.895451
+Vector SIZE : 976[Mbyte]
+cudaMemcpyToSymbol(0)
+cudaMemcpyFromSymbol(0)
+Result test : PASS
+TIME RESULT : 61.516090[sec](DEV MEM)
+cudaSetDeviceFlags(0)
+cudaHostAlloc(0)
+cudaHostGetDevicePointer(0)
+device address : 0x200000000
+cudaMemcpyHostToDevice(0)
+cudaMalloc(0) : Address 0x2300200000
+cudaMemcpyHostToDevice(0)
+cudaMemcpyDeviceToHost(0)
+Result test PASS
+TIME RESULT : 45.989918[sec](MAP)
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+d_a : 0x2300200000
+d_b : 0x233ea00000
+Result test PASS!
+TIME RESULT : 54.660000[sec](MEM)
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(10240,10240), MatrixB(20480,10240)
+size A : 400
+size B : 800
+size C : 4
+Computing result using CUDA Kernel...
+done
+Performance= 258.68 GFlop/s, Time= 49809.641 msec, Size= 4294967296000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+after calling cudaDeviceReset()
+My RESULT : 72.695541(matrixMul)
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+Computing result using CUDA Kernel...
+done
+Performance= 258.69 GFlop/s, Time= 43447.051 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+My RESULT : 58.598507
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(14720,14720), MatrixB(14720,14720)
+size A : 826
+size B : 826
+size C : 4
+Computing result using CUDA Kernel...
+done
+Performance= 258.65 GFlop/s, Time= 24662.605 msec, Size= 6379012096000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+before calling cudaDeviceReset()
+after calling cudaDeviceReset()
+My RESULT : 56.119457(matrixMul)
+cudaSetDeviceFlags(0)
+cudaHostAlloc(0)
+cudaHostGetDevicePointer(0)
+device address : 0x200000000
+cudaMemcpyHostToDevice(0)
+cudaMalloc(0) : Address 0x2300200000
+cudaMemcpyHostToDevice(0)
+cudaMemcpyDeviceToHost(0)
+Result test PASS
+TIME RESULT : 50.812668[sec](MAP)
+[Matrix Multiply Using CUDA] - Starting...
+GPU Device 0: "Tesla K20c" with compute capability 3.5
+
+MatrixA(11200,11200), MatrixB(11200,11200)
+Computing result using CUDA Kernel...
+done
+Performance= 258.61 GFlop/s, Time= 43460.934 msec, Size= 2809856000000 Ops, WorkgroupSize= 1024 threads/block
+Checking computed result for correctness: Result = PASS
+
+Note: For peak performance, please refer to the matrixMulCUBLAS example.
+My RESULT : 58.426273
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+d_a : 0x2300200000
+d_b : 0x233ea00000
+Result test PASS!
+TIME RESULT : 54.232677[sec](MEM)
+Result test PASS
+TIME RESULT : 30.502111[sec](MIK)
+blockNum  : 32000
+threadNum : 1024
+size      : 262144000
+vector size : 1048576000
+d_a : 0x2300200000
+d_b : 0x233ea00000
+Result test PASS!
+TIME RESULT : 54.106148[sec](MEM)
+blockNum  : 48000
+threadNum : 1024
+size      : 196608000
+vector size : 786432000
+Result test PASS!
+TIME RESULT : 46.133415(TEST SMALL)
+child 0 complete
+child 1 complete
+child 2 complete
+child 3 complete
+child 4 complete
+child 5 complete
+child 6 complete
+child 7 complete
+child 8 complete
+child 9 complete
+child 10 complete
+child 11 complete
+child 12 complete
+child 13 complete
+child 14 complete
+child 15 complete
+child 16 complete
+child 17 complete
+child 18 complete
+child 19 complete
+
+
+Result Time : 297[sec]
+
+PROC[0]
+	Iden : 0
+	Pid  : 30854
+^tPos  : 0
+		TIME  : 74[sec]
+		START : 12:01:50
+		END   : 12:03:04
+PROC[1]
+	Iden : 0
+	Pid  : 30855
+^tPos  : 1
+		TIME  : 74[sec]
+		START : 12:01:50
+		END   : 12:03:04
+PROC[2]
+	Iden : 10
+	Pid  : 30856
+^tPos  : 2
+		TIME  : 32[sec]
+		START : 12:01:50
+		END   : 12:02:22
+PROC[3]
+	Iden : 1
+	Pid  : 30857
+^tPos  : 3
+		TIME  : 57[sec]
+		START : 12:01:50
+		END   : 12:02:47
+PROC[4]
+	Iden : 1
+	Pid  : 30862
+^tPos  : 2
+		TIME  : 56[sec]
+		START : 12:02:22
+		END   : 12:03:18
+PROC[5]
+	Iden : 8
+	Pid  : 30872
+^tPos  : 3
+		TIME  : 73[sec]
+		START : 12:02:47
+		END   : 12:04:00
+PROC[6]
+	Iden : 2
+	Pid  : 30874
+^tPos  : 0
+		TIME  : 59[sec]
+		START : 12:03:04
+		END   : 12:04:03
+PROC[7]
+	Iden : 3
+	Pid  : 30875
+^tPos  : 1
+		TIME  : 46[sec]
+		START : 12:03:04
+		END   : 12:03:50
+PROC[8]
+	Iden : 9
+	Pid  : 30878
+^tPos  : 2
+		TIME  : 62[sec]
+		START : 12:03:18
+		END   : 12:04:20
+PROC[9]
+	Iden : 0
+	Pid  : 30888
+^tPos  : 1
+		TIME  : 73[sec]
+		START : 12:03:50
+		END   : 12:05:03
+PROC[10]
+	Iden : 6
+	Pid  : 30890
+^tPos  : 3
+		TIME  : 55[sec]
+		START : 12:04:00
+		END   : 12:04:55
+PROC[11]
+	Iden : 11
+	Pid  : 30892
+^tPos  : 0
+		TIME  : 46[sec]
+		START : 12:04:03
+		END   : 12:04:49
+PROC[12]
+	Iden : 2
+	Pid  : 30894
+^tPos  : 2
+		TIME  : 58[sec]
+		START : 12:04:20
+		END   : 12:05:18
+PROC[13]
+	Iden : 1
+	Pid  : 30902
+^tPos  : 0
+		TIME  : 56[sec]
+		START : 12:04:49
+		END   : 12:05:45
+PROC[14]
+	Iden : 11
+	Pid  : 30904
+^tPos  : 3
+		TIME  : 52[sec]
+		START : 12:04:55
+		END   : 12:05:47
+PROC[15]
+	Iden : 2
+	Pid  : 30908
+^tPos  : 1
+		TIME  : 58[sec]
+		START : 12:05:03
+		END   : 12:06:01
+PROC[16]
+	Iden : 6
+	Pid  : 30910
+^tPos  : 2
+		TIME  : 55[sec]
+		START : 12:05:18
+		END   : 12:06:13
+PROC[17]
+	Iden : 6
+	Pid  : 30918
+^tPos  : 0
+		TIME  : 55[sec]
+		START : 12:05:45
+		END   : 12:06:40
+PROC[18]
+	Iden : 10
+	Pid  : 30920
+^tPos  : 3
+		TIME  : 30[sec]
+		START : 12:05:47
+		END   : 12:06:17
+PROC[19]
+	Iden : 5
+	Pid  : 30922
+^tPos  : 1
+		TIME  : 46[sec]
+		START : 12:06:01
+		END   : 12:06:47

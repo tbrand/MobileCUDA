@@ -57,7 +57,7 @@ int main(){
 
   printf("vector size : %d\n",sizeof(float)*size);
 
-  int ite = 120;
+  int ite = 180;
 
   cudaMalloc((void**)&d_a,sizeof(float)*size);
   cudaMalloc((void**)&d_b,sizeof(float)*size);

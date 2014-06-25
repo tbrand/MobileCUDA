@@ -82,13 +82,19 @@ int main(int argc,char* argv[]){
 
   nres = nvmlDeviceGetCount(&dem.ndev);
 
+  //TEST
+  dem.ndev = 1;
+
   if(nres != NVML_SUCCESS){
     perror("Failed to get num of device...\n");
     exit(-1);
   }
 
-  dem.devs = (nvmlDevice_t*)malloc(sizeof(nvmlDevice_t)*dem.ndev);
-  dem.flags = (dflag*)malloc(sizeof(dflag)*dem.ndev);
+  //  dem.devs = (nvmlDevice_t*)malloc(sizeof(nvmlDevice_t)*dem.ndev);
+  //  dem.flags = (dflag*)malloc(sizeof(dflag)*dem.ndev);
+
+  dem.devs = (nvmlDevice_t*)malloc(sizeof(nvmlDevice_t)*4);
+  dem.flags = (dflag*)malloc(sizeof(dflag)*4);
 
   MAXPROC     = dem.ndev * 4;
   CONTEXT_NUM = 4;
@@ -103,7 +109,6 @@ int main(int argc,char* argv[]){
     }
 
     dem.flags[i].sd = -1;
-    dem.flags[i].flag = 0;
     dem.flags[i].stayed = 0;
     dem.flags[i].reserved = 0;
     dem.flags[i].exclusive = 0;
@@ -172,9 +177,9 @@ int main(int argc,char* argv[]){
   /**Entering main loop**/
   proc_data* receivedProc = (proc_data*)malloc(sizeof(proc_data));
 
-  mocu_check();
-
   do{
+
+    mocu_check();
 
     memcpy(&working_set,&master_set,sizeof(master_set));
 
@@ -275,8 +280,6 @@ int main(int argc,char* argv[]){
 	}
       }
     }
-
-    mocu_check();
 
   }while(end_server == FALSE);
 

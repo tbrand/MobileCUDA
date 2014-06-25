@@ -29,7 +29,6 @@
    for(i = 0 ; i < dem.ndev ; i ++){
      if(dem.flags[i].sd == sd){
        printf("\tFIND FAILED PROC(SD:%d)\n",sd);
-       dem.flags[i].flag = 0;
        dem.flags[i].sd   = 0;
      }
    }
@@ -568,7 +567,6 @@ void _MIGDONE(int sd,proc_data* data){
     printf("PROC(CANMIG==NO) STARTED\n");
 
     dem.flags[devPos].sd = -1;
-    dem.flags[devPos].flag = 0;
     
   }else{
 
@@ -585,7 +583,6 @@ void _MIGDONE(int sd,proc_data* data){
     }
 
     dem.flags[devPos].sd = -1;
-    dem.flags[devPos].flag = 0;
 
     dequeueSpecifyDevNO(devPos);
   }
@@ -631,7 +628,6 @@ void _FAILEDTOALLOC(int sd,proc_data* data){
   for(i = 0 ; i < dem.ndev ; i ++){
     if(dem.flags[i].sd == p->sd){
       printf("Failed to MIGRATE!!!!!!!!!!!!!!\n");
-      dem.flags[i].flag = 0;
       dem.flags[i].sd = -1;
     }
   }

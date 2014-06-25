@@ -484,7 +484,7 @@ int main(int argc, char **argv)
 
     gettimeofday(&tv1,NULL);
 
-    printf("My RESULT : %f(matrixMul)\n",elapsed(tv0,tv1));
+    printf("My RESULT : %f(matrixMulLarge)\n",elapsed(tv0,tv1));
 
     exit(matrix_result);
 }

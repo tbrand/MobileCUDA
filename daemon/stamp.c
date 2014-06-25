@@ -48,8 +48,6 @@ void TIME_STAMP(proc* p){
 
   if(!init)init_stamp();
 
-  if(!p->created_context)return;
-  
   record* r;
   time_t tt;
   struct tm* ts;
@@ -130,6 +128,18 @@ void print_records(){
       
     }
 
+    r = r->next;
+  }
+
+
+  fprintf(fp,"\n");
+
+  r = r0->next;
+
+  while(r->next != NULL){
+    fprintf(fp,
+	    "%02d:%02d:%02d\tSTATUS[%d]\t%s\n",
+	    r->h,r->m,r->s,r->status,get_process_name(r->sd));
     r = r->next;
   }
 

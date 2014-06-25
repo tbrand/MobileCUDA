@@ -7,7 +7,7 @@
 
 #include <nvml.h>
 
-#define num 100
+#define num 10
 
 #define P1  "/home/taichirou/migrate_runtime/app/0_Simple/matrixMul/matrixMul"
 #define P2  "/home/taichirou/migrate_runtime/app/0_Simple/matrixMulBig/matrixMul"
@@ -34,20 +34,108 @@ record records[num];
 time_t tt;
 struct tm* ts;
 
+int suspended = 0;
+
 void method1(){
+#if 1
+
+  if(suspended)return;
+
   printf("Suspended ...\n");
   int i;
 
   for(i = 0 ; i < num ; i ++ ){
     kill(records[i].pid,SIGINT);
   }
+
+  suspended = 1;
+
+#endif
 }
 
 void register_signal(){
   signal(SIGINT,method1);
 }
 
+int res = 0;
+int launched_num = 0;
+int received_num = 0;
+int choice1,choice2;
+
+void fork_child(int choice){
+  pid_t child;
+    
+  child = fork();
+    
+  if(child == 0){
+
+    switch(choice){
+    case 0:
+      execl(P1,P1,NULL);
+      break;
+    case 1:
+      execl(P2,P2,NULL);
+      break;
+    case 2:
+      execl(P3,P3,NULL);
+      break;
+    case 3:
+      execl(P4,P4,NULL);
+      break;
+    case 4:
+      execl(P5,P5,NULL);
+      break;
+    case 5:
+      execl(P6,P6,NULL);
+      break;
+    case 6:
+      execl(P7,P7,NULL);
+      break;
+    case 7:
+      execl(P8,P8,NULL);
+      break;
+    case 8:
+      execl(P9,P9,NULL);
+      break;
+    case 9:
+      execl(P10,P10,NULL);
+      break;
+    case 10:
+      execl(P11,P11,NULL);
+      break;
+    case 11:
+      execl(P12,P12,NULL);
+      break;
+    }
+
+    res ++;
+      
+    exit(0);
+  }else{
+
+    records[launched_num].pid = child;
+    records[launched_num].proc = choice;
+
+    time(&tt);
+    ts = localtime(&tt);
+    records[launched_num].s_h = ts->tm_hour;
+    records[launched_num].s_m = ts->tm_min;
+    records[launched_num].s_s = ts->tm_sec;
+
+    launched_num++;
+
+  }
+}
+
 void main(int argc,char* argv[]){
+
+  if(argc < 3)return;
+
+  choice1 = atoi(argv[1]);
+  choice2 = atoi(argv[2]);
+
+  printf("choice1 : %d\n",choice1);
+  printf("choice2 : %d\n",choice2);
 
   int s_h,s_m,s_s;
   int e_h,e_m,e_s;
@@ -58,82 +146,12 @@ void main(int argc,char* argv[]){
   s_m = ts->tm_min;
   s_s = ts->tm_sec;  
 
-  int res = 0;
-  int launched_num = 0;
-  int received_num = 0;
-
   register_signal();
 
-  srand(109);
+  //  srand(109);
 
-  while(launched_num < num){
-
-    pid_t child;
-    int random;
-
-    random = rand()%12;
-    
-    child = fork();
-    
-    if(child == 0){
-
-      switch(random){
-      case 0:
-	execl(P1,P1,NULL);
-	break;
-      case 1:
-	execl(P2,P2,NULL);
-	break;
-      case 2:
-	execl(P3,P3,NULL);
-	break;
-      case 3:
-	execl(P4,P4,NULL);
-	break;
-      case 4:
-	execl(P5,P5,NULL);
-	break;
-      case 5:
-	execl(P6,P6,NULL);
-	break;
-      case 6:
-	execl(P7,P7,NULL);
-	break;
-      case 7:
-	execl(P8,P8,NULL);
-	break;
-      case 8:
-	execl(P9,P9,NULL);
-	break;
-      case 9:
-	execl(P10,P10,NULL);
-	break;
-      case 10:
-	execl(P11,P11,NULL);
-	break;
-      case 11:
-	execl(P12,P12,NULL);
-	break;
-      }
-
-      res ++;
-      
-      exit(0);
-    }else{
-
-      records[launched_num].pid = child;
-      records[launched_num].proc = random;
-
-      time(&tt);
-      ts = localtime(&tt);
-      records[launched_num].s_h = ts->tm_hour;
-      records[launched_num].s_m = ts->tm_min;
-      records[launched_num].s_s = ts->tm_sec;
-
-      launched_num++;
-
-    }
-  }
+  fork_child(choice1);
+  fork_child(choice2);
 
   while(received_num < num){
 
@@ -152,9 +170,11 @@ void main(int argc,char* argv[]){
 	records[i].e_h = ts->tm_hour;
 	records[i].e_m = ts->tm_min;
 	records[i].e_s = ts->tm_sec;
-	
+	break;
       }
     }
+
+    fork_child(records[i].proc);
 
     received_num++;
   }

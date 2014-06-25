@@ -35,7 +35,7 @@ typedef struct _cons{
 
 typedef struct _dflag{
   int sd;
-  int flag;
+  //  int flag;
   int stayed;
   int exclusive;
   int context;

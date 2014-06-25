@@ -6,9 +6,9 @@
 
 /*BOTH*/
 #define CONNECT     1
-#define GOAHEAD     18
 
 /*Deamon to client*/
+#define GOAHEAD     18
 #define MIGRATE       3
 #define SUSPEND       7
 #define CANNOTENTER   11

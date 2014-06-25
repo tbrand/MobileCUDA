@@ -17,8 +17,8 @@
 #define PATH_TO_PROG11  "/home/taichirou/migrate_runtime/app/orig/malloc_in_kernel/mik" 
 #define PATH_TO_PROG12  "/home/taichirou/migrate_runtime/app/map/map"
 
-#define PROC_NUM 20
-#define DEV_NUM 4
+#define PROC_NUM 100
+#define DEV_NUM 1
 
 time_t tt;
 struct tm* ts;
@@ -43,7 +43,7 @@ pid_t wait_proc();
 
 int main(){
 
-  srand(111);
+  srand(109);
 
   int s_h,s_m,s_s;
   int e_h,e_m,e_s;
