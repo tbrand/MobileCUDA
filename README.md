@@ -8,7 +8,7 @@ Support CUDA-5.5.
 
 Fix a path to NVIDIA's library written in /path to Mobile CUDA/include/mocu.h at line 298
 
->#define CUDA_LIB_PATH path_to_NVIDIA's_runtime_library
+> #define CUDA_LIB_PATH path_to_NVIDIA's_runtime_library
 
 Since the library is runtime one, you have to recompile your application with the flag -lcudart(or cudart=shared) like as follows
 
