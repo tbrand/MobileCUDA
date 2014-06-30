@@ -7,7 +7,7 @@
 
 #include <nvml.h>
 
-#define num 100
+#define num 20
 
 #define P1  "/home/taichirou/migrate_runtime/app/0_Simple/matrixMul/matrixMul"
 #define P2  "/home/taichirou/migrate_runtime/app/0_Simple/matrixMulBig/matrixMul"

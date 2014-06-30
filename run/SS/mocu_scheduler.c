@@ -102,7 +102,7 @@ int main(){
     printf("PROC[%d]\n",i);
     printf("\tIden : %d\n",records[i].proc);
     printf("\tPid  : %d\n",records[i].pid);
-    printf("^tPos  : %d\n",records[i].pos);
+    printf("\tPos  : %d\n",records[i].pos);
     printf("\t\tTIME  : %d[sec]\n",
 	   (records[i].e_h-records[i].s_h)*60*60+
 	   (records[i].e_m-records[i].s_m)*60+

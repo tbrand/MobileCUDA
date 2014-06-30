@@ -83,18 +83,18 @@ int main(int argc,char* argv[]){
   nres = nvmlDeviceGetCount(&dem.ndev);
 
   //TEST
-  dem.ndev = 1;
+  //  dem.ndev = 1;
 
   if(nres != NVML_SUCCESS){
     perror("Failed to get num of device...\n");
     exit(-1);
   }
 
-  //  dem.devs = (nvmlDevice_t*)malloc(sizeof(nvmlDevice_t)*dem.ndev);
-  //  dem.flags = (dflag*)malloc(sizeof(dflag)*dem.ndev);
+  dem.devs = (nvmlDevice_t*)malloc(sizeof(nvmlDevice_t)*dem.ndev);
+  dem.flags = (dflag*)malloc(sizeof(dflag)*dem.ndev);
 
-  dem.devs = (nvmlDevice_t*)malloc(sizeof(nvmlDevice_t)*4);
-  dem.flags = (dflag*)malloc(sizeof(dflag)*4);
+  //  dem.devs = (nvmlDevice_t*)malloc(sizeof(nvmlDevice_t)*4);
+  //  dem.flags = (dflag*)malloc(sizeof(dflag)*4);
 
   MAXPROC     = dem.ndev * 4;
   CONTEXT_NUM = 4;
