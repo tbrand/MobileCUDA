@@ -1,0 +1,823 @@
+SD[17]	   1[sec]	STATUS[0]	POS[0]	./m3d
+SD[19]	   1[sec]	STATUS[0]	POS[1]	./m3d
+SD[20]	   6[sec]	STATUS[0]	POS[2]	./m3d
+SD[21]	   7[sec]	STATUS[0]	POS[3]	./m3d
+SD[17]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[34]	   5[sec]	STATUS[1]	POS[0]	./m3d
+SD[19]	  12[sec]	STATUS[0]	POS[1]	./m3d
+SD[35]	   7[sec]	STATUS[1]	POS[1]	./m3d
+SD[22]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[23]	  14[sec]	STATUS[0]	POS[1]	./m3d
+SD[36]	  11[sec]	STATUS[1]	POS[2]	./m3d
+SD[24]	  16[sec]	STATUS[0]	POS[2]	./m3d
+SD[20]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[37]	  11[sec]	STATUS[1]	POS[2]	./m3d
+SD[21]	  10[sec]	STATUS[0]	POS[3]	./m3d
+SD[38]	  12[sec]	STATUS[1]	POS[3]	./m3d
+SD[25]	  17[sec]	STATUS[0]	POS[3]	./m3d
+SD[39]	  14[sec]	STATUS[1]	POS[0]	./m3d
+SD[26]	  18[sec]	STATUS[0]	POS[0]	./m3d
+SD[40]	  13[sec]	STATUS[1]	POS[1]	./m3d
+SD[27]	  18[sec]	STATUS[0]	POS[1]	./m3d
+SD[28]	  18[sec]	STATUS[0]	POS[2]	./m3d
+SD[41]	  15[sec]	STATUS[1]	POS[3]	./m3d
+SD[29]	  19[sec]	STATUS[0]	POS[3]	./m3d
+SD[42]	  14[sec]	STATUS[1]	POS[0]	./m3d
+SD[30]	  18[sec]	STATUS[0]	POS[0]	./m3d
+SD[22]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[43]	  15[sec]	STATUS[1]	POS[0]	./m3d
+SD[44]	  15[sec]	STATUS[1]	POS[1]	./m3d
+SD[31]	  19[sec]	STATUS[0]	POS[1]	./m3d
+SD[45]	  15[sec]	STATUS[1]	POS[2]	./m3d
+SD[32]	  20[sec]	STATUS[0]	POS[2]	./m3d
+SD[46]	  15[sec]	STATUS[1]	POS[3]	./m3d
+SD[33]	  19[sec]	STATUS[0]	POS[3]	./m3d
+SD[23]	  11[sec]	STATUS[0]	POS[1]	./m3d
+SD[47]	  17[sec]	STATUS[1]	POS[1]	./m3d
+SD[24]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[48]	  18[sec]	STATUS[1]	POS[2]	./m3d
+SD[25]	  11[sec]	STATUS[0]	POS[3]	./m3d
+SD[49]	  20[sec]	STATUS[1]	POS[3]	./m3d
+SD[26]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[27]	  12[sec]	STATUS[0]	POS[1]	./m3d
+SD[28]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[29]	  11[sec]	STATUS[0]	POS[3]	./m3d
+SD[30]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[31]	  11[sec]	STATUS[0]	POS[1]	./m3d
+SD[32]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[33]	  12[sec]	STATUS[0]	POS[3]	./m3d
+SD[34]	  26[sec]	STATUS[0]	POS[0]	./m3d
+SD[35]	  24[sec]	STATUS[0]	POS[1]	./m3d
+SD[36]	  26[sec]	STATUS[0]	POS[2]	./m3d
+SD[50]	  32[sec]	STATUS[1]	POS[2]	./m3d
+SD[37]	  27[sec]	STATUS[0]	POS[2]	./m3d
+SD[38]	  26[sec]	STATUS[0]	POS[3]	./m3d
+SD[51]	  34[sec]	STATUS[1]	POS[0]	./m3d
+SD[39]	  25[sec]	STATUS[0]	POS[0]	./m3d
+SD[52]	  33[sec]	STATUS[1]	POS[1]	./m3d
+SD[40]	  25[sec]	STATUS[0]	POS[1]	./m3d
+SD[53]	  34[sec]	STATUS[1]	POS[3]	./m3d
+SD[41]	  24[sec]	STATUS[0]	POS[3]	./m3d
+SD[34]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[54]	  35[sec]	STATUS[1]	POS[0]	./m3d
+SD[35]	  12[sec]	STATUS[0]	POS[1]	./m3d
+SD[55]	  36[sec]	STATUS[1]	POS[1]	./m3d
+SD[42]	  26[sec]	STATUS[0]	POS[0]	./m3d
+SD[56]	  36[sec]	STATUS[1]	POS[0]	./m3d
+SD[43]	  26[sec]	STATUS[0]	POS[0]	./m3d
+SD[44]	  26[sec]	STATUS[0]	POS[1]	./m3d
+SD[57]	  36[sec]	STATUS[1]	POS[2]	./m3d
+SD[45]	  26[sec]	STATUS[0]	POS[2]	./m3d
+SD[58]	  37[sec]	STATUS[1]	POS[3]	./m3d
+SD[46]	  26[sec]	STATUS[0]	POS[3]	./m3d
+SD[59]	  37[sec]	STATUS[1]	POS[1]	./m3d
+SD[47]	  25[sec]	STATUS[0]	POS[1]	./m3d
+SD[60]	  38[sec]	STATUS[1]	POS[2]	./m3d
+SD[48]	  24[sec]	STATUS[0]	POS[2]	./m3d
+SD[61]	  39[sec]	STATUS[1]	POS[3]	./m3d
+SD[49]	  24[sec]	STATUS[0]	POS[3]	./m3d
+SD[36]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[62]	  41[sec]	STATUS[1]	POS[2]	./m3d
+SD[37]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[38]	  12[sec]	STATUS[0]	POS[3]	./m3d
+SD[63]	  41[sec]	STATUS[1]	POS[3]	./m3d
+SD[39]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[64]	  41[sec]	STATUS[1]	POS[0]	./m3d
+SD[40]	  11[sec]	STATUS[0]	POS[1]	./m3d
+SD[65]	  40[sec]	STATUS[1]	POS[1]	./m3d
+SD[41]	  11[sec]	STATUS[0]	POS[3]	./m3d
+SD[42]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[43]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[44]	  12[sec]	STATUS[0]	POS[1]	./m3d
+SD[45]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[46]	  11[sec]	STATUS[0]	POS[3]	./m3d
+SD[47]	  11[sec]	STATUS[0]	POS[1]	./m3d
+SD[48]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[49]	  10[sec]	STATUS[0]	POS[3]	./m3d
+SD[50]	  24[sec]	STATUS[0]	POS[2]	./m3d
+SD[51]	  24[sec]	STATUS[0]	POS[0]	./m3d
+SD[52]	  25[sec]	STATUS[0]	POS[1]	./m3d
+SD[53]	  25[sec]	STATUS[0]	POS[3]	./m3d
+SD[66]	  54[sec]	STATUS[1]	POS[0]	./m3d
+SD[54]	  24[sec]	STATUS[0]	POS[0]	./m3d
+SD[67]	  53[sec]	STATUS[1]	POS[1]	./m3d
+SD[55]	  23[sec]	STATUS[0]	POS[1]	./m3d
+SD[68]	  54[sec]	STATUS[1]	POS[0]	./m3d
+SD[56]	  23[sec]	STATUS[0]	POS[0]	./m3d
+SD[69]	  53[sec]	STATUS[1]	POS[2]	./m3d
+SD[57]	  23[sec]	STATUS[0]	POS[2]	./m3d
+SD[70]	  54[sec]	STATUS[1]	POS[3]	./m3d
+SD[58]	  23[sec]	STATUS[0]	POS[3]	./m3d
+SD[71]	  56[sec]	STATUS[1]	POS[1]	./m3d
+SD[59]	  24[sec]	STATUS[0]	POS[1]	./m3d
+SD[72]	  56[sec]	STATUS[1]	POS[2]	./m3d
+SD[60]	  24[sec]	STATUS[0]	POS[2]	./m3d
+SD[73]	  57[sec]	STATUS[1]	POS[3]	./m3d
+SD[61]	  24[sec]	STATUS[0]	POS[3]	./m3d
+SD[50]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[74]	  57[sec]	STATUS[1]	POS[2]	./m3d
+SD[62]	  25[sec]	STATUS[0]	POS[2]	./m3d
+SD[75]	  59[sec]	STATUS[1]	POS[3]	./m3d
+SD[63]	  24[sec]	STATUS[0]	POS[3]	./m3d
+SD[76]	  58[sec]	STATUS[1]	POS[0]	./m3d
+SD[51]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[64]	  24[sec]	STATUS[0]	POS[0]	./m3d
+SD[77]	  58[sec]	STATUS[1]	POS[1]	./m3d
+SD[65]	  23[sec]	STATUS[0]	POS[1]	./m3d
+SD[52]	  10[sec]	STATUS[0]	POS[1]	./m3d
+SD[78]	  58[sec]	STATUS[1]	POS[1]	./m3d
+SD[53]	  11[sec]	STATUS[0]	POS[3]	./m3d
+SD[79]	  59[sec]	STATUS[1]	POS[3]	./m3d
+SD[54]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[80]	  59[sec]	STATUS[1]	POS[0]	./m3d
+SD[55]	  12[sec]	STATUS[0]	POS[1]	./m3d
+SD[56]	  12[sec]	STATUS[0]	POS[0]	./m3d
+SD[57]	  12[sec]	STATUS[0]	POS[2]	./m3d
+SD[81]	  60[sec]	STATUS[1]	POS[2]	./m3d
+SD[58]	  11[sec]	STATUS[0]	POS[3]	./m3d
+SD[59]	  11[sec]	STATUS[0]	POS[1]	./m3d
+SD[60]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[61]	  11[sec]	STATUS[0]	POS[3]	./m3d
+SD[62]	  10[sec]	STATUS[0]	POS[2]	./m3d
+SD[63]	  11[sec]	STATUS[0]	POS[3]	./m3d
+SD[64]	  12[sec]	STATUS[0]	POS[0]	./m3d
+SD[65]	  12[sec]	STATUS[0]	POS[1]	./m3d
+SD[66]	  26[sec]	STATUS[0]	POS[0]	./m3d
+SD[67]	  26[sec]	STATUS[0]	POS[1]	./m3d
+SD[82]	  73[sec]	STATUS[1]	POS[0]	./m3d
+SD[68]	  25[sec]	STATUS[0]	POS[0]	./m3d
+SD[69]	  26[sec]	STATUS[0]	POS[2]	./m3d
+SD[70]	  25[sec]	STATUS[0]	POS[3]	./m3d
+SD[83]	  76[sec]	STATUS[1]	POS[1]	./m3d
+SD[71]	  26[sec]	STATUS[0]	POS[1]	./m3d
+SD[84]	  76[sec]	STATUS[1]	POS[2]	./m3d
+SD[72]	  25[sec]	STATUS[0]	POS[2]	./m3d
+SD[85]	  77[sec]	STATUS[1]	POS[3]	./m3d
+SD[73]	  26[sec]	STATUS[0]	POS[3]	./m3d
+SD[86]	  78[sec]	STATUS[1]	POS[2]	./m3d
+SD[74]	  26[sec]	STATUS[0]	POS[2]	./m3d
+SD[87]	  79[sec]	STATUS[1]	POS[3]	./m3d
+SD[75]	  25[sec]	STATUS[0]	POS[3]	./m3d
+SD[88]	  78[sec]	STATUS[1]	POS[0]	./m3d
+SD[76]	  25[sec]	STATUS[0]	POS[0]	./m3d
+SD[89]	  78[sec]	STATUS[1]	POS[1]	./m3d
+SD[77]	  25[sec]	STATUS[0]	POS[1]	./m3d
+SD[90]	  78[sec]	STATUS[1]	POS[1]	./m3d
+SD[78]	  24[sec]	STATUS[0]	POS[1]	./m3d
+SD[91]	  78[sec]	STATUS[1]	POS[3]	./m3d
+SD[79]	  24[sec]	STATUS[0]	POS[3]	./m3d
+SD[92]	  79[sec]	STATUS[1]	POS[0]	./m3d
+SD[80]	  25[sec]	STATUS[0]	POS[0]	./m3d
+SD[93]	  78[sec]	STATUS[1]	POS[2]	./m3d
+SD[81]	  23[sec]	STATUS[0]	POS[2]	./m3d
+SD[66]	  10[sec]	STATUS[0]	POS[0]	./m3d
+SD[94]	  79[sec]	STATUS[1]	POS[0]	./m3d
+SD[67]	  11[sec]	STATUS[0]	POS[1]	./m3d
+SD[95]	  79[sec]	STATUS[1]	POS[1]	./m3d
+SD[68]	  12[sec]	STATUS[0]	POS[0]	./m3d
+SD[69]	  12[sec]	STATUS[0]	POS[2]	./m3d
+SD[96]	  80[sec]	STATUS[1]	POS[2]	./m3d
+SD[70]	  12[sec]	STATUS[0]	POS[3]	./m3d
+SD[97]	  79[sec]	STATUS[1]	POS[3]	./m3d
+SD[71]	  11[sec]	STATUS[0]	POS[1]	./m3d
+SD[72]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[73]	  11[sec]	STATUS[0]	POS[3]	./m3d
+SD[74]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[75]	  11[sec]	STATUS[0]	POS[3]	./m3d
+SD[76]	  12[sec]	STATUS[0]	POS[0]	./m3d
+SD[77]	  12[sec]	STATUS[0]	POS[1]	./m3d
+SD[78]	  13[sec]	STATUS[0]	POS[1]	./m3d
+SD[79]	  12[sec]	STATUS[0]	POS[3]	./m3d
+SD[80]	  12[sec]	STATUS[0]	POS[0]	./m3d
+SD[81]	  12[sec]	STATUS[0]	POS[2]	./m3d
+SD[82]	  26[sec]	STATUS[0]	POS[0]	./m3d
+SD[83]	  26[sec]	STATUS[0]	POS[1]	./m3d
+SD[84]	  27[sec]	STATUS[0]	POS[2]	./m3d
+SD[85]	  27[sec]	STATUS[0]	POS[3]	./m3d
+SD[98]	 100[sec]	STATUS[1]	POS[2]	./m3d
+SD[86]	  27[sec]	STATUS[0]	POS[2]	./m3d
+SD[99]	  99[sec]	STATUS[1]	POS[3]	./m3d
+SD[87]	  26[sec]	STATUS[0]	POS[3]	./m3d
+SD[100]	  98[sec]	STATUS[1]	POS[0]	./m3d
+SD[88]	  26[sec]	STATUS[0]	POS[0]	./m3d
+SD[101]	  98[sec]	STATUS[1]	POS[1]	./m3d
+SD[89]	  27[sec]	STATUS[0]	POS[1]	./m3d
+SD[102]	  98[sec]	STATUS[1]	POS[1]	./m3d
+SD[90]	  27[sec]	STATUS[0]	POS[1]	./m3d
+SD[103]	  99[sec]	STATUS[1]	POS[3]	./m3d
+SD[91]	  27[sec]	STATUS[0]	POS[3]	./m3d
+SD[104]	  99[sec]	STATUS[1]	POS[0]	./m3d
+SD[92]	  26[sec]	STATUS[0]	POS[0]	./m3d
+SD[105]	  99[sec]	STATUS[1]	POS[2]	./m3d
+SD[93]	  26[sec]	STATUS[0]	POS[2]	./m3d
+SD[82]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[106]	 101[sec]	STATUS[1]	POS[0]	./m3d
+SD[94]	  27[sec]	STATUS[0]	POS[0]	./m3d
+SD[107]	 101[sec]	STATUS[1]	POS[1]	./m3d
+SD[95]	  27[sec]	STATUS[0]	POS[1]	./m3d
+SD[108]	 100[sec]	STATUS[1]	POS[2]	./m3d
+SD[96]	  25[sec]	STATUS[0]	POS[2]	./m3d
+SD[109]	  99[sec]	STATUS[1]	POS[3]	./m3d
+SD[97]	  26[sec]	STATUS[0]	POS[3]	./m3d
+SD[83]	  11[sec]	STATUS[0]	POS[1]	./m3d
+SD[110]	 103[sec]	STATUS[1]	POS[1]	./m3d
+SD[84]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[111]	 103[sec]	STATUS[1]	POS[2]	./m3d
+SD[85]	  11[sec]	STATUS[0]	POS[3]	./m3d
+SD[112]	 106[sec]	STATUS[1]	POS[3]	./m3d
+SD[86]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[87]	  13[sec]	STATUS[0]	POS[3]	./m3d
+SD[88]	  14[sec]	STATUS[0]	POS[0]	./m3d
+SD[113]	 108[sec]	STATUS[1]	POS[0]	./m3d
+SD[89]	  13[sec]	STATUS[0]	POS[1]	./m3d
+SD[90]	  13[sec]	STATUS[0]	POS[1]	./m3d
+SD[91]	  12[sec]	STATUS[0]	POS[3]	./m3d
+SD[92]	  12[sec]	STATUS[0]	POS[0]	./m3d
+SD[93]	  12[sec]	STATUS[0]	POS[2]	./m3d
+SD[94]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[95]	  12[sec]	STATUS[0]	POS[1]	./m3d
+SD[96]	  12[sec]	STATUS[0]	POS[2]	./m3d
+SD[97]	  12[sec]	STATUS[0]	POS[3]	./m3d
+SD[98]	  25[sec]	STATUS[0]	POS[2]	./m3d
+SD[99]	  27[sec]	STATUS[0]	POS[3]	./m3d
+SD[100]	  27[sec]	STATUS[0]	POS[0]	./m3d
+SD[101]	  26[sec]	STATUS[0]	POS[1]	./m3d
+SD[114]	 121[sec]	STATUS[1]	POS[1]	./m3d
+SD[102]	  26[sec]	STATUS[0]	POS[1]	./m3d
+SD[115]	 122[sec]	STATUS[1]	POS[3]	./m3d
+SD[103]	  26[sec]	STATUS[0]	POS[3]	./m3d
+SD[116]	 121[sec]	STATUS[1]	POS[0]	./m3d
+SD[104]	  26[sec]	STATUS[0]	POS[0]	./m3d
+SD[117]	 121[sec]	STATUS[1]	POS[2]	./m3d
+SD[105]	  26[sec]	STATUS[0]	POS[2]	./m3d
+SD[118]	 122[sec]	STATUS[1]	POS[0]	./m3d
+SD[106]	  26[sec]	STATUS[0]	POS[0]	./m3d
+SD[119]	 122[sec]	STATUS[1]	POS[1]	./m3d
+SD[107]	  26[sec]	STATUS[0]	POS[1]	./m3d
+SD[120]	 122[sec]	STATUS[1]	POS[2]	./m3d
+SD[108]	  26[sec]	STATUS[0]	POS[2]	./m3d
+SD[121]	 121[sec]	STATUS[1]	POS[3]	./m3d
+SD[109]	  26[sec]	STATUS[0]	POS[3]	./m3d
+SD[122]	 125[sec]	STATUS[1]	POS[1]	./m3d
+SD[110]	  26[sec]	STATUS[0]	POS[1]	./m3d
+SD[123]	 125[sec]	STATUS[1]	POS[2]	./m3d
+SD[111]	  27[sec]	STATUS[0]	POS[2]	./m3d
+SD[98]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[124]	 126[sec]	STATUS[1]	POS[2]	./m3d
+SD[125]	 126[sec]	STATUS[1]	POS[3]	./m3d
+SD[112]	  26[sec]	STATUS[0]	POS[3]	./m3d
+SD[126]	 125[sec]	STATUS[1]	POS[0]	./m3d
+SD[113]	  23[sec]	STATUS[0]	POS[0]	./m3d
+SD[99]	  10[sec]	STATUS[0]	POS[3]	./m3d
+SD[127]	 126[sec]	STATUS[1]	POS[3]	./m3d
+SD[100]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[128]	 125[sec]	STATUS[1]	POS[0]	./m3d
+SD[101]	  12[sec]	STATUS[0]	POS[1]	./m3d
+SD[129]	 126[sec]	STATUS[1]	POS[1]	./m3d
+SD[102]	  13[sec]	STATUS[0]	POS[1]	./m3d
+SD[103]	  12[sec]	STATUS[0]	POS[3]	./m3d
+SD[104]	  12[sec]	STATUS[0]	POS[0]	./m3d
+SD[105]	  12[sec]	STATUS[0]	POS[2]	./m3d
+SD[106]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[107]	  12[sec]	STATUS[0]	POS[1]	./m3d
+SD[108]	  13[sec]	STATUS[0]	POS[2]	./m3d
+SD[109]	  13[sec]	STATUS[0]	POS[3]	./m3d
+SD[110]	  11[sec]	STATUS[0]	POS[1]	./m3d
+SD[111]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[112]	  11[sec]	STATUS[0]	POS[3]	./m3d
+SD[113]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[114]	  25[sec]	STATUS[0]	POS[1]	./m3d
+SD[115]	  26[sec]	STATUS[0]	POS[3]	./m3d
+SD[116]	  26[sec]	STATUS[0]	POS[0]	./m3d
+SD[117]	  26[sec]	STATUS[0]	POS[2]	./m3d
+SD[130]	 141[sec]	STATUS[1]	POS[0]	./m3d
+SD[118]	  26[sec]	STATUS[0]	POS[0]	./m3d
+SD[131]	 142[sec]	STATUS[1]	POS[1]	./m3d
+SD[119]	  26[sec]	STATUS[0]	POS[1]	./m3d
+SD[132]	 142[sec]	STATUS[1]	POS[2]	./m3d
+SD[120]	  26[sec]	STATUS[0]	POS[2]	./m3d
+SD[133]	 141[sec]	STATUS[1]	POS[3]	./m3d
+SD[121]	  26[sec]	STATUS[0]	POS[3]	./m3d
+SD[134]	 145[sec]	STATUS[1]	POS[1]	./m3d
+SD[122]	  26[sec]	STATUS[0]	POS[1]	./m3d
+SD[135]	 144[sec]	STATUS[1]	POS[2]	./m3d
+SD[123]	  25[sec]	STATUS[0]	POS[2]	./m3d
+SD[136]	 147[sec]	STATUS[1]	POS[2]	./m3d
+SD[124]	  27[sec]	STATUS[0]	POS[2]	./m3d
+SD[114]	  11[sec]	STATUS[0]	POS[1]	./m3d
+SD[137]	 146[sec]	STATUS[1]	POS[1]	./m3d
+SD[138]	 147[sec]	STATUS[1]	POS[3]	./m3d
+SD[125]	  27[sec]	STATUS[0]	POS[3]	./m3d
+SD[139]	 146[sec]	STATUS[1]	POS[0]	./m3d
+SD[126]	  27[sec]	STATUS[0]	POS[0]	./m3d
+SD[127]	  26[sec]	STATUS[0]	POS[3]	./m3d
+SD[128]	  26[sec]	STATUS[0]	POS[0]	./m3d
+SD[129]	  25[sec]	STATUS[0]	POS[1]	./m3d
+SD[115]	  10[sec]	STATUS[0]	POS[3]	./m3d
+SD[116]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[117]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[118]	  10[sec]	STATUS[0]	POS[0]	./m3d
+SD[119]	  11[sec]	STATUS[0]	POS[1]	./m3d
+SD[120]	  12[sec]	STATUS[0]	POS[2]	./m3d
+SD[121]	  12[sec]	STATUS[0]	POS[3]	./m3d
+SD[122]	  11[sec]	STATUS[0]	POS[1]	./m3d
+SD[123]	  12[sec]	STATUS[0]	POS[2]	./m3d
+SD[124]	  11[sec]	STATUS[0]	POS[2]	./m3d
+SD[125]	  11[sec]	STATUS[0]	POS[3]	./m3d
+SD[126]	  12[sec]	STATUS[0]	POS[0]	./m3d
+SD[127]	  13[sec]	STATUS[0]	POS[3]	./m3d
+SD[128]	  13[sec]	STATUS[0]	POS[0]	./m3d
+SD[129]	  13[sec]	STATUS[0]	POS[1]	./m3d
+SD[130]	  23[sec]	STATUS[0]	POS[0]	./m3d
+SD[131]	  22[sec]	STATUS[0]	POS[1]	./m3d
+SD[132]	  22[sec]	STATUS[0]	POS[2]	./m3d
+SD[133]	  22[sec]	STATUS[0]	POS[3]	./m3d
+SD[134]	  21[sec]	STATUS[0]	POS[1]	./m3d
+SD[135]	  21[sec]	STATUS[0]	POS[2]	./m3d
+SD[138]	  18[sec]	STATUS[0]	POS[3]	./m3d
+SD[139]	  18[sec]	STATUS[0]	POS[0]	./m3d
+SD[136]	  19[sec]	STATUS[0]	POS[2]	./m3d
+SD[137]	  19[sec]	STATUS[0]	POS[1]	./m3d
+SD[130]	  11[sec]	STATUS[0]	POS[0]	./m3d
+SD[131]	  13[sec]	STATUS[0]	POS[1]	./m3d
+SD[132]	  13[sec]	STATUS[0]	POS[2]	./m3d
+SD[133]	  13[sec]	STATUS[0]	POS[3]	./m3d
+SD[134]	  11[sec]	STATUS[0]	POS[1]	./m3d
+SD[135]	  12[sec]	STATUS[0]	POS[2]	./m3d
+SD[138]	  11[sec]	STATUS[0]	POS[3]	./m3d
+SD[139]	  12[sec]	STATUS[0]	POS[0]	./m3d
+SD[136]	  12[sec]	STATUS[0]	POS[2]	./m3d
+SD[137]	  12[sec]	STATUS[0]	POS[1]	./m3d
+
+17:03:14	STATUS[0]	./m3d
+17:03:15	STATUS[0]	./m3d
+17:03:15	STATUS[0]	./m3d
+17:03:16	STATUS[0]	./m3d
+17:03:16	STATUS[0]	./m3d
+17:03:16	STATUS[0]	./m3d
+17:03:17	STATUS[0]	./m3d
+17:03:17	STATUS[0]	./m3d
+17:03:17	STATUS[0]	./m3d
+17:03:18	STATUS[0]	./m3d
+17:03:18	STATUS[0]	./m3d
+17:03:18	STATUS[0]	./m3d
+17:03:19	STATUS[0]	./m3d
+17:03:19	STATUS[0]	./m3d
+17:03:20	STATUS[0]	./m3d
+17:03:20	STATUS[0]	./m3d
+17:03:20	STATUS[0]	./m3d
+17:03:21	STATUS[0]	./m3d
+17:03:21	STATUS[1]	./m3d
+17:03:21	STATUS[1]	./m3d
+17:03:22	STATUS[1]	./m3d
+17:03:22	STATUS[1]	./m3d
+17:03:22	STATUS[1]	./m3d
+17:03:22	STATUS[0]	./m3d
+17:03:22	STATUS[1]	./m3d
+17:03:23	STATUS[0]	./m3d
+17:03:23	STATUS[1]	./m3d
+17:03:23	STATUS[1]	./m3d
+17:03:24	STATUS[1]	./m3d
+17:03:24	STATUS[1]	./m3d
+17:03:24	STATUS[1]	./m3d
+17:03:25	STATUS[1]	./m3d
+17:03:25	STATUS[1]	./m3d
+17:03:25	STATUS[1]	./m3d
+17:03:26	STATUS[7]	./m3d
+17:03:26	STATUS[0]	./m3d
+17:03:26	STATUS[1]	./m3d
+17:03:26	STATUS[1]	./m3d
+17:03:27	STATUS[1]	./m3d
+17:03:27	STATUS[1]	./m3d
+17:03:28	STATUS[7]	./m3d
+17:03:28	STATUS[0]	./m3d
+17:03:28	STATUS[1]	./m3d
+17:03:28	STATUS[1]	./m3d
+17:03:28	STATUS[0]	./m3d
+17:03:28	STATUS[1]	./m3d
+17:03:28	STATUS[1]	./m3d
+17:03:29	STATUS[1]	./m3d
+17:03:29	STATUS[1]	./m3d
+17:03:29	STATUS[1]	./m3d
+17:03:30	STATUS[1]	./m3d
+17:03:30	STATUS[1]	./m3d
+17:03:30	STATUS[1]	./m3d
+17:03:30	STATUS[1]	./m3d
+17:03:31	STATUS[0]	./m3d
+17:03:31	STATUS[1]	./m3d
+17:03:31	STATUS[1]	./m3d
+17:03:33	STATUS[1]	./m3d
+17:03:33	STATUS[0]	./m3d
+17:03:33	STATUS[0]	./m3d
+17:03:33	STATUS[7]	./m3d
+17:03:33	STATUS[0]	./m3d
+17:03:33	STATUS[1]	./m3d
+17:03:33	STATUS[7]	./m3d
+17:03:34	STATUS[0]	./m3d
+17:03:34	STATUS[1]	./m3d
+17:03:34	STATUS[1]	./m3d
+17:03:35	STATUS[1]	./m3d
+17:03:35	STATUS[0]	./m3d
+17:03:35	STATUS[1]	./m3d
+17:03:35	STATUS[1]	./m3d
+17:03:36	STATUS[0]	./m3d
+17:03:36	STATUS[0]	./m3d
+17:03:36	STATUS[1]	./m3d
+17:03:36	STATUS[1]	./m3d
+17:03:36	STATUS[0]	./m3d
+17:03:36	STATUS[0]	./m3d
+17:03:37	STATUS[1]	./m3d
+17:03:37	STATUS[0]	./m3d
+17:03:37	STATUS[1]	./m3d
+17:03:38	STATUS[0]	./m3d
+17:03:38	STATUS[0]	./m3d
+17:03:38	STATUS[1]	./m3d
+17:03:38	STATUS[0]	./m3d
+17:03:38	STATUS[0]	./m3d
+17:03:38	STATUS[1]	./m3d
+17:03:39	STATUS[1]	./m3d
+17:03:39	STATUS[7]	./m3d
+17:03:39	STATUS[0]	./m3d
+17:03:39	STATUS[0]	./m3d
+17:03:39	STATUS[0]	./m3d
+17:03:39	STATUS[1]	./m3d
+17:03:39	STATUS[1]	./m3d
+17:03:40	STATUS[1]	./m3d
+17:03:40	STATUS[0]	./m3d
+17:03:40	STATUS[0]	./m3d
+17:03:40	STATUS[1]	./m3d
+17:03:40	STATUS[0]	./m3d
+17:03:40	STATUS[0]	./m3d
+17:03:41	STATUS[1]	./m3d
+17:03:41	STATUS[1]	./m3d
+17:03:42	STATUS[1]	./m3d
+17:03:42	STATUS[7]	./m3d
+17:03:42	STATUS[0]	./m3d
+17:03:42	STATUS[1]	./m3d
+17:03:42	STATUS[1]	./m3d
+17:03:43	STATUS[1]	./m3d
+17:03:43	STATUS[1]	./m3d
+17:03:43	STATUS[1]	./m3d
+17:03:44	STATUS[7]	./m3d
+17:03:44	STATUS[0]	./m3d
+17:03:44	STATUS[1]	./m3d
+17:03:44	STATUS[1]	./m3d
+17:03:45	STATUS[1]	./m3d
+17:03:45	STATUS[1]	./m3d
+17:03:45	STATUS[1]	./m3d
+17:03:46	STATUS[7]	./m3d
+17:03:46	STATUS[0]	./m3d
+17:03:46	STATUS[1]	./m3d
+17:03:47	STATUS[1]	./m3d
+17:03:47	STATUS[1]	./m3d
+17:03:47	STATUS[7]	./m3d
+17:03:48	STATUS[7]	./m3d
+17:03:48	STATUS[7]	./m3d
+17:03:48	STATUS[1]	./m3d
+17:03:49	STATUS[7]	./m3d
+17:03:49	STATUS[1]	./m3d
+17:03:49	STATUS[7]	./m3d
+17:03:50	STATUS[1]	./m3d
+17:03:50	STATUS[1]	./m3d
+17:03:50	STATUS[1]	./m3d
+17:03:50	STATUS[1]	./m3d
+17:03:50	STATUS[1]	./m3d
+17:03:50	STATUS[1]	./m3d
+17:03:50	STATUS[1]	./m3d
+17:03:50	STATUS[7]	./m3d
+17:03:51	STATUS[1]	./m3d
+17:03:51	STATUS[7]	./m3d
+17:03:52	STATUS[7]	./m3d
+17:03:52	STATUS[1]	./m3d
+17:03:52	STATUS[0]	./m3d
+17:03:52	STATUS[1]	./m3d
+17:03:52	STATUS[1]	./m3d
+17:03:52	STATUS[1]	./m3d
+17:03:52	STATUS[0]	./m3d
+17:03:53	STATUS[1]	./m3d
+17:03:53	STATUS[1]	./m3d
+17:03:53	STATUS[1]	./m3d
+17:03:54	STATUS[1]	./m3d
+17:03:54	STATUS[1]	./m3d
+17:03:55	STATUS[1]	./m3d
+17:03:55	STATUS[1]	./m3d
+17:03:55	STATUS[1]	./m3d
+17:03:56	STATUS[1]	./m3d
+17:03:56	STATUS[1]	./m3d
+17:03:57	STATUS[1]	./m3d
+17:03:57	STATUS[1]	./m3d
+17:03:58	STATUS[1]	./m3d
+17:03:59	STATUS[1]	./m3d
+17:03:59	STATUS[0]	./m3d
+17:03:59	STATUS[1]	./m3d
+17:03:59	STATUS[0]	./m3d
+17:04:00	STATUS[0]	./m3d
+17:04:00	STATUS[0]	./m3d
+17:04:00	STATUS[1]	./m3d
+17:04:00	STATUS[1]	./m3d
+17:04:01	STATUS[0]	./m3d
+17:04:01	STATUS[0]	./m3d
+17:04:01	STATUS[1]	./m3d
+17:04:01	STATUS[1]	./m3d
+17:04:01	STATUS[0]	./m3d
+17:04:01	STATUS[0]	./m3d
+17:04:01	STATUS[1]	./m3d
+17:04:02	STATUS[1]	./m3d
+17:04:02	STATUS[1]	./m3d
+17:04:02	STATUS[0]	./m3d
+17:04:02	STATUS[0]	./m3d
+17:04:03	STATUS[1]	./m3d
+17:04:03	STATUS[7]	./m3d
+17:04:03	STATUS[0]	./m3d
+17:04:03	STATUS[1]	./m3d
+17:04:04	STATUS[7]	./m3d
+17:04:04	STATUS[0]	./m3d
+17:04:04	STATUS[1]	./m3d
+17:04:04	STATUS[1]	./m3d
+17:04:04	STATUS[0]	./m3d
+17:04:05	STATUS[1]	./m3d
+17:04:05	STATUS[0]	./m3d
+17:04:05	STATUS[0]	./m3d
+17:04:05	STATUS[0]	./m3d
+17:04:05	STATUS[0]	./m3d
+17:04:06	STATUS[0]	./m3d
+17:04:06	STATUS[0]	./m3d
+17:04:06	STATUS[0]	./m3d
+17:04:07	STATUS[0]	./m3d
+17:04:07	STATUS[0]	./m3d
+17:04:08	STATUS[0]	./m3d
+17:04:08	STATUS[0]	./m3d
+17:04:09	STATUS[0]	./m3d
+17:04:10	STATUS[0]	./m3d
+17:04:10	STATUS[7]	./m3d
+17:04:11	STATUS[0]	./m3d
+17:04:11	STATUS[7]	./m3d
+17:04:12	STATUS[7]	./m3d
+17:04:12	STATUS[0]	./m3d
+17:04:12	STATUS[7]	./m3d
+17:04:12	STATUS[0]	./m3d
+17:04:12	STATUS[7]	./m3d
+17:04:13	STATUS[0]	./m3d
+17:04:13	STATUS[7]	./m3d
+17:04:15	STATUS[7]	./m3d
+17:04:16	STATUS[7]	./m3d
+17:04:17	STATUS[7]	./m3d
+17:04:17	STATUS[7]	./m3d
+17:04:17	STATUS[7]	./m3d
+17:04:18	STATUS[7]	./m3d
+17:04:19	STATUS[7]	./m3d
+17:04:20	STATUS[7]	./m3d
+17:04:23	STATUS[0]	./m3d
+17:04:25	STATUS[0]	./m3d
+17:04:26	STATUS[0]	./m3d
+17:04:27	STATUS[0]	./m3d
+17:04:27	STATUS[0]	./m3d
+17:04:27	STATUS[0]	./m3d
+17:04:27	STATUS[0]	./m3d
+17:04:27	STATUS[0]	./m3d
+17:04:28	STATUS[0]	./m3d
+17:04:28	STATUS[0]	./m3d
+17:04:28	STATUS[0]	./m3d
+17:04:28	STATUS[0]	./m3d
+17:04:29	STATUS[0]	./m3d
+17:04:29	STATUS[0]	./m3d
+17:04:31	STATUS[0]	./m3d
+17:04:31	STATUS[0]	./m3d
+17:04:32	STATUS[0]	./m3d
+17:04:32	STATUS[0]	./m3d
+17:04:33	STATUS[0]	./m3d
+17:04:33	STATUS[0]	./m3d
+17:04:34	STATUS[7]	./m3d
+17:04:34	STATUS[0]	./m3d
+17:04:36	STATUS[0]	./m3d
+17:04:36	STATUS[0]	./m3d
+17:04:36	STATUS[0]	./m3d
+17:04:36	STATUS[0]	./m3d
+17:04:36	STATUS[7]	./m3d
+17:04:36	STATUS[0]	./m3d
+17:04:36	STATUS[0]	./m3d
+17:04:36	STATUS[0]	./m3d
+17:04:36	STATUS[7]	./m3d
+17:04:37	STATUS[0]	./m3d
+17:04:38	STATUS[7]	./m3d
+17:04:38	STATUS[0]	./m3d
+17:04:38	STATUS[7]	./m3d
+17:04:38	STATUS[0]	./m3d
+17:04:39	STATUS[7]	./m3d
+17:04:40	STATUS[7]	./m3d
+17:04:40	STATUS[7]	./m3d
+17:04:40	STATUS[0]	./m3d
+17:04:40	STATUS[7]	./m3d
+17:04:42	STATUS[7]	./m3d
+17:04:43	STATUS[7]	./m3d
+17:04:44	STATUS[7]	./m3d
+17:04:46	STATUS[7]	./m3d
+17:04:47	STATUS[7]	./m3d
+17:04:48	STATUS[7]	./m3d
+17:04:48	STATUS[7]	./m3d
+17:04:53	STATUS[0]	./m3d
+17:04:53	STATUS[0]	./m3d
+17:04:53	STATUS[0]	./m3d
+17:04:53	STATUS[0]	./m3d
+17:04:54	STATUS[0]	./m3d
+17:04:54	STATUS[0]	./m3d
+17:04:57	STATUS[0]	./m3d
+17:04:57	STATUS[0]	./m3d
+17:04:57	STATUS[0]	./m3d
+17:04:57	STATUS[0]	./m3d
+17:04:59	STATUS[0]	./m3d
+17:04:59	STATUS[0]	./m3d
+17:05:00	STATUS[0]	./m3d
+17:05:00	STATUS[0]	./m3d
+17:05:01	STATUS[0]	./m3d
+17:05:01	STATUS[0]	./m3d
+17:05:01	STATUS[0]	./m3d
+17:05:01	STATUS[0]	./m3d
+17:05:01	STATUS[0]	./m3d
+17:05:01	STATUS[0]	./m3d
+17:05:01	STATUS[0]	./m3d
+17:05:01	STATUS[0]	./m3d
+17:05:02	STATUS[0]	./m3d
+17:05:02	STATUS[0]	./m3d
+17:05:03	STATUS[0]	./m3d
+17:05:03	STATUS[0]	./m3d
+17:05:03	STATUS[0]	./m3d
+17:05:03	STATUS[0]	./m3d
+17:05:03	STATUS[7]	./m3d
+17:05:04	STATUS[0]	./m3d
+17:05:04	STATUS[7]	./m3d
+17:05:04	STATUS[0]	./m3d
+17:05:05	STATUS[7]	./m3d
+17:05:06	STATUS[7]	./m3d
+17:05:06	STATUS[0]	./m3d
+17:05:06	STATUS[7]	./m3d
+17:05:06	STATUS[0]	./m3d
+17:05:08	STATUS[7]	./m3d
+17:05:08	STATUS[7]	./m3d
+17:05:10	STATUS[7]	./m3d
+17:05:11	STATUS[7]	./m3d
+17:05:12	STATUS[7]	./m3d
+17:05:13	STATUS[7]	./m3d
+17:05:13	STATUS[7]	./m3d
+17:05:14	STATUS[7]	./m3d
+17:05:14	STATUS[7]	./m3d
+17:05:15	STATUS[7]	./m3d
+17:05:15	STATUS[7]	./m3d
+17:05:19	STATUS[0]	./m3d
+17:05:23	STATUS[0]	./m3d
+17:05:24	STATUS[0]	./m3d
+17:05:26	STATUS[0]	./m3d
+17:05:27	STATUS[0]	./m3d
+17:05:27	STATUS[0]	./m3d
+17:05:27	STATUS[0]	./m3d
+17:05:27	STATUS[0]	./m3d
+17:05:27	STATUS[0]	./m3d
+17:05:27	STATUS[0]	./m3d
+17:05:28	STATUS[0]	./m3d
+17:05:28	STATUS[0]	./m3d
+17:05:28	STATUS[0]	./m3d
+17:05:28	STATUS[0]	./m3d
+17:05:29	STATUS[0]	./m3d
+17:05:29	STATUS[0]	./m3d
+17:05:29	STATUS[0]	./m3d
+17:05:29	STATUS[0]	./m3d
+17:05:29	STATUS[0]	./m3d
+17:05:29	STATUS[0]	./m3d
+17:05:30	STATUS[7]	./m3d
+17:05:31	STATUS[0]	./m3d
+17:05:31	STATUS[0]	./m3d
+17:05:31	STATUS[0]	./m3d
+17:05:31	STATUS[0]	./m3d
+17:05:31	STATUS[0]	./m3d
+17:05:31	STATUS[0]	./m3d
+17:05:31	STATUS[0]	./m3d
+17:05:32	STATUS[0]	./m3d
+17:05:34	STATUS[7]	./m3d
+17:05:35	STATUS[0]	./m3d
+17:05:35	STATUS[7]	./m3d
+17:05:35	STATUS[0]	./m3d
+17:05:37	STATUS[7]	./m3d
+17:05:38	STATUS[0]	./m3d
+17:05:38	STATUS[7]	./m3d
+17:05:40	STATUS[7]	./m3d
+17:05:41	STATUS[7]	./m3d
+17:05:41	STATUS[0]	./m3d
+17:05:41	STATUS[7]	./m3d
+17:05:41	STATUS[7]	./m3d
+17:05:41	STATUS[7]	./m3d
+17:05:41	STATUS[7]	./m3d
+17:05:41	STATUS[7]	./m3d
+17:05:42	STATUS[7]	./m3d
+17:05:43	STATUS[7]	./m3d
+17:05:43	STATUS[7]	./m3d
+17:05:44	STATUS[7]	./m3d
+17:05:52	STATUS[0]	./m3d
+17:05:54	STATUS[0]	./m3d
+17:05:54	STATUS[0]	./m3d
+17:05:54	STATUS[0]	./m3d
+17:05:54	STATUS[0]	./m3d
+17:05:54	STATUS[0]	./m3d
+17:05:55	STATUS[0]	./m3d
+17:05:55	STATUS[0]	./m3d
+17:05:55	STATUS[0]	./m3d
+17:05:55	STATUS[0]	./m3d
+17:05:55	STATUS[0]	./m3d
+17:05:55	STATUS[0]	./m3d
+17:05:57	STATUS[0]	./m3d
+17:05:57	STATUS[0]	./m3d
+17:05:57	STATUS[0]	./m3d
+17:05:57	STATUS[0]	./m3d
+17:05:57	STATUS[0]	./m3d
+17:05:57	STATUS[0]	./m3d
+17:05:57	STATUS[0]	./m3d
+17:05:57	STATUS[0]	./m3d
+17:06:01	STATUS[0]	./m3d
+17:06:01	STATUS[0]	./m3d
+17:06:02	STATUS[0]	./m3d
+17:06:02	STATUS[0]	./m3d
+17:06:03	STATUS[7]	./m3d
+17:06:03	STATUS[0]	./m3d
+17:06:04	STATUS[0]	./m3d
+17:06:04	STATUS[0]	./m3d
+17:06:04	STATUS[0]	./m3d
+17:06:04	STATUS[0]	./m3d
+17:06:04	STATUS[7]	./m3d
+17:06:05	STATUS[0]	./m3d
+17:06:05	STATUS[7]	./m3d
+17:06:05	STATUS[0]	./m3d
+17:06:06	STATUS[7]	./m3d
+17:06:06	STATUS[0]	./m3d
+17:06:07	STATUS[7]	./m3d
+17:06:07	STATUS[7]	./m3d
+17:06:07	STATUS[7]	./m3d
+17:06:07	STATUS[7]	./m3d
+17:06:08	STATUS[7]	./m3d
+17:06:09	STATUS[7]	./m3d
+17:06:10	STATUS[7]	./m3d
+17:06:10	STATUS[7]	./m3d
+17:06:12	STATUS[7]	./m3d
+17:06:13	STATUS[7]	./m3d
+17:06:15	STATUS[7]	./m3d
+17:06:15	STATUS[7]	./m3d
+17:06:19	STATUS[0]	./m3d
+17:06:21	STATUS[0]	./m3d
+17:06:21	STATUS[0]	./m3d
+17:06:21	STATUS[0]	./m3d
+17:06:22	STATUS[0]	./m3d
+17:06:23	STATUS[0]	./m3d
+17:06:23	STATUS[0]	./m3d
+17:06:23	STATUS[0]	./m3d
+17:06:23	STATUS[0]	./m3d
+17:06:23	STATUS[0]	./m3d
+17:06:23	STATUS[0]	./m3d
+17:06:23	STATUS[0]	./m3d
+17:06:27	STATUS[0]	./m3d
+17:06:27	STATUS[0]	./m3d
+17:06:27	STATUS[0]	./m3d
+17:06:27	STATUS[0]	./m3d
+17:06:30	STATUS[0]	./m3d
+17:06:30	STATUS[0]	./m3d
+17:06:30	STATUS[7]	./m3d
+17:06:30	STATUS[0]	./m3d
+17:06:31	STATUS[0]	./m3d
+17:06:31	STATUS[0]	./m3d
+17:06:31	STATUS[0]	./m3d
+17:06:31	STATUS[0]	./m3d
+17:06:31	STATUS[0]	./m3d
+17:06:31	STATUS[0]	./m3d
+17:06:31	STATUS[0]	./m3d
+17:06:31	STATUS[7]	./m3d
+17:06:32	STATUS[7]	./m3d
+17:06:32	STATUS[7]	./m3d
+17:06:33	STATUS[7]	./m3d
+17:06:34	STATUS[7]	./m3d
+17:06:35	STATUS[7]	./m3d
+17:06:35	STATUS[7]	./m3d
+17:06:38	STATUS[7]	./m3d
+17:06:39	STATUS[7]	./m3d
+17:06:41	STATUS[7]	./m3d
+17:06:42	STATUS[7]	./m3d
+17:06:43	STATUS[7]	./m3d
+17:06:44	STATUS[7]	./m3d
+17:06:44	STATUS[7]	./m3d
+17:06:44	STATUS[7]	./m3d
+17:06:45	STATUS[0]	./m3d
+17:06:45	STATUS[0]	./m3d
+17:06:45	STATUS[0]	./m3d
+17:06:45	STATUS[0]	./m3d
+17:06:48	STATUS[0]	./m3d
+17:06:48	STATUS[0]	./m3d
+17:06:49	STATUS[0]	./m3d
+17:06:49	STATUS[0]	./m3d
+17:06:49	STATUS[0]	./m3d
+17:06:49	STATUS[0]	./m3d
+17:06:56	STATUS[7]	./m3d
+17:06:58	STATUS[7]	./m3d
+17:06:58	STATUS[7]	./m3d
+17:06:58	STATUS[7]	./m3d
+17:06:59	STATUS[7]	./m3d
+17:07:00	STATUS[7]	./m3d
+17:07:00	STATUS[7]	./m3d
+17:07:01	STATUS[7]	./m3d
+17:07:01	STATUS[7]	./m3d
+17:07:01	STATUS[7]	./m3d

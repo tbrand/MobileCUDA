@@ -108,8 +108,22 @@ typedef struct{
   unsigned int flags;
 } HostRegister;
 
+typedef struct{
+  void *devPtr;
+  size_t pitch;
+  size_t width;
+  size_t height;
+} MallocPitch;
+
+typedef struct{
+  struct cudaPitchedPtr pitchedDevPtr;
+  struct cudaExtent extent;
+} Malloc3D;
+
 enum{
   MALLOC,
+  MALLOCPITCH,
+  MALLOC3D,
   FREE,
   REGISTERFATBINARY,
   REGISTERFUNCTION,
@@ -122,6 +136,8 @@ typedef struct _apilog{
   unsigned int type;
   union{
     Malloc malloc;
+    MallocPitch mallocPitch;
+    Malloc3D malloc3D;
     Free free;
     RegisterFatBinary registerFatBinary;
     RegisterFunction registerFunction;
@@ -297,7 +313,7 @@ typedef struct _mocu{
 
 #define CUDA_LIB_PATH  "/usr/local/cuda-5.5/lib64/libcudart.so"  
 #define TRACE(func)  printf("[TRACE -runtime-] %-25s\n",func);
-#define REPLAY(func) //printf("[REPLAY] %-25s\n",func);
+#define REPLAY(func) printf("[REPLAY] %-25s\n",func);
 #define ENCAP 1
 
 extern MOCU mocu;

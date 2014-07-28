@@ -1527,9 +1527,32 @@ cudaError_t cudaMallocPitch(void **devPtr,  size_t *pitch,  size_t width,  size_
 
   ENTER;
 
+  size_t expected_pitch;
   cudaError_t res;
+  apilog* a;
+
+  expected_pitch = width*height != 0 ? (width/512+1)*512 : 0;
+
+  mocu_try_to_allocate(expected_pitch*height);
 
   res = mocu.mocudaMallocPitch(devPtr, pitch, width, height);
+
+  if(res == cudaSuccess){
+
+    mocu_malloc_done(expected_pitch*height);
+
+    a = (apilog*)malloc(sizeof(apilog));
+    a->type = MALLOCPITCH;
+    a->data.mallocPitch.devPtr = *devPtr;
+    a->data.mallocPitch.pitch = *pitch;
+    a->data.mallocPitch.width = width;
+    a->data.mallocPitch.height = height;
+    a->prev = mocu.cp->a1->prev;
+    a->next = mocu.cp->a1;
+    a->prev->next = a;
+    a->next->prev = a;
+
+  }
 
   LEAVE;
 
@@ -1764,9 +1787,30 @@ cudaError_t cudaMalloc3D(struct cudaPitchedPtr* pitchedDevPtr,  struct cudaExten
 
   ENTER;
 
+  size_t expected_pitch;
   cudaError_t res;
+  apilog* a;
 
-  res = mocu.mocudaMalloc3D(pitchedDevPtr, extent);
+  expected_pitch = (extent.width/512+1)*512;
+
+  mocu_try_to_allocate(expected_pitch*extent.height*extent.depth);
+
+  res = mocu.mocudaMalloc3D(pitchedDevPtr,extent);
+
+  if(res == cudaSuccess){
+
+    mocu_malloc_done(expected_pitch*extent.height*extent.depth);
+
+    a = (apilog*)malloc(sizeof(apilog));
+    a->type = MALLOC3D;
+    a->data.malloc3D.pitchedDevPtr = *pitchedDevPtr;
+    a->data.malloc3D.extent = extent;
+    a->prev = mocu.cp->a1->prev;
+    a->next = mocu.cp->a1;
+    a->prev->next = a;
+    a->next->prev = a;
+
+  }
 
   LEAVE;
 

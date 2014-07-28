@@ -37,8 +37,8 @@ int main(){
 
   float *result;
   int   niter;
-  cudaError_t res;
-
+  cudaError_t res
+;
   result = (float*)malloc(sizeof(float)*SIZE);
 
   dim3  threads (THREADS,1,1);

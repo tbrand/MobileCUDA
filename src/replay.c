@@ -25,6 +25,39 @@ int replay(apilog* a){
       return 0;
     }
 
+  case MALLOCPITCH:
+
+    REPLAY("cudaMallocPitch");
+
+    void* dptr;
+    res = mocu.mocudaMallocPitch(&dptr,&a->data.mallocPitch.pitch,a->data.mallocPitch.width,a->data.mallocPitch.height);
+    if(res != cudaSuccess || dptr != a->data.mallocPitch.devPtr){
+      printf("replay failed in cudaMallocPitch()\n");
+      printf("a->devPtr   : %p\n",a->data.mallocPitch.devPtr);
+      printf("ptr         : %p\n",dptr);
+      printf("result code : %d\n",res);
+      return -1;
+    }
+
+    return 0;
+
+  case MALLOC3D:
+
+    REPLAY("cudaMalloc3D");
+
+    void* devPtr;
+    devPtr = a->data.malloc3D.pitchedDevPtr.ptr;
+    res = mocu.mocudaMalloc3D(&a->data.malloc3D.pitchedDevPtr,a->data.malloc3D.extent);
+    if(res != cudaSuccess || devPtr != a->data.malloc3D.pitchedDevPtr.ptr){
+      printf("replay failed in cudaMalloc3D()\n");
+      printf("a->devPtr   : %p\n",a->data.mallocPitch.devPtr);
+      printf("ptr         : %p\n",devPtr);
+      printf("result code : %d\n",res);
+      return -1;
+    }
+
+    return 0;
+
   case FREE:
 
     REPLAY("cudaFree");
