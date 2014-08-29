@@ -25,6 +25,12 @@ void mocu_backup(){
   printf("[MOCU] Finished symbol backup\n");
 #endif
 
+  mocu_array_backup();
+
+#if BACKUP
+  printf("[MOCU] Finished array backup\n");
+#endif
+
 }
 
 void mocu_migrate(int devID){
@@ -51,6 +57,7 @@ void mocu_migrate(int devID){
   mocu_stream_restore();
   mocu_device_restore();
   mocu_symbol_restore();
+  mocu_array_restore();
 
   mocu_pos = devID;
 

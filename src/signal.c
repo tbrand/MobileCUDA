@@ -6,6 +6,8 @@ int received_signal = 0;
 
 void mocu_request(){
 
+  if(!initialized)init_mocu();
+
   if(received_signal == NOREQUEST)return;
 
   printf("Received request from DAEMON\n");

@@ -1,8 +1,8 @@
 CC = gcc
 
-C_FLAGS = -g -shared -fPIC -lpthread -ldl -lstdc++
+C_FLAGS = -g -shared -fPIC -lpthread -ldl -lstdc++ -lcuda -lcupti -L/usr/local/cuda/extras/CUPTI/lib64
 
-INCLUDE = -I../include -I/usr/local/cuda/include
+INCLUDE = -I../include -I/usr/local/cuda/include -I/usr/local/cuda/extras/CUPTI/include
 
 OBJS =  device.o    \
 	event.o     \
@@ -15,6 +15,8 @@ OBJS =  device.o    \
 	socket.o    \
 	parse.o     \
 	symbol.o    \
+	array.o     \
+	cupti.o     \
 
 SHARED = libcudart.so
 LINK1  = libcudart.so.5.5

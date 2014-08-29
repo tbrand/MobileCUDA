@@ -44,6 +44,21 @@ __attribute__((constructor)) void init_mocu(){
   mocu.cp->e1->next = NULL;
   mocu.cp->e0->prev = NULL;
 
+  mocu.cp->ar0 = (mocu_array*)malloc(sizeof(mocu_array));
+  mocu.cp->ar1 = (mocu_array*)malloc(sizeof(mocu_array));
+  mocu.cp->ar0->mode = mocu.cp->ar1->mode = -1;
+  mocu.cp->ar0->next = mocu.cp->ar1;
+  mocu.cp->ar1->prev = mocu.cp->ar0;
+  mocu.cp->ar1->next = NULL;
+  mocu.cp->ar0->prev = NULL;
+
+  mocu.cp->tx0 = (mocu_texture*)malloc(sizeof(mocu_texture));
+  mocu.cp->tx1 = (mocu_texture*)malloc(sizeof(mocu_texture));
+  mocu.cp->tx0->next = mocu.cp->tx1;
+  mocu.cp->tx1->prev = mocu.cp->tx0;
+  mocu.cp->tx1->next = NULL;
+  mocu.cp->tx0->prev = NULL;
+
   mocu.cp->a0 = (apilog*)malloc(sizeof(apilog));
   mocu.cp->a1 = (apilog*)malloc(sizeof(apilog));
   mocu.cp->a0->next = mocu.cp->a1;
@@ -150,7 +165,7 @@ void** __cudaRegisterFatBinary(void* fatCubin){
 
   ENTER;
 
-  if(!initialized)init_mocu();
+  //  if(!initialized)init_mocu();
 
   void **fHandle = mocu.__mocudaRegisterFatBinary(fatCubin);
 
@@ -856,8 +871,6 @@ cudaError_t cudaSetDeviceFlags( unsigned int flags ){
 
 cudaError_t cudaStreamCreate(cudaStream_t *pStream){
 
-#if ENCAP
-
   TRACE("cudaStreamCreate");
 
   ENTER;
@@ -881,18 +894,6 @@ cudaError_t cudaStreamCreate(cudaStream_t *pStream){
   LEAVE;
 
   return res;
-
-#else
-
-  cudaError_t res;
-
-  res = mocu.mocudaStreamCreate(pStream);
-
-  LEAVE;
-
-  return res;
-
-#endif
 
 }
 
@@ -920,8 +921,6 @@ cudaError_t cudaStreamDestroy(cudaStream_t iStream){
 
   ENTER;
 
-#if ENCAP
-
   mocu_stream* sp;
   cudaError_t res;
 
@@ -936,17 +935,6 @@ cudaError_t cudaStreamDestroy(cudaStream_t iStream){
 
   return res;
 
-#else
-
-  cudaError_t res;
-
-  res = mocu.mocudaStreamDestroy(iStream);
-
-  LEAVE;
-
-  return res;
-
-#endif
 }
 
 
@@ -991,8 +979,6 @@ cudaError_t cudaStreamSynchronize(cudaStream_t stream){
 
   ENTER;
 
-#if ENCAP
-
   mocu_stream* sp;
   cudaError_t res;
 
@@ -1003,18 +989,6 @@ cudaError_t cudaStreamSynchronize(cudaStream_t stream){
   LEAVE;
 
   return res;
-
-#else
-
-  cudaError_t res;
-
-  res = mocu.mocudaStreamSynchronize(stream);
-
-  LEAVE;
-
-  return res;
-
-#endif
 
 }
 
@@ -1042,8 +1016,6 @@ cudaError_t cudaEventCreateWithFlags(cudaEvent_t *iEvent,  unsigned int flags){
 
   ENTER;
 
-#if ENCAP
-
   mocu_event* ep;
   cudaEvent_t e;
   cudaError_t res;
@@ -1065,18 +1037,6 @@ cudaError_t cudaEventCreateWithFlags(cudaEvent_t *iEvent,  unsigned int flags){
 
   return res;
 
-#else
-
-  cudaError_t res;
-
-  res = mocu.mocudaEventCreateWithFlags(iEvent,flags);
-
-  LEAVE;
-
-  return res;
-
-#endif
-
 }
 
 
@@ -1085,12 +1045,6 @@ cudaError_t cudaEventCreate(cudaEvent_t *iEvent){
   TRACE("cudaEventCreate");
 
   ENTER;
-
-#if ENCAP
-
-  //return cudaEventCreateWithFlags(iEvent,cudaEventDefault);
-
-#if 1
 
   mocu_event* ep;
   cudaEvent_t e;
@@ -1112,20 +1066,6 @@ cudaError_t cudaEventCreate(cudaEvent_t *iEvent){
 
   return res;
 
-#endif
-
-#else
-
-  cudaError_t res;
-
-  res = mocu.mocudaEventCreate(iEvent);
-
-  LEAVE;
-
-  return res;
-
-#endif
-
 }
 
 cudaError_t cudaEventRecord(cudaEvent_t iEvent,  cudaStream_t iStream ){
@@ -1133,8 +1073,6 @@ cudaError_t cudaEventRecord(cudaEvent_t iEvent,  cudaStream_t iStream ){
   TRACE("cudaEventRecord");
 
   ENTER;
-
-#if ENCAP
 
   mocu_event* ep;
   mocu_stream* sp;
@@ -1150,18 +1088,6 @@ cudaError_t cudaEventRecord(cudaEvent_t iEvent,  cudaStream_t iStream ){
   LEAVE;
 
   return res;
-
-#else
-
-  cudaError_t res;
-
-  res = mocu.mocudaEventRecord(iEvent,iStream);
-
-  LEAVE;
-
-  return res;
-
-#endif
 
 }
 
@@ -1189,8 +1115,6 @@ cudaError_t cudaEventSynchronize(cudaEvent_t event){
 
   ENTER;
 
-#if ENCAP
-
   mocu_event* ep;
   cudaError_t res;
 
@@ -1202,18 +1126,6 @@ cudaError_t cudaEventSynchronize(cudaEvent_t event){
 
   return res;
 
-#else
-
-  cudaError_t res;
-
-  res = mocu.mocudaEventSynchronize(event);
-
-  LEAVE;
-
-  return res;
-
-#endif
-
 }
 
 
@@ -1222,8 +1134,6 @@ cudaError_t cudaEventDestroy(cudaEvent_t event){
   TRACE("cudaEventDestroy");
 
   ENTER;
-
-#if ENCAP
 
   mocu_event* ep;
   cudaError_t res;
@@ -1239,18 +1149,6 @@ cudaError_t cudaEventDestroy(cudaEvent_t event){
 
   return res;
 
-#else
-
-  cudaError_t res;
-
-  res = mocu.mocudaEventDestroy(event);
-
-  LEAVE;
-
-  return res;
-
-#endif
-
 }
 
 
@@ -1259,8 +1157,6 @@ cudaError_t cudaEventElapsedTime(float *ms,  cudaEvent_t start,  cudaEvent_t end
   TRACE("cudaEventElapsedTime");
 
   ENTER;
-
-#if ENCAP
 
   mocu_event *ep1,*ep2;
   cudaError_t res;
@@ -1274,18 +1170,6 @@ cudaError_t cudaEventElapsedTime(float *ms,  cudaEvent_t start,  cudaEvent_t end
 
   return res;
 
-#else
-
-  cudaError_t res;
-
-  res = mocu.mocudaEventElapsedTime(ms,start,end);
-
-  LEAVE;
-
-  return res;
-
-#endif
-
 }
 
 
@@ -1294,8 +1178,6 @@ cudaError_t cudaConfigureCall(dim3 gridDim,  dim3 blockDim,  size_t sharedMem , 
   //  TRACE("cudaConfigureCall");
 
   ENTER;
-
-#if ENCAP
 
   mocu_stream *sp;
   cudaError_t res;
@@ -1307,18 +1189,6 @@ cudaError_t cudaConfigureCall(dim3 gridDim,  dim3 blockDim,  size_t sharedMem , 
   LEAVE;
 
   return res;
-
-#else
-
-  cudaError_t res;
-
-  res = mocu.mocudaConfigureCall(gridDim, blockDim, sharedMem , stream);
-
-  LEAVE;
-
-  return res;
-
-#endif
 
 }
 
@@ -1379,6 +1249,7 @@ cudaError_t cudaLaunch(const void *func){
 
   ENTER;
 
+  cudaError_t res;
   region* rtemp;
 
   rtemp = mocu.cp->d0->next;
@@ -1390,9 +1261,10 @@ cudaError_t cudaLaunch(const void *func){
     rtemp = rtemp->next;
   }
 
-  cudaError_t res;
-
   res = mocu.mocudaLaunch(func);
+
+  //TEST
+  mocu_send_profile();
 
   LEAVE;
 
@@ -1531,7 +1403,8 @@ cudaError_t cudaMallocPitch(void **devPtr,  size_t *pitch,  size_t width,  size_
   cudaError_t res;
   apilog* a;
 
-  expected_pitch = width*height != 0 ? (width/512+1)*512 : 0;
+  //  expected_pitch = width*height != 0 ? (width/512+1)*512 : 0;
+  expected_pitch = width*height != 0 ? ((width+511)/512)*512 : 0;
 
   mocu_try_to_allocate(expected_pitch*height);
 
@@ -1567,9 +1440,39 @@ cudaError_t cudaMallocArray(cudaArray_t *array,  const struct cudaChannelFormatD
 
   ENTER;
 
+  size_t expected;
+  mocu_array* arp;
+  cudaArray_t ar;
   cudaError_t res;
+  
+  expected = ((desc->w+desc->x+desc->y+desc->z+7)/8)
+    *((width+31)&~(size_t)31)
+    *((height+127)&~(size_t)127)
+    + (2<<20);
+  
+  mocu_try_to_allocate(expected);
+  
+  res = mocu.mocudaMallocArray(&ar, desc, width, height , flags );
 
-  res = mocu.mocudaMallocArray(array, desc, width, height , flags );
+  if(res == cudaSuccess){
+
+    mocu_malloc_done(expected);
+
+    arp = (mocu_array*)malloc(sizeof(mocu_array));
+    arp->ar = ar;
+    arp->desc = *desc;
+    arp->width = width;
+    arp->height = height;
+    arp->backup_size = 
+      width*height*((desc->x+desc->y+desc->z+desc->w+7)/8);
+    arp->flags = flags;
+    arp->mode = 0;
+    arp->prev->next = arp;
+    arp->next->prev = arp;
+
+    *array = (cudaArray_t)arp;
+
+  }
 
   LEAVE;
 
@@ -1645,9 +1548,15 @@ cudaError_t cudaFreeArray(cudaArray_t array){
 
   ENTER;
 
+  mocu_array* arp;
   cudaError_t res;
 
-  res = mocu.mocudaFreeArray(array);
+  arp = (mocu_array*)array;
+
+  res = mocu.mocudaFreeArray(arp->ar);
+
+  arp->next->prev = arp->prev;
+  arp->prev->next = arp->next;
 
   LEAVE;
 
@@ -1825,9 +1734,24 @@ cudaError_t cudaMalloc3DArray(cudaArray_t *array,  const struct cudaChannelForma
 
   ENTER;
 
+  mocu_array* arp;
+  cudaArray_t ar;
   cudaError_t res;
 
-  res = mocu.mocudaMalloc3DArray(array, desc, extent, flags );
+  res = mocu.mocudaMalloc3DArray(&ar, desc, extent, flags);
+
+  arp = (mocu_array*)malloc(sizeof(mocu_array));
+  arp->ar = ar;
+  arp->desc = *desc;
+  arp->extent = extent;
+  arp->backup_size = 
+    extent.width*extent.height*extent.depth*((desc->x+desc->y+desc->z+desc->w+7)/8);
+  arp->flags = flags;
+  arp->mode = 1;
+  arp->prev->next = arp;
+  arp->next->prev = arp;
+
+  *array = (cudaArray_t)arp;
 
   LEAVE;
 
@@ -1961,9 +1885,12 @@ cudaError_t cudaArrayGetInfo(struct cudaChannelFormatDesc *desc,  struct cudaExt
 
   ENTER;
 
+  mocu_array* arp;
   cudaError_t res;
 
-  res = mocu.mocudaArrayGetInfo(desc, extent, flags, array);
+  arp = (mocu_array*)array;
+
+  res = mocu.mocudaArrayGetInfo(desc, extent, flags, arp->ar);
 
   LEAVE;
 
@@ -2042,8 +1969,11 @@ cudaError_t cudaMemcpyToArray(cudaArray_t dst,  size_t wOffset,  size_t hOffset,
   ENTER;
 
   cudaError_t res;
+  mocu_array* arp;
 
-  res = mocu.mocudaMemcpyToArray(dst, wOffset, hOffset, src, count, kind);
+  arp = (mocu_array*)dst;
+
+  res = mocu.mocudaMemcpyToArray(arp->ar , wOffset, hOffset, src, count, kind);
 
   LEAVE;
 
@@ -2076,9 +2006,11 @@ cudaError_t cudaMemcpyArrayToArray(cudaArray_t dst,  size_t wOffsetDst,  size_t 
   ENTER;
 
   cudaError_t res;
+  mocu_array* arp;
 
-  res = mocu.mocudaMemcpyArrayToArray(dst, wOffsetDst, hOffsetDst, src, wOffsetSrc, hOffsetSrc, count, kind );
+  arp = (mocu_array*)dst;
 
+  res = mocu.mocudaMemcpyArrayToArray(arp->ar , wOffsetDst, hOffsetDst, src, wOffsetSrc, hOffsetSrc, count, kind );
   LEAVE;
 
   return res;
@@ -2110,15 +2042,17 @@ cudaError_t cudaMemcpy2DToArray(cudaArray_t dst,  size_t wOffset,  size_t hOffse
   ENTER;
 
   cudaError_t res;
+  mocu_array* arp;
 
-  res = mocu.mocudaMemcpy2DToArray(dst, wOffset, hOffset, src, spitch, width, height, kind);
+  arp = (mocu_array*)dst;
+
+  res = mocu.mocudaMemcpy2DToArray(arp->ar, wOffset, hOffset, src, spitch, width, height, kind);
 
   LEAVE;
 
   return res;
 
 }
-
 
 cudaError_t cudaMemcpy2DFromArray(void *dst,  size_t dpitch,  cudaArray_const_t src,  size_t wOffset,  size_t hOffset,  size_t width,  size_t height,  enum cudaMemcpyKind kind){
 
@@ -2144,8 +2078,11 @@ cudaError_t cudaMemcpy2DArrayToArray(cudaArray_t dst,  size_t wOffsetDst,  size_
   ENTER;
 
   cudaError_t res;
+  mocu_array* arp;
 
-  res = mocu.mocudaMemcpy2DArrayToArray(dst, wOffsetDst, hOffsetDst, src, wOffsetSrc, hOffsetSrc, width, height, kind );
+  arp = (mocu_array*)dst;
+
+  res = mocu.mocudaMemcpy2DArrayToArray(arp->ar, wOffsetDst, hOffsetDst, src, wOffsetSrc, hOffsetSrc, width, height, kind );
 
   LEAVE;
 
@@ -2211,8 +2148,6 @@ cudaError_t cudaMemcpyAsync(void *dst,  const void *src,  size_t count,  enum cu
 
   ENTER;
 
-#if ENCAP
-
   mocu_stream *sp;
   cudaError_t res;
     
@@ -2223,18 +2158,6 @@ cudaError_t cudaMemcpyAsync(void *dst,  const void *src,  size_t count,  enum cu
   LEAVE;
 
   return res;
-
-#else
-
-  cudaError_t res;
-
-  res = mocu.mocudaMemcpyAsync(dst, src, count, kind, iStream);
-
-  LEAVE;
-
-  return res;
-
-#endif
 }
 
 
@@ -2262,8 +2185,11 @@ cudaError_t cudaMemcpyToArrayAsync(cudaArray_t dst,  size_t wOffset,  size_t hOf
   ENTER;
 
   cudaError_t res;
+  mocu_array* arp;
 
-  res = mocu.mocudaMemcpyToArrayAsync(dst, wOffset, hOffset, src, count, kind, stream );
+  arp = (mocu_array*)dst;
+
+  res = mocu.mocudaMemcpyToArrayAsync(arp->ar, wOffset, hOffset, src, count, kind, stream );
 
   LEAVE;
 
@@ -2313,8 +2239,11 @@ cudaError_t cudaMemcpy2DToArrayAsync(cudaArray_t dst,  size_t wOffset,  size_t h
   ENTER;
 
   cudaError_t res;
+  mocu_array* arp;
 
-  res = mocu.mocudaMemcpy2DToArrayAsync(dst, wOffset, hOffset, src, spitch, width, height, kind, stream );
+  arp = (mocu_array*)dst;
+
+  res = mocu.mocudaMemcpy2DToArrayAsync(arp->ar , wOffset, hOffset, src, spitch, width, height, kind, stream );
 
   LEAVE;
 

@@ -140,6 +140,24 @@ void mocu_leave(){
   RECV;
 }
 
+int _profiled = 0;
+
+void mocu_send_profile(){
+
+  if(_profiled)return;
+
+  mocu.cp->msg->REQUEST = PROFILE;
+
+  getTrace(&mocu.cp->msg->trace);
+
+  SEND;
+
+  RECV;
+
+  _profiled = 1;
+
+}
+
 void mocu_request_from_daemon(proc_data* data){
 
   switch(data->REQUEST){
@@ -164,6 +182,7 @@ void mocu_request_from_daemon(proc_data* data){
     break;
   case CCHECK_OK:
     created_context = 1;
+    init_cupti();//TEST
     break;
   case CCHECK_FAILED:
     //to do nothing
