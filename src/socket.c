@@ -102,6 +102,25 @@ void mocu_try_to_allocate(size_t size){
   RECV;
 }
 
+void mocu_cuda_free(void* devPtr){
+
+  region* r;
+
+  r = mocu.cp->d0->next;
+  while(r->next != NULL){
+
+    if(r->base == devPtr){
+      mocu.cp->msg->REQUEST = CUDAFREE;
+      mocu.cp->msg->mem -= r->size;
+	
+      SEND;
+      break;
+    }
+    
+    r = r->next;
+  }
+}
+
 void mocu_failed_to_get(int size){
 
   mocu.cp->msg->REQUEST = FAILEDTOALLOC;
@@ -140,11 +159,7 @@ void mocu_leave(){
   RECV;
 }
 
-int _profiled = 0;
-
 void mocu_send_profile(){
-
-  if(_profiled)return;
 
   mocu.cp->msg->REQUEST = PROFILE;
 
@@ -153,8 +168,6 @@ void mocu_send_profile(){
   SEND;
 
   RECV;
-
-  _profiled = 1;
 
 }
 
@@ -182,7 +195,6 @@ void mocu_request_from_daemon(proc_data* data){
     break;
   case CCHECK_OK:
     created_context = 1;
-    init_cupti();//TEST
     break;
   case CCHECK_FAILED:
     //to do nothing

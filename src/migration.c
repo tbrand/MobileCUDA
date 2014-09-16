@@ -3,6 +3,7 @@
 #define BACKUP 0
 
 void mocu_backup(){
+
 #if BACKUP
   printf("[MOCU] Start mocu_backup()\n");
 #endif
@@ -52,6 +53,8 @@ void mocu_migrate(int devID){
     a = a->next;
 
   }
+
+  printf("\t===> REPLAY SUCCESS\n");
 
   mocu_event_restore();
   mocu_stream_restore();

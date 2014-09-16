@@ -1,7 +1,7 @@
 #include <mocu.h>
 
 void mocu_array_backup(){
-  
+
   mocu_array* arp;
   cudaError_t res;
 
@@ -13,7 +13,6 @@ void mocu_array_backup(){
     res = mocu.mocudaMemcpyFromArray(arp->backup,arp->ar,0,0,arp->backup_size,cudaMemcpyHostToDevice);
 
     if(res != cudaSuccess){
-      //
       exit(-1);
     }
 
@@ -23,7 +22,7 @@ void mocu_array_backup(){
 }
 
 void mocu_array_restore(){
-  
+
   mocu_array* arp;
   cudaError_t res;
 

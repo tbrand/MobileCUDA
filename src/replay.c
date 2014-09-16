@@ -162,6 +162,22 @@ int replay(apilog* a){
     }else{
       return 0;
     }
+
+  case CUPTI_INIT:
+    
+    REPLAY("cupti_init");
+
+    init_cupti();
+
+    return 0;
+
+  case CUPTI_DESTROY:
+
+    REPLAY("cupti_destroy");
+
+    cupti_destroy();
+
+    return 0;
     
   default:
 

@@ -6,7 +6,7 @@ int received_signal = 0;
 
 void mocu_request(){
 
-  if(!initialized)init_mocu();
+  if(!connected)mocu_connect();
 
   if(received_signal == NOREQUEST)return;
 

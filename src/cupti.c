@@ -103,15 +103,21 @@ void init_cupti(){
 
   event_domain_size = sizeof(CUpti_EventDomainID)*num_event_domain;
 
-  cuptiDeviceEnumEventDomains(dev, &event_domain_size, ev_domain_buffer);
+  cuptiDeviceEnumEventDomains(dev,
+			      &event_domain_size,
+			      ev_domain_buffer);
 
   for(i = 0 ; i < num_event_domain ; i ++){
 
     bufsize = sizeof(namebuf);
+
     uint32_t num_event;
 
-    cuptiDeviceGetEventDomainAttribute(dev, ev_domain_buffer[i],
-				       CUPTI_EVENT_DOMAIN_ATTR_NAME, &bufsize, namebuf);
+    cuptiDeviceGetEventDomainAttribute(dev,
+				       ev_domain_buffer[i],
+				       CUPTI_EVENT_DOMAIN_ATTR_NAME,
+				       &bufsize,
+				       namebuf);
 
     cuptiEventDomainGetNumEvents(ev_domain_buffer[i], &num_event);
 
@@ -124,7 +130,10 @@ void init_cupti(){
     for (j = 0; j < num_event; j++) {
 
       bufsize = sizeof(namebuf);
-      res = cuptiEventGetAttribute(event_id_buffer[j],CUPTI_EVENT_ATTR_NAME, &bufsize, namebuf);
+      res = cuptiEventGetAttribute(event_id_buffer[j],
+				   CUPTI_EVENT_ATTR_NAME,
+				   &bufsize,
+				   namebuf);
 
       if (strcmp(namebuf, "gst_request") == 0) {
 	gst_request = event_id_buffer[j];
@@ -154,15 +163,13 @@ void init_cupti(){
   
   cuptiSubscribe(&subscriber, (CUpti_CallbackFunc)getEventValueCallback,&trace);
 
-  cuptiEnableCallback(1, subscriber, CUPTI_CB_DOMAIN_RUNTIME_API, CUPTI_RUNTIME_TRACE_CBID_cudaLaunch_v3020);
-
+  cuptiEnableCallback(1,
+		      subscriber,
+		      CUPTI_CB_DOMAIN_RUNTIME_API,
+		      CUPTI_RUNTIME_TRACE_CBID_cudaLaunch_v3020);
 }
 
-int profiled = 0;
-
-void cupti_display(){
-
-  if(profiled)return;
+void cupti_destroy(){
 
   //  printf("inst : %llu\n",(unsigned long long)trace.inst);
   //  printf("gld  : %llu\n",(unsigned long long)trace.gld);
@@ -188,8 +195,6 @@ void cupti_display(){
 
   //  printf("Unsubscribe : %d\n",res);
 
-  profiled = 1;
-  
 }
 
 int getTrace(RuntimeApiTrace_t* _trace){

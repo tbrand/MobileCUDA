@@ -6,7 +6,7 @@ int mocu_pos;
 
 MOCU mocu;
 
-static int initialized = 0;
+int initialized = 0;
 
 __attribute__((constructor)) void init_mocu(){
 
@@ -165,7 +165,7 @@ void** __cudaRegisterFatBinary(void* fatCubin){
 
   ENTER;
 
-  //  if(!initialized)init_mocu();
+  if(!initialized)init_mocu();
 
   void **fHandle = mocu.__mocudaRegisterFatBinary(fatCubin);
 
@@ -804,15 +804,21 @@ cudaError_t cudaSetDevice(int device){
 
   ENTER;
 
-  mocu_pos = device;
+  printf("\tWarning[Mobile CUDA] : CANNOT CALL cudaSetDevice()\n");
+  printf("\tAlways return \"cudaSuccess\"\n");
 
-  cudaError_t res;
+  /*
+    mocu_pos = device;
 
-  res = mocu.mocudaSetDevice(device);
+    cudaError_t res;
+
+    res = mocu.mocudaSetDevice(device);
+  */
 
   LEAVE;
 
-  return res;
+  //  return res;
+  return cudaSuccess;
 
 }
 
@@ -823,13 +829,18 @@ cudaError_t cudaGetDevice(int *device){
 
   ENTER;
 
-  cudaError_t res;
+  /*
+    cudaError_t res;
 
-  res = mocu.mocudaGetDevice(device);
+    res = mocu.mocudaGetDevice(device);
+  */
+
+  *device = 1;
 
   LEAVE;
 
-  return res;
+  //  return res;
+  return cudaSuccess;
 
 }
 
@@ -1243,6 +1254,8 @@ cudaError_t cudaFuncSetSharedMemConfig(const void *func,  enum cudaSharedMemConf
 
 }
 
+int profiled = 1;
+
 cudaError_t cudaLaunch(const void *func){
 
   //  TRACE("cudaLaunch");
@@ -1261,10 +1274,48 @@ cudaError_t cudaLaunch(const void *func){
     rtemp = rtemp->next;
   }
 
-  res = mocu.mocudaLaunch(func);
+  if(!profiled){
 
-  //TEST
-  mocu_send_profile();
+    apilog* ac0;
+    apilog* ac1;
+
+    init_cupti();
+
+    /*
+    ac0 = (apilog*)malloc(sizeof(apilog));
+    ac0->type = CUPTI_INIT;
+    ac0->prev = mocu.cp->a1->prev;
+    ac0->next = mocu.cp->a1;
+    ac0->prev->next = ac0;
+    ac0->next->prev = ac0;
+
+    printf("\t>>>ADD LOG(CUPTI_INIT)\n");
+    */
+
+    res = mocu.mocudaLaunch(func);
+
+    //    mocu_send_profile();
+
+    cupti_destroy();
+
+    /*
+    ac1 = (apilog*)malloc(sizeof(apilog));
+    ac1->type = CUPTI_DESTROY;
+    ac1->prev = mocu.cp->a1->prev;
+    ac1->next = mocu.cp->a1;
+    ac1->prev->next = ac1;
+    ac1->next->prev = ac1;
+
+    printf("\t>>>ADD LOG(CUPTI_DESTROY)\n");
+    */
+
+    profiled = 1;
+
+  }else{
+
+    res = mocu.mocudaLaunch(func);
+
+  }
 
   LEAVE;
 
@@ -1403,7 +1454,6 @@ cudaError_t cudaMallocPitch(void **devPtr,  size_t *pitch,  size_t width,  size_
   cudaError_t res;
   apilog* a;
 
-  //  expected_pitch = width*height != 0 ? (width/512+1)*512 : 0;
   expected_pitch = width*height != 0 ? ((width+511)/512)*512 : 0;
 
   mocu_try_to_allocate(expected_pitch*height);
@@ -1449,7 +1499,7 @@ cudaError_t cudaMallocArray(cudaArray_t *array,  const struct cudaChannelFormatD
     *((width+31)&~(size_t)31)
     *((height+127)&~(size_t)127)
     + (2<<20);
-  
+
   mocu_try_to_allocate(expected);
   
   res = mocu.mocudaMallocArray(&ar, desc, width, height , flags );
@@ -1463,10 +1513,12 @@ cudaError_t cudaMallocArray(cudaArray_t *array,  const struct cudaChannelFormatD
     arp->desc = *desc;
     arp->width = width;
     arp->height = height;
-    arp->backup_size = 
-      width*height*((desc->x+desc->y+desc->z+desc->w+7)/8);
+    arp->backup_size = width*height*((desc->x+desc->y+desc->z+desc->w+7)/8);
     arp->flags = flags;
     arp->mode = 0;
+
+    arp->prev = mocu.cp->ar1->prev;
+    arp->next = mocu.cp->ar1;
     arp->prev->next = arp;
     arp->next->prev = arp;
 
@@ -1495,6 +1547,8 @@ cudaError_t cudaFree(void *devPtr){
 
   if(res == cudaSuccess){
 
+    mocu_cuda_free(devPtr);
+
     a = (apilog*)malloc(sizeof(apilog));
     a->type = FREE;
     a->data.free.devPtr = devPtr;
@@ -1514,8 +1568,6 @@ cudaError_t cudaFree(void *devPtr){
       }
       r = r->next;
     }
-
-    mocu_send_renew();
   }
 
   LEAVE;
@@ -2751,8 +2803,12 @@ cudaError_t cudaBindTextureToArray(const struct textureReference *texref,  cudaA
   ENTER;
 
   cudaError_t res;
+  mocu_array *arp;
 
-  res = mocu.mocudaBindTextureToArray(texref, array, desc);
+  arp = (mocu_array*)array;
+
+  //  res = mocu.mocudaBindTextureToArray(texref, array, desc);
+  res = mocu.mocudaBindTextureToArray(texref, arp->ar, desc);
 
   LEAVE;
 
@@ -2870,8 +2926,33 @@ cudaError_t cudaCreateTextureObject(cudaTextureObject_t *pTexObject,  const stru
   ENTER;
 
   cudaError_t res;
+  mocu_texture* tp;
+  cudaTextureObject_t t;
+  struct cudaResourceDesc rdesc;
+  struct cudaTextureDesc tdesc;
+  struct cudaResourceViewDesc vdesc;
 
-  res = mocu.mocudaCreateTextureObject(pTexObject, pResDesc, pTexDesc, pResViewDesc);
+  //  res = mocu.mocudaCreateTextureObject(pTexObject, pResDesc, pTexDesc, pResViewDesc);
+  res = mocu.mocudaCreateTextureObject(&t, pResDesc, pTexDesc, pResViewDesc);
+
+  rdesc = (struct cudaResourceDesc)*pResDesc;
+  tdesc = (struct cudaTextureDesc)*pTexDesc;
+  vdesc = (struct cudaResourceViewDesc)*pResViewDesc;
+
+  if(res == cudaSuccess){
+
+    tp = (mocu_texture*)malloc(sizeof(mocu_texture));
+    tp->tx = t;
+    tp->rdesc = rdesc;
+    tp->tdesc = tdesc;
+    tp->vdesc = vdesc;
+    
+    tp->prev = mocu.cp->tx1->prev;
+    tp->next = mocu.cp->tx1;
+    tp->prev->next = tp;
+    tp->next->prev = tp;
+    
+  }
 
   LEAVE;
 
@@ -2887,8 +2968,19 @@ cudaError_t cudaDestroyTextureObject(cudaTextureObject_t texObject){
   ENTER;
 
   cudaError_t res;
+  mocu_texture *tp;
 
-  res = mocu.mocudaDestroyTextureObject(texObject);
+  tp = (mocu_texture*)texObject;
+
+  res = mocu.mocudaDestroyTextureObject(tp->tx);
+
+  if(res == cudaSuccess){
+
+    tp->next->prev = tp->prev;
+    tp->prev->next = tp->next;
+    
+    free(tp);
+  }
 
   LEAVE;
 
@@ -2904,8 +2996,11 @@ cudaError_t cudaGetTextureObjectResourceDesc(struct cudaResourceDesc *pResDesc, 
   ENTER;
 
   cudaError_t res;
+  mocu_texture *tp;
 
-  res = mocu.mocudaGetTextureObjectResourceDesc(pResDesc, texObject);
+  tp = (mocu_texture*)texObject;
+
+  res = mocu.mocudaGetTextureObjectResourceDesc(pResDesc, tp->tx);
 
   LEAVE;
 
@@ -2921,8 +3016,11 @@ cudaError_t cudaGetTextureObjectTextureDesc(struct cudaTextureDesc *pTexDesc,  c
   ENTER;
 
   cudaError_t res;
+  mocu_texture *tp;
 
-  res = mocu.mocudaGetTextureObjectTextureDesc(pTexDesc, texObject);
+  tp = (mocu_texture*)texObject;
+
+  res = mocu.mocudaGetTextureObjectTextureDesc(pTexDesc, tp->tx);
 
   LEAVE;
 
@@ -2938,8 +3036,11 @@ cudaError_t cudaGetTextureObjectResourceViewDesc(struct cudaResourceViewDesc *pR
   ENTER;
 
   cudaError_t res;
+  mocu_texture *tp;
 
-  res = mocu.mocudaGetTextureObjectResourceViewDesc(pResViewDesc, texObject);
+  tp = (mocu_texture*)texObject;
+
+  res = mocu.mocudaGetTextureObjectResourceViewDesc(pResViewDesc, tp->tx);
 
   LEAVE;
 
