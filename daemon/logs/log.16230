@@ -1,0 +1,278 @@
+SD[17]	   1[sec]	STATUS[0]	POS[1]	./simpleTexture
+SD[17]	   1[sec]	STATUS[0]	POS[1]	./simpleTexture
+SD[17]	   1[sec]	STATUS[0]	POS[1]	./simpleTexture
+SD[19]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[19]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[19]	  10[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[20]	   1[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[20]	   1[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[21]	   3[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[21]	   1[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[22]	   4[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[22]	   1[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[22]	   1[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[22]	   1[sec]	STATUS[4]	POS[2]	./simplePitchLinearTexture
+SD[22]	   1[sec]	STATUS[1]	POS[0]	./simplePitchLinearTexture
+SD[23]	   4[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[23]	   1[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[24]	   5[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[24]	   1[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[25]	   6[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[23]	   1[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[26]	   5[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[23]	   1[sec]	STATUS[4]	POS[2]	./simplePitchLinearTexture
+SD[23]	   1[sec]	STATUS[1]	POS[1]	./simplePitchLinearTexture
+SD[25]	   1[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[24]	   1[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[24]	   1[sec]	STATUS[4]	POS[3]	./simplePitchLinearTexture
+SD[27]	   6[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[26]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[25]	   2[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[28]	   6[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[27]	   1[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[25]	   1[sec]	STATUS[4]	POS[0]	./simplePitchLinearTexture
+SD[28]	   1[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[29]	   6[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[26]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[26]	   1[sec]	STATUS[4]	POS[1]	./simplePitchLinearTexture
+SD[29]	   1[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[27]	   1[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[27]	   1[sec]	STATUS[4]	POS[2]	./simplePitchLinearTexture
+SD[28]	   1[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[28]	   1[sec]	STATUS[4]	POS[3]	./simplePitchLinearTexture
+SD[29]	   1[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[29]	   1[sec]	STATUS[4]	POS[0]	./simplePitchLinearTexture
+SD[20]	  12[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[24]	   4[sec]	STATUS[1]	POS[2]	./simplePitchLinearTexture
+SD[25]	   3[sec]	STATUS[1]	POS[2]	./simplePitchLinearTexture
+SD[24]	   1[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[24]	   1[sec]	STATUS[4]	POS[2]	./simplePitchLinearTexture
+SD[26]	   2[sec]	STATUS[1]	POS[2]	./simplePitchLinearTexture
+SD[25]	   1[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[25]	   1[sec]	STATUS[4]	POS[2]	./simplePitchLinearTexture
+SD[27]	   3[sec]	STATUS[1]	POS[2]	./simplePitchLinearTexture
+SD[26]	   1[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[26]	   1[sec]	STATUS[4]	POS[2]	./simplePitchLinearTexture
+SD[28]	   3[sec]	STATUS[1]	POS[2]	./simplePitchLinearTexture
+SD[27]	   1[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[27]	   1[sec]	STATUS[4]	POS[2]	./simplePitchLinearTexture
+SD[29]	   3[sec]	STATUS[1]	POS[2]	./simplePitchLinearTexture
+SD[28]	   1[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[28]	   1[sec]	STATUS[4]	POS[2]	./simplePitchLinearTexture
+SD[21]	  12[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[22]	  12[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[23]	  12[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[29]	  10[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[30]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[30]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[31]	   1[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[31]	   1[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[32]	   2[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[32]	   1[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[33]	   3[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[33]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[34]	   3[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[33]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[33]	   1[sec]	STATUS[4]	POS[1]	./simplePitchLinearTexture
+SD[33]	   1[sec]	STATUS[1]	POS[2]	./simplePitchLinearTexture
+SD[34]	   1[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[35]	   5[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[34]	   1[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[34]	   1[sec]	STATUS[4]	POS[3]	./simplePitchLinearTexture
+SD[35]	   1[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[36]	   5[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[36]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[37]	   5[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[35]	   1[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[35]	   1[sec]	STATUS[4]	POS[0]	./simplePitchLinearTexture
+SD[37]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[38]	   5[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[36]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[36]	   1[sec]	STATUS[4]	POS[1]	./simplePitchLinearTexture
+SD[38]	   1[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[39]	   5[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[39]	   1[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[37]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[40]	   5[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[37]	   1[sec]	STATUS[4]	POS[1]	./simplePitchLinearTexture
+SD[40]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[38]	   1[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[38]	   1[sec]	STATUS[4]	POS[3]	./simplePitchLinearTexture
+SD[39]	   1[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[39]	   1[sec]	STATUS[4]	POS[0]	./simplePitchLinearTexture
+SD[40]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[40]	   1[sec]	STATUS[4]	POS[1]	./simplePitchLinearTexture
+SD[30]	  12[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[34]	   5[sec]	STATUS[1]	POS[1]	./simplePitchLinearTexture
+SD[35]	   3[sec]	STATUS[1]	POS[1]	./simplePitchLinearTexture
+SD[34]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[34]	   1[sec]	STATUS[4]	POS[1]	./simplePitchLinearTexture
+SD[36]	   4[sec]	STATUS[1]	POS[1]	./simplePitchLinearTexture
+SD[35]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[35]	   1[sec]	STATUS[4]	POS[1]	./simplePitchLinearTexture
+SD[37]	   3[sec]	STATUS[1]	POS[1]	./simplePitchLinearTexture
+SD[36]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[36]	   1[sec]	STATUS[4]	POS[1]	./simplePitchLinearTexture
+SD[38]	   3[sec]	STATUS[1]	POS[1]	./simplePitchLinearTexture
+SD[31]	  13[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+SD[39]	   3[sec]	STATUS[1]	POS[3]	./simplePitchLinearTexture
+SD[37]	   1[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[37]	   1[sec]	STATUS[4]	POS[1]	./simplePitchLinearTexture
+SD[40]	   4[sec]	STATUS[1]	POS[1]	./simplePitchLinearTexture
+SD[38]	   2[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[38]	   1[sec]	STATUS[4]	POS[1]	./simplePitchLinearTexture
+SD[32]	  12[sec]	STATUS[0]	POS[0]	./simplePitchLinearTexture
+SD[33]	  11[sec]	STATUS[0]	POS[2]	./simplePitchLinearTexture
+SD[40]	  10[sec]	STATUS[0]	POS[1]	./simplePitchLinearTexture
+SD[39]	  12[sec]	STATUS[0]	POS[3]	./simplePitchLinearTexture
+
+17:42:32	STATUS[0]	./simpleTexture
+17:42:32	STATUS[0]	./simpleTexture
+17:42:33	STATUS[0]	./simpleTexture
+17:42:33	STATUS[7]	./simpleTexture
+17:43:33	STATUS[0]	./simplePitchLinearTexture
+17:43:34	STATUS[0]	./simplePitchLinearTexture
+17:43:34	STATUS[0]	./simplePitchLinearTexture
+17:43:44	STATUS[7]	./simplePitchLinearTexture
+17:43:56	STATUS[0]	./simplePitchLinearTexture
+17:43:56	STATUS[0]	./simplePitchLinearTexture
+17:43:57	STATUS[0]	./simplePitchLinearTexture
+17:43:57	STATUS[0]	./simplePitchLinearTexture
+17:43:57	STATUS[0]	./simplePitchLinearTexture
+17:43:58	STATUS[0]	./simplePitchLinearTexture
+17:43:58	STATUS[0]	./simplePitchLinearTexture
+17:43:58	STATUS[0]	./simplePitchLinearTexture
+17:43:59	STATUS[0]	./simplePitchLinearTexture
+17:43:59	STATUS[0]	./simplePitchLinearTexture
+17:43:59	STATUS[0]	./simplePitchLinearTexture
+17:43:59	STATUS[0]	./simplePitchLinearTexture
+17:44:00	STATUS[0]	./simplePitchLinearTexture
+17:44:00	STATUS[0]	./simplePitchLinearTexture
+17:44:01	STATUS[0]	./simplePitchLinearTexture
+17:44:01	STATUS[0]	./simplePitchLinearTexture
+17:44:02	STATUS[4]	./simplePitchLinearTexture
+17:44:02	STATUS[1]	./simplePitchLinearTexture
+17:44:02	STATUS[0]	./simplePitchLinearTexture
+17:44:02	STATUS[0]	./simplePitchLinearTexture
+17:44:03	STATUS[0]	./simplePitchLinearTexture
+17:44:03	STATUS[0]	./simplePitchLinearTexture
+17:44:04	STATUS[0]	./simplePitchLinearTexture
+17:44:04	STATUS[0]	./simplePitchLinearTexture
+17:44:04	STATUS[4]	./simplePitchLinearTexture
+17:44:04	STATUS[0]	./simplePitchLinearTexture
+17:44:04	STATUS[1]	./simplePitchLinearTexture
+17:44:04	STATUS[0]	./simplePitchLinearTexture
+17:44:04	STATUS[0]	./simplePitchLinearTexture
+17:44:05	STATUS[4]	./simplePitchLinearTexture
+17:44:05	STATUS[1]	./simplePitchLinearTexture
+17:44:05	STATUS[0]	./simplePitchLinearTexture
+17:44:05	STATUS[0]	./simplePitchLinearTexture
+17:44:06	STATUS[4]	./simplePitchLinearTexture
+17:44:06	STATUS[0]	./simplePitchLinearTexture
+17:44:06	STATUS[0]	./simplePitchLinearTexture
+17:44:06	STATUS[1]	./simplePitchLinearTexture
+17:44:06	STATUS[0]	./simplePitchLinearTexture
+17:44:06	STATUS[0]	./simplePitchLinearTexture
+17:44:06	STATUS[4]	./simplePitchLinearTexture
+17:44:07	STATUS[1]	./simplePitchLinearTexture
+17:44:07	STATUS[0]	./simplePitchLinearTexture
+17:44:07	STATUS[4]	./simplePitchLinearTexture
+17:44:07	STATUS[1]	./simplePitchLinearTexture
+17:44:07	STATUS[4]	./simplePitchLinearTexture
+17:44:07	STATUS[1]	./simplePitchLinearTexture
+17:44:08	STATUS[4]	./simplePitchLinearTexture
+17:44:08	STATUS[1]	./simplePitchLinearTexture
+17:44:09	STATUS[7]	./simplePitchLinearTexture
+17:44:09	STATUS[0]	./simplePitchLinearTexture
+17:44:09	STATUS[0]	./simplePitchLinearTexture
+17:44:09	STATUS[4]	./simplePitchLinearTexture
+17:44:09	STATUS[7]	./simplePitchLinearTexture
+17:44:09	STATUS[0]	./simplePitchLinearTexture
+17:44:10	STATUS[4]	./simplePitchLinearTexture
+17:44:10	STATUS[7]	./simplePitchLinearTexture
+17:44:10	STATUS[0]	./simplePitchLinearTexture
+17:44:10	STATUS[4]	./simplePitchLinearTexture
+17:44:10	STATUS[7]	./simplePitchLinearTexture
+17:44:10	STATUS[0]	./simplePitchLinearTexture
+17:44:10	STATUS[4]	./simplePitchLinearTexture
+17:44:11	STATUS[7]	./simplePitchLinearTexture
+17:44:11	STATUS[0]	./simplePitchLinearTexture
+17:44:11	STATUS[4]	./simplePitchLinearTexture
+17:44:11	STATUS[7]	./simplePitchLinearTexture
+17:44:11	STATUS[7]	./simplePitchLinearTexture
+17:44:14	STATUS[7]	./simplePitchLinearTexture
+17:44:16	STATUS[7]	./simplePitchLinearTexture
+17:44:21	STATUS[7]	./simplePitchLinearTexture
+17:46:16	STATUS[0]	./simplePitchLinearTexture
+17:46:16	STATUS[0]	./simplePitchLinearTexture
+17:46:16	STATUS[0]	./simplePitchLinearTexture
+17:46:16	STATUS[0]	./simplePitchLinearTexture
+17:46:17	STATUS[0]	./simplePitchLinearTexture
+17:46:17	STATUS[0]	./simplePitchLinearTexture
+17:46:17	STATUS[0]	./simplePitchLinearTexture
+17:46:17	STATUS[0]	./simplePitchLinearTexture
+17:46:18	STATUS[0]	./simplePitchLinearTexture
+17:46:18	STATUS[0]	./simplePitchLinearTexture
+17:46:19	STATUS[0]	./simplePitchLinearTexture
+17:46:19	STATUS[0]	./simplePitchLinearTexture
+17:46:19	STATUS[0]	./simplePitchLinearTexture
+17:46:20	STATUS[0]	./simplePitchLinearTexture
+17:46:20	STATUS[0]	./simplePitchLinearTexture
+17:46:20	STATUS[0]	./simplePitchLinearTexture
+17:46:20	STATUS[0]	./simplePitchLinearTexture
+17:46:20	STATUS[0]	./simplePitchLinearTexture
+17:46:21	STATUS[0]	./simplePitchLinearTexture
+17:46:21	STATUS[0]	./simplePitchLinearTexture
+17:46:21	STATUS[4]	./simplePitchLinearTexture
+17:46:22	STATUS[1]	./simplePitchLinearTexture
+17:46:22	STATUS[0]	./simplePitchLinearTexture
+17:46:22	STATUS[0]	./simplePitchLinearTexture
+17:46:23	STATUS[0]	./simplePitchLinearTexture
+17:46:23	STATUS[4]	./simplePitchLinearTexture
+17:46:23	STATUS[1]	./simplePitchLinearTexture
+17:46:23	STATUS[0]	./simplePitchLinearTexture
+17:46:24	STATUS[0]	./simplePitchLinearTexture
+17:46:24	STATUS[0]	./simplePitchLinearTexture
+17:46:24	STATUS[0]	./simplePitchLinearTexture
+17:46:24	STATUS[4]	./simplePitchLinearTexture
+17:46:25	STATUS[1]	./simplePitchLinearTexture
+17:46:25	STATUS[0]	./simplePitchLinearTexture
+17:46:25	STATUS[0]	./simplePitchLinearTexture
+17:46:25	STATUS[4]	./simplePitchLinearTexture
+17:46:25	STATUS[1]	./simplePitchLinearTexture
+17:46:25	STATUS[0]	./simplePitchLinearTexture
+17:46:25	STATUS[0]	./simplePitchLinearTexture
+17:46:26	STATUS[0]	./simplePitchLinearTexture
+17:46:26	STATUS[4]	./simplePitchLinearTexture
+17:46:26	STATUS[0]	./simplePitchLinearTexture
+17:46:26	STATUS[1]	./simplePitchLinearTexture
+17:46:26	STATUS[0]	./simplePitchLinearTexture
+17:46:26	STATUS[4]	./simplePitchLinearTexture
+17:46:26	STATUS[1]	./simplePitchLinearTexture
+17:46:27	STATUS[4]	./simplePitchLinearTexture
+17:46:27	STATUS[1]	./simplePitchLinearTexture
+17:46:27	STATUS[4]	./simplePitchLinearTexture
+17:46:27	STATUS[1]	./simplePitchLinearTexture
+17:46:28	STATUS[7]	./simplePitchLinearTexture
+17:46:28	STATUS[0]	./simplePitchLinearTexture
+17:46:28	STATUS[0]	./simplePitchLinearTexture
+17:46:28	STATUS[4]	./simplePitchLinearTexture
+17:46:29	STATUS[7]	./simplePitchLinearTexture
+17:46:29	STATUS[0]	./simplePitchLinearTexture
+17:46:29	STATUS[4]	./simplePitchLinearTexture
+17:46:29	STATUS[7]	./simplePitchLinearTexture
+17:46:29	STATUS[0]	./simplePitchLinearTexture
+17:46:29	STATUS[4]	./simplePitchLinearTexture
+17:46:29	STATUS[7]	./simplePitchLinearTexture
+17:46:29	STATUS[0]	./simplePitchLinearTexture
+17:46:30	STATUS[7]	./simplePitchLinearTexture
+17:46:30	STATUS[0]	./simplePitchLinearTexture
+17:46:30	STATUS[4]	./simplePitchLinearTexture
+17:46:31	STATUS[7]	./simplePitchLinearTexture
+17:46:31	STATUS[0]	./simplePitchLinearTexture
+17:46:31	STATUS[4]	./simplePitchLinearTexture
+17:46:31	STATUS[7]	./simplePitchLinearTexture
+17:46:32	STATUS[7]	./simplePitchLinearTexture
+17:46:33	STATUS[7]	./simplePitchLinearTexture
+17:46:41	STATUS[7]	./simplePitchLinearTexture
+17:46:42	STATUS[7]	./simplePitchLinearTexture

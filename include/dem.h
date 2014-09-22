@@ -16,6 +16,7 @@
 #include <arpa/inet.h>
 #include <netinet/in.h>
 
+#include <cupti.h>
 #include <comm.h>
 #include <nvml.h>
 
@@ -25,6 +26,7 @@ typedef struct _procs{
   int queued;
   int staying_pos;
   int created_context;
+  float _inst,_gld,_gst;
   struct _procs *prev,*next;
 } proc;
 
@@ -109,6 +111,7 @@ extern void _FAILEDTOALLOC(int,proc_data*);
 extern void _CUDAMALLOC(int,proc_data*);
 extern void _BACKUPED(int,proc_data*);
 extern void _CONTEXT_CHECK(int,proc_data*);
+extern void _PROFILE(int,proc_data*);
 extern void _CONSOLE(int);
 extern void MSEND(int,int,pid_t,int,int,size_t,size_t);
 

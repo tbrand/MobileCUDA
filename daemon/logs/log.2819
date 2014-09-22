@@ -1,0 +1,1598 @@
+SD[17]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[17]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[19]	   8[sec]	STATUS[0]	POS[0]	./test
+SD[19]	   2[sec]	STATUS[0]	POS[0]	./test
+SD[20]	  11[sec]	STATUS[0]	POS[1]	./test
+SD[34]	   9[sec]	STATUS[1]	POS[1]	./test
+SD[20]	   2[sec]	STATUS[0]	POS[1]	./test
+SD[35]	   9[sec]	STATUS[1]	POS[1]	./test
+SD[21]	  12[sec]	STATUS[0]	POS[2]	./test
+SD[22]	  13[sec]	STATUS[0]	POS[3]	./test
+SD[21]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[36]	   9[sec]	STATUS[1]	POS[2]	./test
+SD[23]	  13[sec]	STATUS[0]	POS[0]	./test
+SD[22]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[37]	   9[sec]	STATUS[1]	POS[3]	./test
+SD[24]	  14[sec]	STATUS[0]	POS[0]	./test
+SD[23]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[38]	  10[sec]	STATUS[1]	POS[0]	./test
+SD[25]	  13[sec]	STATUS[0]	POS[2]	./test
+SD[24]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[39]	  11[sec]	STATUS[1]	POS[0]	./test
+SD[26]	  14[sec]	STATUS[0]	POS[3]	./test
+SD[25]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[40]	  10[sec]	STATUS[1]	POS[2]	./test
+SD[27]	  14[sec]	STATUS[0]	POS[3]	./test
+SD[26]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[28]	  14[sec]	STATUS[0]	POS[1]	./test
+SD[27]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[41]	  11[sec]	STATUS[1]	POS[3]	./test
+SD[29]	  15[sec]	STATUS[0]	POS[2]	./test
+SD[28]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[42]	  12[sec]	STATUS[1]	POS[1]	./test
+SD[30]	  16[sec]	STATUS[0]	POS[0]	./test
+SD[29]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[43]	  12[sec]	STATUS[1]	POS[2]	./test
+SD[31]	  16[sec]	STATUS[0]	POS[0]	./test
+SD[32]	  15[sec]	STATUS[0]	POS[1]	./test
+SD[33]	  15[sec]	STATUS[0]	POS[2]	./test
+SD[30]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[44]	  13[sec]	STATUS[1]	POS[0]	./test
+SD[31]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[45]	  12[sec]	STATUS[1]	POS[0]	./test
+SD[32]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[46]	  12[sec]	STATUS[1]	POS[1]	./test
+SD[33]	   2[sec]	STATUS[0]	POS[2]	./test
+SD[47]	  12[sec]	STATUS[1]	POS[2]	./test
+SD[34]	  11[sec]	STATUS[0]	POS[3]	./test
+SD[35]	  11[sec]	STATUS[0]	POS[3]	./test
+SD[34]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[48]	  16[sec]	STATUS[1]	POS[3]	./test
+SD[35]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[49]	  17[sec]	STATUS[1]	POS[3]	./test
+SD[36]	  12[sec]	STATUS[0]	POS[1]	./test
+SD[37]	  12[sec]	STATUS[0]	POS[1]	./test
+SD[36]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[50]	  18[sec]	STATUS[1]	POS[1]	./test
+SD[38]	  12[sec]	STATUS[0]	POS[2]	./test
+SD[37]	   2[sec]	STATUS[0]	POS[1]	./test
+SD[51]	  18[sec]	STATUS[1]	POS[1]	./test
+SD[39]	  12[sec]	STATUS[0]	POS[0]	./test
+SD[38]	   2[sec]	STATUS[0]	POS[2]	./test
+SD[52]	  19[sec]	STATUS[1]	POS[2]	./test
+SD[40]	  13[sec]	STATUS[0]	POS[0]	./test
+SD[39]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[53]	  19[sec]	STATUS[1]	POS[0]	./test
+SD[40]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[54]	  20[sec]	STATUS[1]	POS[0]	./test
+SD[41]	  13[sec]	STATUS[0]	POS[2]	./test
+SD[42]	  13[sec]	STATUS[0]	POS[3]	./test
+SD[41]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[55]	  21[sec]	STATUS[1]	POS[2]	./test
+SD[43]	  13[sec]	STATUS[0]	POS[3]	./test
+SD[42]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[56]	  21[sec]	STATUS[1]	POS[3]	./test
+SD[43]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[57]	  22[sec]	STATUS[1]	POS[3]	./test
+SD[44]	  13[sec]	STATUS[0]	POS[1]	./test
+SD[45]	  13[sec]	STATUS[0]	POS[2]	./test
+SD[46]	  14[sec]	STATUS[0]	POS[0]	./test
+SD[47]	  13[sec]	STATUS[0]	POS[1]	./test
+SD[44]	   2[sec]	STATUS[0]	POS[1]	./test
+SD[44]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[58]	  24[sec]	STATUS[1]	POS[2]	./test
+SD[45]	   2[sec]	STATUS[0]	POS[2]	./test
+SD[59]	  23[sec]	STATUS[1]	POS[2]	./test
+SD[60]	  23[sec]	STATUS[1]	POS[0]	./test
+SD[46]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[61]	  24[sec]	STATUS[1]	POS[1]	./test
+SD[47]	   2[sec]	STATUS[0]	POS[1]	./test
+SD[62]	  24[sec]	STATUS[1]	POS[1]	./test
+SD[44]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[48]	  15[sec]	STATUS[0]	POS[0]	./test
+SD[48]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[49]	  15[sec]	STATUS[0]	POS[3]	./test
+SD[49]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[50]	  15[sec]	STATUS[0]	POS[3]	./test
+SD[50]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[48]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[51]	  15[sec]	STATUS[0]	POS[1]	./test
+SD[51]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[19]	  34[sec]	STATUS[0]	POS[0]	./test
+SD[50]	   2[sec]	STATUS[4]	POS[3]	./test
+SD[50]	   1[sec]	STATUS[1]	POS[0]	./test
+SD[52]	  15[sec]	STATUS[0]	POS[1]	./test
+SD[52]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[19]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[53]	  16[sec]	STATUS[0]	POS[1]	./test
+SD[53]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[51]	   2[sec]	STATUS[4]	POS[1]	./test
+SD[51]	   1[sec]	STATUS[1]	POS[2]	./test
+SD[50]	   2[sec]	STATUS[0]	POS[0]	./test
+SD[54]	  16[sec]	STATUS[0]	POS[1]	./test
+SD[54]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[52]	   3[sec]	STATUS[4]	POS[1]	./test
+SD[51]	   2[sec]	STATUS[0]	POS[2]	./test
+SD[53]	   3[sec]	STATUS[4]	POS[1]	./test
+SD[55]	  16[sec]	STATUS[0]	POS[0]	./test
+SD[55]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[54]	   2[sec]	STATUS[4]	POS[1]	./test
+SD[56]	  17[sec]	STATUS[0]	POS[0]	./test
+SD[56]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[57]	  16[sec]	STATUS[0]	POS[0]	./test
+SD[57]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[55]	   2[sec]	STATUS[4]	POS[0]	./test
+SD[58]	  15[sec]	STATUS[0]	POS[3]	./test
+SD[58]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[59]	  15[sec]	STATUS[0]	POS[3]	./test
+SD[59]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[60]	  15[sec]	STATUS[0]	POS[2]	./test
+SD[60]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[56]	   2[sec]	STATUS[4]	POS[0]	./test
+SD[61]	  15[sec]	STATUS[0]	POS[0]	./test
+SD[61]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[62]	  15[sec]	STATUS[0]	POS[0]	./test
+SD[62]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[57]	   3[sec]	STATUS[4]	POS[0]	./test
+SD[58]	   2[sec]	STATUS[4]	POS[3]	./test
+SD[59]	   2[sec]	STATUS[4]	POS[3]	./test
+SD[60]	   2[sec]	STATUS[4]	POS[2]	./test
+SD[61]	   2[sec]	STATUS[4]	POS[0]	./test
+SD[62]	   2[sec]	STATUS[4]	POS[0]	./test
+SD[21]	  48[sec]	STATUS[0]	POS[2]	./test
+SD[21]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[44]	  26[sec]	STATUS[1]	POS[2]	./test
+SD[20]	  51[sec]	STATUS[0]	POS[1]	./test
+SD[20]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[48]	  22[sec]	STATUS[1]	POS[1]	./test
+SD[52]	  17[sec]	STATUS[1]	POS[1]	./test
+SD[48]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[48]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[48]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[53]	  17[sec]	STATUS[1]	POS[1]	./test
+SD[52]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[22]	  51[sec]	STATUS[0]	POS[3]	./test
+SD[52]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[54]	  18[sec]	STATUS[1]	POS[1]	./test
+SD[53]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[53]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[22]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[48]	   1[sec]	STATUS[1]	POS[3]	./test
+SD[52]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[55]	  16[sec]	STATUS[1]	POS[1]	./test
+SD[53]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[54]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[54]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[56]	  16[sec]	STATUS[1]	POS[1]	./test
+SD[55]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[55]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[54]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[57]	  16[sec]	STATUS[1]	POS[1]	./test
+SD[55]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[56]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[56]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[58]	  16[sec]	STATUS[1]	POS[1]	./test
+SD[57]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[57]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[56]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[59]	  17[sec]	STATUS[1]	POS[1]	./test
+SD[57]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[58]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[58]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[60]	  17[sec]	STATUS[1]	POS[1]	./test
+SD[59]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[59]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[58]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[61]	  17[sec]	STATUS[1]	POS[1]	./test
+SD[59]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[60]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[60]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[62]	  18[sec]	STATUS[1]	POS[1]	./test
+SD[61]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[61]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[60]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[61]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[62]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[25]	  65[sec]	STATUS[0]	POS[2]	./test
+SD[25]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[52]	  15[sec]	STATUS[1]	POS[2]	./test
+SD[26]	  67[sec]	STATUS[0]	POS[3]	./test
+SD[26]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[53]	  18[sec]	STATUS[1]	POS[3]	./test
+SD[28]	  68[sec]	STATUS[0]	POS[1]	./test
+SD[28]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[54]	  18[sec]	STATUS[1]	POS[1]	./test
+SD[27]	  70[sec]	STATUS[0]	POS[3]	./test
+SD[27]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[55]	  20[sec]	STATUS[1]	POS[3]	./test
+SD[23]	  73[sec]	STATUS[0]	POS[0]	./test
+SD[23]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[56]	  20[sec]	STATUS[1]	POS[0]	./test
+SD[24]	  75[sec]	STATUS[0]	POS[0]	./test
+SD[32]	  71[sec]	STATUS[0]	POS[1]	./test
+SD[29]	  73[sec]	STATUS[0]	POS[2]	./test
+SD[24]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[57]	  23[sec]	STATUS[1]	POS[0]	./test
+SD[32]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[58]	  22[sec]	STATUS[1]	POS[1]	./test
+SD[29]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[59]	  22[sec]	STATUS[1]	POS[2]	./test
+SD[33]	  76[sec]	STATUS[0]	POS[2]	./test
+SD[33]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[60]	  26[sec]	STATUS[1]	POS[2]	./test
+SD[30]	  81[sec]	STATUS[0]	POS[0]	./test
+SD[61]	  31[sec]	STATUS[1]	POS[0]	./test
+SD[31]	  82[sec]	STATUS[0]	POS[0]	./test
+SD[30]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[36]	  76[sec]	STATUS[0]	POS[1]	./test
+SD[31]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[36]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[35]	  84[sec]	STATUS[0]	POS[3]	./test
+SD[35]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[35]	   1[sec]	STATUS[1]	POS[0]	./test
+SD[35]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[35]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[47]	  75[sec]	STATUS[0]	POS[1]	./test
+SD[47]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[38]	  84[sec]	STATUS[0]	POS[2]	./test
+SD[38]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[40]	  86[sec]	STATUS[0]	POS[0]	./test
+SD[40]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[42]	  86[sec]	STATUS[0]	POS[3]	./test
+SD[42]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[45]	  86[sec]	STATUS[0]	POS[2]	./test
+SD[45]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[49]	  84[sec]	STATUS[0]	POS[3]	./test
+SD[49]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[50]	  81[sec]	STATUS[0]	POS[0]	./test
+SD[50]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[17]	 132[sec]	STATUS[0]	POS[1]	./test
+SD[17]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[19]	  89[sec]	STATUS[1]	POS[1]	./test
+SD[44]	  80[sec]	STATUS[0]	POS[2]	./test
+SD[44]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[54]	  60[sec]	STATUS[0]	POS[1]	./test
+SD[54]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[53]	  68[sec]	STATUS[0]	POS[3]	./test
+SD[53]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[57]	  65[sec]	STATUS[0]	POS[0]	./test
+SD[57]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[59]	  69[sec]	STATUS[0]	POS[2]	./test
+SD[59]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[37]	 174[sec]	STATUS[0]	POS[1]	./test
+SD[37]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[20]	 138[sec]	STATUS[1]	POS[1]	./test
+SD[34]	 184[sec]	STATUS[0]	POS[3]	./test
+SD[34]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[21]	 148[sec]	STATUS[1]	POS[3]	./test
+SD[39]	 184[sec]	STATUS[0]	POS[0]	./test
+SD[39]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[22]	 148[sec]	STATUS[1]	POS[0]	./test
+SD[43]	 182[sec]	STATUS[0]	POS[3]	./test
+SD[43]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[23]	 126[sec]	STATUS[1]	POS[3]	./test
+SD[46]	 181[sec]	STATUS[0]	POS[0]	./test
+SD[46]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[24]	 125[sec]	STATUS[1]	POS[0]	./test
+SD[41]	 188[sec]	STATUS[0]	POS[2]	./test
+SD[41]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[25]	 138[sec]	STATUS[1]	POS[2]	./test
+SD[19]	  91[sec]	STATUS[0]	POS[1]	./test
+SD[19]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[26]	 141[sec]	STATUS[1]	POS[1]	./test
+SD[62]	 156[sec]	STATUS[0]	POS[1]	./test
+SD[62]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[27]	 139[sec]	STATUS[1]	POS[1]	./test
+SD[51]	 180[sec]	STATUS[0]	POS[2]	./test
+SD[51]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[28]	 142[sec]	STATUS[1]	POS[2]	./test
+SD[48]	 166[sec]	STATUS[0]	POS[3]	./test
+SD[48]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[29]	 140[sec]	STATUS[1]	POS[3]	./test
+SD[58]	 146[sec]	STATUS[0]	POS[1]	./test
+SD[58]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[30]	 136[sec]	STATUS[1]	POS[1]	./test
+SD[55]	 154[sec]	STATUS[0]	POS[3]	./test
+SD[55]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[31]	 139[sec]	STATUS[1]	POS[3]	./test
+SD[56]	 155[sec]	STATUS[0]	POS[0]	./test
+SD[52]	 163[sec]	STATUS[0]	POS[2]	./test
+SD[56]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[32]	 152[sec]	STATUS[1]	POS[0]	./test
+SD[52]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[33]	 147[sec]	STATUS[1]	POS[2]	./test
+SD[61]	 148[sec]	STATUS[0]	POS[0]	./test
+SD[61]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[35]	 140[sec]	STATUS[1]	POS[0]	./test
+SD[60]	 154[sec]	STATUS[0]	POS[2]	./test
+SD[60]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[36]	 147[sec]	STATUS[1]	POS[2]	./test
+SD[20]	  88[sec]	STATUS[0]	POS[1]	./test
+SD[20]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[38]	 177[sec]	STATUS[1]	POS[1]	./test
+SD[21]	  88[sec]	STATUS[0]	POS[3]	./test
+SD[21]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[40]	 182[sec]	STATUS[1]	POS[3]	./test
+SD[22]	  88[sec]	STATUS[0]	POS[0]	./test
+SD[22]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[42]	 184[sec]	STATUS[1]	POS[0]	./test
+SD[23]	  89[sec]	STATUS[0]	POS[3]	./test
+SD[24]	  88[sec]	STATUS[0]	POS[0]	./test
+SD[23]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[44]	 163[sec]	STATUS[1]	POS[3]	./test
+SD[24]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[45]	 184[sec]	STATUS[1]	POS[0]	./test
+SD[25]	  88[sec]	STATUS[0]	POS[2]	./test
+SD[25]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[47]	 196[sec]	STATUS[1]	POS[2]	./test
+SD[26]	  89[sec]	STATUS[0]	POS[1]	./test
+SD[26]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[49]	 188[sec]	STATUS[1]	POS[1]	./test
+SD[27]	  89[sec]	STATUS[0]	POS[1]	./test
+SD[27]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[50]	 188[sec]	STATUS[1]	POS[1]	./test
+SD[28]	  88[sec]	STATUS[0]	POS[2]	./test
+SD[28]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[53]	 164[sec]	STATUS[1]	POS[2]	./test
+SD[29]	  88[sec]	STATUS[0]	POS[3]	./test
+SD[29]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[54]	 174[sec]	STATUS[1]	POS[3]	./test
+SD[30]	  88[sec]	STATUS[0]	POS[1]	./test
+SD[30]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[57]	 170[sec]	STATUS[1]	POS[1]	./test
+SD[31]	  88[sec]	STATUS[0]	POS[3]	./test
+SD[31]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[59]	 170[sec]	STATUS[1]	POS[3]	./test
+SD[32]	  89[sec]	STATUS[0]	POS[0]	./test
+SD[33]	  89[sec]	STATUS[0]	POS[2]	./test
+SD[32]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[33]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[42]	  74[sec]	STATUS[0]	POS[0]	./test
+SD[42]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[38]	  88[sec]	STATUS[0]	POS[1]	./test
+SD[38]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[47]	  73[sec]	STATUS[0]	POS[2]	./test
+SD[47]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[40]	  88[sec]	STATUS[0]	POS[3]	./test
+SD[40]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[50]	  82[sec]	STATUS[0]	POS[1]	./test
+SD[50]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[54]	  83[sec]	STATUS[0]	POS[3]	./test
+SD[54]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[35]	 188[sec]	STATUS[0]	POS[0]	./test
+SD[17]	 304[sec]	STATUS[1]	POS[0]	./test
+SD[36]	 189[sec]	STATUS[0]	POS[2]	./test
+SD[19]	 215[sec]	STATUS[1]	POS[2]	./test
+SD[45]	 161[sec]	STATUS[0]	POS[0]	./test
+SD[20]	 176[sec]	STATUS[1]	POS[0]	./test
+SD[53]	 157[sec]	STATUS[0]	POS[2]	./test
+SD[21]	 175[sec]	STATUS[1]	POS[2]	./test
+SD[44]	 178[sec]	STATUS[0]	POS[3]	./test
+SD[22]	 181[sec]	STATUS[1]	POS[3]	./test
+SD[49]	 171[sec]	STATUS[0]	POS[1]	./test
+SD[23]	 180[sec]	STATUS[1]	POS[1]	./test
+SD[57]	 163[sec]	STATUS[0]	POS[1]	./test
+SD[24]	 185[sec]	STATUS[1]	POS[1]	./test
+SD[59]	 165[sec]	STATUS[0]	POS[3]	./test
+SD[25]	 189[sec]	STATUS[1]	POS[3]	./test
+SD[17]	  88[sec]	STATUS[0]	POS[0]	./test
+SD[26]	 212[sec]	STATUS[1]	POS[0]	./test
+SD[19]	  88[sec]	STATUS[0]	POS[2]	./test
+SD[27]	 212[sec]	STATUS[1]	POS[2]	./test
+SD[20]	  87[sec]	STATUS[0]	POS[0]	./test
+SD[28]	 237[sec]	STATUS[1]	POS[0]	./test
+SD[21]	  88[sec]	STATUS[0]	POS[2]	./test
+SD[29]	 241[sec]	STATUS[1]	POS[2]	./test
+SD[22]	  88[sec]	STATUS[0]	POS[3]	./test
+SD[30]	 244[sec]	STATUS[1]	POS[3]	./test
+SD[23]	  89[sec]	STATUS[0]	POS[1]	./test
+SD[31]	 243[sec]	STATUS[1]	POS[1]	./test
+SD[24]	  89[sec]	STATUS[0]	POS[1]	./test
+SD[32]	 246[sec]	STATUS[1]	POS[1]	./test
+SD[25]	  88[sec]	STATUS[0]	POS[3]	./test
+SD[33]	 251[sec]	STATUS[1]	POS[3]	./test
+SD[26]	  88[sec]	STATUS[0]	POS[0]	./test
+SD[34]	 404[sec]	STATUS[1]	POS[0]	./test
+SD[27]	  88[sec]	STATUS[0]	POS[2]	./test
+SD[37]	 414[sec]	STATUS[1]	POS[2]	./test
+SD[28]	  88[sec]	STATUS[0]	POS[0]	./test
+SD[38]	 263[sec]	STATUS[1]	POS[0]	./test
+SD[29]	  88[sec]	STATUS[0]	POS[2]	./test
+SD[39]	 435[sec]	STATUS[1]	POS[2]	./test
+SD[30]	  89[sec]	STATUS[0]	POS[3]	./test
+SD[40]	 274[sec]	STATUS[1]	POS[3]	./test
+SD[31]	  88[sec]	STATUS[0]	POS[1]	./test
+SD[41]	 443[sec]	STATUS[1]	POS[1]	./test
+SD[32]	  88[sec]	STATUS[0]	POS[1]	./test
+SD[42]	 291[sec]	STATUS[1]	POS[1]	./test
+SD[33]	  88[sec]	STATUS[0]	POS[3]	./test
+SD[43]	 457[sec]	STATUS[1]	POS[3]	./test
+SD[34]	  88[sec]	STATUS[0]	POS[0]	./test
+SD[46]	 485[sec]	STATUS[1]	POS[0]	./test
+SD[37]	  88[sec]	STATUS[0]	POS[2]	./test
+SD[47]	 324[sec]	STATUS[1]	POS[2]	./test
+SD[38]	  88[sec]	STATUS[0]	POS[0]	./test
+SD[48]	 497[sec]	STATUS[1]	POS[0]	./test
+SD[39]	  87[sec]	STATUS[0]	POS[2]	./test
+SD[50]	 338[sec]	STATUS[1]	POS[2]	./test
+SD[40]	  88[sec]	STATUS[0]	POS[3]	./test
+SD[51]	 520[sec]	STATUS[1]	POS[3]	./test
+SD[41]	  88[sec]	STATUS[0]	POS[1]	./test
+SD[52]	 506[sec]	STATUS[1]	POS[1]	./test
+SD[42]	  87[sec]	STATUS[0]	POS[1]	./test
+SD[54]	 351[sec]	STATUS[1]	POS[1]	./test
+SD[43]	  88[sec]	STATUS[0]	POS[3]	./test
+SD[55]	 518[sec]	STATUS[1]	POS[3]	./test
+SD[46]	  88[sec]	STATUS[0]	POS[0]	./test
+SD[56]	 546[sec]	STATUS[1]	POS[0]	./test
+SD[47]	  88[sec]	STATUS[0]	POS[2]	./test
+SD[58]	 554[sec]	STATUS[1]	POS[2]	./test
+SD[48]	  88[sec]	STATUS[0]	POS[0]	./test
+SD[60]	 566[sec]	STATUS[1]	POS[0]	./test
+SD[50]	  88[sec]	STATUS[0]	POS[2]	./test
+SD[61]	 574[sec]	STATUS[1]	POS[2]	./test
+SD[51]	  88[sec]	STATUS[0]	POS[3]	./test
+SD[62]	 609[sec]	STATUS[1]	POS[3]	./test
+SD[52]	  88[sec]	STATUS[0]	POS[1]	./test
+SD[54]	  87[sec]	STATUS[0]	POS[1]	./test
+SD[55]	  88[sec]	STATUS[0]	POS[3]	./test
+SD[56]	  88[sec]	STATUS[0]	POS[0]	./test
+SD[58]	  88[sec]	STATUS[0]	POS[2]	./test
+SD[62]	  50[sec]	STATUS[0]	POS[3]	./test
+SD[60]	  76[sec]	STATUS[0]	POS[0]	./test
+SD[61]	  73[sec]	STATUS[0]	POS[2]	./test
+SD[63]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[63]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[64]	   6[sec]	STATUS[0]	POS[0]	./test
+SD[64]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[65]	   8[sec]	STATUS[0]	POS[1]	./test
+SD[65]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[79]	   4[sec]	STATUS[1]	POS[1]	./test
+SD[66]	  10[sec]	STATUS[0]	POS[2]	./test
+SD[67]	   9[sec]	STATUS[0]	POS[0]	./test
+SD[66]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[80]	   6[sec]	STATUS[1]	POS[2]	./test
+SD[81]	   7[sec]	STATUS[1]	POS[0]	./test
+SD[67]	   2[sec]	STATUS[0]	POS[0]	./test
+SD[82]	   7[sec]	STATUS[1]	POS[0]	./test
+SD[68]	  11[sec]	STATUS[0]	POS[3]	./test
+SD[69]	  11[sec]	STATUS[0]	POS[1]	./test
+SD[68]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[83]	   7[sec]	STATUS[1]	POS[3]	./test
+SD[70]	  12[sec]	STATUS[0]	POS[2]	./test
+SD[69]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[84]	   8[sec]	STATUS[1]	POS[1]	./test
+SD[70]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[85]	   8[sec]	STATUS[1]	POS[2]	./test
+SD[71]	  13[sec]	STATUS[0]	POS[3]	./test
+SD[72]	  13[sec]	STATUS[0]	POS[0]	./test
+SD[73]	  13[sec]	STATUS[0]	POS[1]	./test
+SD[71]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[86]	   9[sec]	STATUS[1]	POS[3]	./test
+SD[72]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[87]	   9[sec]	STATUS[1]	POS[0]	./test
+SD[74]	  13[sec]	STATUS[0]	POS[2]	./test
+SD[73]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[88]	   9[sec]	STATUS[1]	POS[1]	./test
+SD[75]	  14[sec]	STATUS[0]	POS[2]	./test
+SD[74]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[76]	  13[sec]	STATUS[0]	POS[0]	./test
+SD[75]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[89]	  10[sec]	STATUS[1]	POS[2]	./test
+SD[77]	  14[sec]	STATUS[0]	POS[1]	./test
+SD[78]	  14[sec]	STATUS[0]	POS[3]	./test
+SD[76]	   2[sec]	STATUS[0]	POS[0]	./test
+SD[90]	  11[sec]	STATUS[1]	POS[0]	./test
+SD[77]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[91]	  10[sec]	STATUS[1]	POS[1]	./test
+SD[92]	  11[sec]	STATUS[1]	POS[3]	./test
+SD[78]	   2[sec]	STATUS[0]	POS[3]	./test
+SD[93]	  11[sec]	STATUS[1]	POS[3]	./test
+SD[79]	  14[sec]	STATUS[0]	POS[2]	./test
+SD[79]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[94]	  15[sec]	STATUS[1]	POS[2]	./test
+SD[80]	  13[sec]	STATUS[0]	POS[1]	./test
+SD[81]	  13[sec]	STATUS[0]	POS[0]	./test
+SD[82]	  13[sec]	STATUS[0]	POS[0]	./test
+SD[80]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[95]	  15[sec]	STATUS[1]	POS[1]	./test
+SD[81]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[96]	  16[sec]	STATUS[1]	POS[0]	./test
+SD[82]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[97]	  16[sec]	STATUS[1]	POS[0]	./test
+SD[83]	  14[sec]	STATUS[0]	POS[2]	./test
+SD[84]	  13[sec]	STATUS[0]	POS[3]	./test
+SD[83]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[98]	  17[sec]	STATUS[1]	POS[2]	./test
+SD[85]	  15[sec]	STATUS[0]	POS[1]	./test
+SD[84]	   2[sec]	STATUS[0]	POS[3]	./test
+SD[99]	  18[sec]	STATUS[1]	POS[3]	./test
+SD[85]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[100]	  19[sec]	STATUS[1]	POS[1]	./test
+SD[86]	  14[sec]	STATUS[0]	POS[2]	./test
+SD[87]	  14[sec]	STATUS[0]	POS[3]	./test
+SD[88]	  14[sec]	STATUS[0]	POS[0]	./test
+SD[86]	   2[sec]	STATUS[0]	POS[2]	./test
+SD[101]	  20[sec]	STATUS[1]	POS[2]	./test
+SD[87]	   2[sec]	STATUS[0]	POS[3]	./test
+SD[102]	  20[sec]	STATUS[1]	POS[3]	./test
+SD[88]	   2[sec]	STATUS[0]	POS[0]	./test
+SD[103]	  20[sec]	STATUS[1]	POS[0]	./test
+SD[89]	  15[sec]	STATUS[0]	POS[1]	./test
+SD[90]	  15[sec]	STATUS[0]	POS[1]	./test
+SD[89]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[91]	  16[sec]	STATUS[0]	POS[0]	./test
+SD[92]	  15[sec]	STATUS[0]	POS[1]	./test
+SD[92]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[93]	  15[sec]	STATUS[0]	POS[3]	./test
+SD[104]	  22[sec]	STATUS[1]	POS[1]	./test
+SD[90]	   2[sec]	STATUS[0]	POS[1]	./test
+SD[90]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[91]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[90]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[90]	   1[sec]	STATUS[1]	POS[2]	./test
+SD[64]	  30[sec]	STATUS[0]	POS[0]	./test
+SD[93]	   3[sec]	STATUS[0]	POS[3]	./test
+SD[92]	   3[sec]	STATUS[4]	POS[1]	./test
+SD[92]	   1[sec]	STATUS[1]	POS[1]	./test
+SD[64]	   2[sec]	STATUS[4]	POS[0]	./test
+SD[92]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[94]	  17[sec]	STATUS[0]	POS[3]	./test
+SD[94]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[95]	  18[sec]	STATUS[0]	POS[3]	./test
+SD[95]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[94]	   2[sec]	STATUS[4]	POS[3]	./test
+SD[94]	   1[sec]	STATUS[1]	POS[0]	./test
+SD[96]	  17[sec]	STATUS[0]	POS[3]	./test
+SD[96]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[65]	  35[sec]	STATUS[0]	POS[1]	./test
+SD[97]	  18[sec]	STATUS[0]	POS[1]	./test
+SD[94]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[95]	   2[sec]	STATUS[4]	POS[3]	./test
+SD[65]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[97]	   2[sec]	STATUS[0]	POS[1]	./test
+SD[96]	   3[sec]	STATUS[4]	POS[3]	./test
+SD[98]	  18[sec]	STATUS[0]	POS[0]	./test
+SD[98]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[99]	  18[sec]	STATUS[0]	POS[0]	./test
+SD[99]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[100]	  17[sec]	STATUS[0]	POS[3]	./test
+SD[100]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[98]	   2[sec]	STATUS[4]	POS[0]	./test
+SD[99]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[101]	  17[sec]	STATUS[0]	POS[3]	./test
+SD[101]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[102]	  17[sec]	STATUS[0]	POS[2]	./test
+SD[102]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[100]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[103]	  17[sec]	STATUS[0]	POS[3]	./test
+SD[103]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[101]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[102]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[104]	  15[sec]	STATUS[0]	POS[3]	./test
+SD[104]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[103]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[104]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[66]	  45[sec]	STATUS[0]	POS[2]	./test
+SD[66]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[95]	  12[sec]	STATUS[1]	POS[2]	./test
+SD[96]	  11[sec]	STATUS[1]	POS[2]	./test
+SD[95]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[95]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[95]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[98]	   9[sec]	STATUS[1]	POS[2]	./test
+SD[96]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[96]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[99]	  10[sec]	STATUS[1]	POS[2]	./test
+SD[96]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[98]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[98]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[100]	  10[sec]	STATUS[1]	POS[2]	./test
+SD[99]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[99]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[98]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[101]	   9[sec]	STATUS[1]	POS[2]	./test
+SD[99]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[100]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[100]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[102]	  10[sec]	STATUS[1]	POS[2]	./test
+SD[101]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[101]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[100]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[103]	   9[sec]	STATUS[1]	POS[2]	./test
+SD[101]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[102]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[102]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[104]	  10[sec]	STATUS[1]	POS[2]	./test
+SD[103]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[103]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[102]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[103]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[104]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[68]	  62[sec]	STATUS[0]	POS[3]	./test
+SD[68]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[95]	  18[sec]	STATUS[1]	POS[3]	./test
+SD[67]	  66[sec]	STATUS[0]	POS[0]	./test
+SD[67]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[96]	  20[sec]	STATUS[1]	POS[0]	./test
+SD[69]	  70[sec]	STATUS[0]	POS[1]	./test
+SD[69]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[98]	  25[sec]	STATUS[1]	POS[1]	./test
+SD[71]	  69[sec]	STATUS[0]	POS[3]	./test
+SD[71]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[99]	  26[sec]	STATUS[1]	POS[3]	./test
+SD[70]	  74[sec]	STATUS[0]	POS[2]	./test
+SD[70]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[100]	  28[sec]	STATUS[1]	POS[2]	./test
+SD[72]	  79[sec]	STATUS[0]	POS[0]	./test
+SD[78]	  75[sec]	STATUS[0]	POS[3]	./test
+SD[72]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[101]	  35[sec]	STATUS[1]	POS[0]	./test
+SD[78]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[102]	  34[sec]	STATUS[1]	POS[3]	./test
+SD[73]	  79[sec]	STATUS[0]	POS[1]	./test
+SD[73]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[103]	  35[sec]	STATUS[1]	POS[1]	./test
+SD[74]	  83[sec]	STATUS[0]	POS[2]	./test
+SD[74]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[76]	  83[sec]	STATUS[0]	POS[0]	./test
+SD[77]	  84[sec]	STATUS[0]	POS[1]	./test
+SD[76]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[77]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[84]	  81[sec]	STATUS[0]	POS[3]	./test
+SD[84]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[79]	  87[sec]	STATUS[0]	POS[2]	./test
+SD[79]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[65]	  71[sec]	STATUS[1]	POS[0]	./test
+SD[81]	  90[sec]	STATUS[0]	POS[0]	./test
+SD[82]	  90[sec]	STATUS[0]	POS[0]	./test
+SD[81]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[82]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[65]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[93]	  82[sec]	STATUS[0]	POS[3]	./test
+SD[93]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[85]	  90[sec]	STATUS[0]	POS[1]	./test
+SD[86]	  89[sec]	STATUS[0]	POS[2]	./test
+SD[85]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[86]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[91]	  88[sec]	STATUS[0]	POS[0]	./test
+SD[91]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[92]	  90[sec]	STATUS[0]	POS[1]	./test
+SD[92]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[104]	  78[sec]	STATUS[0]	POS[2]	./test
+SD[104]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[63]	 142[sec]	STATUS[0]	POS[3]	./test
+SD[63]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[64]	 104[sec]	STATUS[1]	POS[3]	./test
+SD[64]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[96]	  67[sec]	STATUS[0]	POS[0]	./test
+SD[96]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[99]	  66[sec]	STATUS[0]	POS[3]	./test
+SD[99]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[98]	  73[sec]	STATUS[0]	POS[1]	./test
+SD[98]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[87]	 167[sec]	STATUS[0]	POS[3]	./test
+SD[87]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[66]	 143[sec]	STATUS[1]	POS[3]	./test
+SD[88]	 167[sec]	STATUS[0]	POS[0]	./test
+SD[66]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[88]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[67]	 122[sec]	STATUS[1]	POS[0]	./test
+SD[67]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[94]	 159[sec]	STATUS[0]	POS[0]	./test
+SD[94]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[68]	 128[sec]	STATUS[1]	POS[0]	./test
+SD[68]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[75]	 190[sec]	STATUS[0]	POS[2]	./test
+SD[75]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[69]	 124[sec]	STATUS[1]	POS[2]	./test
+SD[69]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[101]	 114[sec]	STATUS[0]	POS[0]	./test
+SD[101]	   1[sec]	STATUS[4]	POS[0]	./test
+SD[70]	 121[sec]	STATUS[1]	POS[0]	./test
+SD[70]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[95]	 137[sec]	STATUS[0]	POS[3]	./test
+SD[95]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[71]	 127[sec]	STATUS[1]	POS[3]	./test
+SD[71]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[102]	 120[sec]	STATUS[0]	POS[3]	./test
+SD[102]	   1[sec]	STATUS[4]	POS[3]	./test
+SD[72]	 120[sec]	STATUS[1]	POS[3]	./test
+SD[72]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[83]	 188[sec]	STATUS[0]	POS[2]	./test
+SD[83]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[73]	 119[sec]	STATUS[1]	POS[2]	./test
+SD[73]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[90]	 182[sec]	STATUS[0]	POS[2]	./test
+SD[90]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[74]	 119[sec]	STATUS[1]	POS[2]	./test
+SD[74]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[80]	 196[sec]	STATUS[0]	POS[1]	./test
+SD[80]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[76]	 118[sec]	STATUS[1]	POS[1]	./test
+SD[76]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[100]	 136[sec]	STATUS[0]	POS[2]	./test
+SD[100]	   1[sec]	STATUS[4]	POS[2]	./test
+SD[77]	 121[sec]	STATUS[1]	POS[2]	./test
+SD[77]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[89]	 192[sec]	STATUS[0]	POS[1]	./test
+SD[89]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[78]	 131[sec]	STATUS[1]	POS[1]	./test
+SD[78]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[97]	 184[sec]	STATUS[0]	POS[1]	./test
+SD[97]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[79]	 118[sec]	STATUS[1]	POS[1]	./test
+SD[79]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[103]	 138[sec]	STATUS[0]	POS[1]	./test
+SD[103]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[81]	 119[sec]	STATUS[1]	POS[1]	./test
+SD[81]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[82]	 610[sec]	STATUS[1]	POS[0]	./test
+SD[63]	 594[sec]	STATUS[1]	POS[3]	./test
+SD[75]	 529[sec]	STATUS[1]	POS[2]	./test
+SD[80]	 516[sec]	STATUS[1]	POS[1]	./test
+SD[83]	 521[sec]	STATUS[1]	POS[2]	./test
+SD[84]	 626[sec]	STATUS[1]	POS[3]	./test
+SD[85]	 616[sec]	STATUS[1]	POS[1]	./test
+SD[86]	 616[sec]	STATUS[1]	POS[2]	./test
+SD[87]	 537[sec]	STATUS[1]	POS[3]	./test
+SD[88]	 537[sec]	STATUS[1]	POS[0]	./test
+SD[89]	 511[sec]	STATUS[1]	POS[1]	./test
+SD[90]	 518[sec]	STATUS[1]	POS[2]	./test
+SD[91]	 613[sec]	STATUS[1]	POS[0]	./test
+SD[92]	 608[sec]	STATUS[1]	POS[1]	./test
+SD[93]	 617[sec]	STATUS[1]	POS[3]	./test
+SD[94]	 534[sec]	STATUS[1]	POS[0]	./test
+SD[95]	 525[sec]	STATUS[1]	POS[3]	./test
+SD[96]	 592[sec]	STATUS[1]	POS[0]	./test
+SD[97]	 507[sec]	STATUS[1]	POS[1]	./test
+SD[98]	 580[sec]	STATUS[1]	POS[1]	./test
+SD[99]	 586[sec]	STATUS[1]	POS[3]	./test
+SD[100]	 513[sec]	STATUS[1]	POS[2]	./test
+SD[101]	 528[sec]	STATUS[1]	POS[0]	./test
+SD[102]	 522[sec]	STATUS[1]	POS[3]	./test
+SD[103]	 501[sec]	STATUS[1]	POS[1]	./test
+SD[104]	 597[sec]	STATUS[1]	POS[2]	./test
+
+18:11:01	STATUS[0]	./test
+18:11:01	STATUS[0]	./test
+18:11:01	STATUS[0]	./test
+18:11:02	STATUS[0]	./test
+18:11:02	STATUS[0]	./test
+18:11:02	STATUS[0]	./test
+18:11:02	STATUS[0]	./test
+18:11:02	STATUS[0]	./test
+18:11:03	STATUS[0]	./test
+18:11:03	STATUS[0]	./test
+18:11:03	STATUS[0]	./test
+18:11:03	STATUS[0]	./test
+18:11:04	STATUS[0]	./test
+18:11:04	STATUS[0]	./test
+18:11:04	STATUS[0]	./test
+18:11:04	STATUS[0]	./test
+18:11:05	STATUS[0]	./test
+18:11:05	STATUS[0]	./test
+18:11:05	STATUS[1]	./test
+18:11:05	STATUS[1]	./test
+18:11:06	STATUS[1]	./test
+18:11:06	STATUS[1]	./test
+18:11:06	STATUS[1]	./test
+18:11:06	STATUS[1]	./test
+18:11:07	STATUS[1]	./test
+18:11:07	STATUS[1]	./test
+18:11:07	STATUS[1]	./test
+18:11:08	STATUS[1]	./test
+18:11:08	STATUS[1]	./test
+18:11:09	STATUS[1]	./test
+18:11:09	STATUS[0]	./test
+18:11:09	STATUS[1]	./test
+18:11:10	STATUS[1]	./test
+18:11:10	STATUS[1]	./test
+18:11:10	STATUS[1]	./test
+18:11:10	STATUS[1]	./test
+18:11:11	STATUS[1]	./test
+18:11:11	STATUS[0]	./test
+18:11:11	STATUS[1]	./test
+18:11:11	STATUS[1]	./test
+18:11:11	STATUS[1]	./test
+18:11:12	STATUS[1]	./test
+18:11:12	STATUS[1]	./test
+18:11:12	STATUS[1]	./test
+18:11:12	STATUS[0]	./test
+18:11:12	STATUS[1]	./test
+18:11:13	STATUS[1]	./test
+18:11:13	STATUS[1]	./test
+18:11:13	STATUS[1]	./test
+18:11:13	STATUS[1]	./test
+18:11:14	STATUS[0]	./test
+18:11:14	STATUS[0]	./test
+18:11:14	STATUS[0]	./test
+18:11:14	STATUS[0]	./test
+18:11:15	STATUS[0]	./test
+18:11:15	STATUS[0]	./test
+18:11:15	STATUS[0]	./test
+18:11:15	STATUS[0]	./test
+18:11:15	STATUS[0]	./test
+18:11:15	STATUS[0]	./test
+18:11:16	STATUS[0]	./test
+18:11:16	STATUS[0]	./test
+18:11:16	STATUS[0]	./test
+18:11:16	STATUS[0]	./test
+18:11:17	STATUS[0]	./test
+18:11:17	STATUS[0]	./test
+18:11:17	STATUS[0]	./test
+18:11:17	STATUS[0]	./test
+18:11:17	STATUS[0]	./test
+18:11:17	STATUS[0]	./test
+18:11:18	STATUS[0]	./test
+18:11:18	STATUS[0]	./test
+18:11:18	STATUS[0]	./test
+18:11:18	STATUS[0]	./test
+18:11:19	STATUS[0]	./test
+18:11:19	STATUS[0]	./test
+18:11:19	STATUS[0]	./test
+18:11:20	STATUS[0]	./test
+18:11:20	STATUS[0]	./test
+18:11:20	STATUS[0]	./test
+18:11:20	STATUS[0]	./test
+18:11:20	STATUS[0]	./test
+18:11:20	STATUS[0]	./test
+18:11:21	STATUS[0]	./test
+18:11:21	STATUS[0]	./test
+18:11:21	STATUS[0]	./test
+18:11:21	STATUS[0]	./test
+18:11:21	STATUS[0]	./test
+18:11:21	STATUS[0]	./test
+18:11:22	STATUS[0]	./test
+18:11:22	STATUS[0]	./test
+18:11:25	STATUS[0]	./test
+18:11:25	STATUS[0]	./test
+18:11:26	STATUS[0]	./test
+18:11:26	STATUS[0]	./test
+18:11:26	STATUS[0]	./test
+18:11:27	STATUS[0]	./test
+18:11:27	STATUS[0]	./test
+18:11:27	STATUS[0]	./test
+18:11:28	STATUS[0]	./test
+18:11:28	STATUS[0]	./test
+18:11:28	STATUS[0]	./test
+18:11:29	STATUS[0]	./test
+18:11:29	STATUS[0]	./test
+18:11:29	STATUS[0]	./test
+18:11:30	STATUS[0]	./test
+18:11:30	STATUS[0]	./test
+18:11:30	STATUS[0]	./test
+18:11:30	STATUS[0]	./test
+18:11:30	STATUS[0]	./test
+18:11:31	STATUS[0]	./test
+18:11:31	STATUS[0]	./test
+18:11:31	STATUS[0]	./test
+18:11:32	STATUS[0]	./test
+18:11:32	STATUS[0]	./test
+18:11:33	STATUS[0]	./test
+18:11:33	STATUS[0]	./test
+18:11:33	STATUS[0]	./test
+18:11:33	STATUS[0]	./test
+18:11:34	STATUS[0]	./test
+18:11:34	STATUS[0]	./test
+18:11:34	STATUS[0]	./test
+18:11:34	STATUS[0]	./test
+18:11:35	STATUS[0]	./test
+18:11:35	STATUS[0]	./test
+18:11:36	STATUS[0]	./test
+18:11:36	STATUS[4]	./test
+18:11:36	STATUS[0]	./test
+18:11:36	STATUS[0]	./test
+18:11:36	STATUS[0]	./test
+18:11:36	STATUS[0]	./test
+18:11:36	STATUS[0]	./test
+18:11:37	STATUS[0]	./test
+18:11:37	STATUS[0]	./test
+18:11:37	STATUS[0]	./test
+18:11:37	STATUS[1]	./test
+18:11:41	STATUS[0]	./test
+18:11:42	STATUS[4]	./test
+18:11:42	STATUS[0]	./test
+18:11:43	STATUS[0]	./test
+18:11:43	STATUS[0]	./test
+18:11:43	STATUS[4]	./test
+18:11:43	STATUS[1]	./test
+18:11:44	STATUS[0]	./test
+18:11:44	STATUS[4]	./test
+18:11:45	STATUS[4]	./test
+18:11:45	STATUS[1]	./test
+18:11:45	STATUS[0]	./test
+18:11:45	STATUS[0]	./test
+18:11:45	STATUS[4]	./test
+18:11:46	STATUS[1]	./test
+18:11:46	STATUS[0]	./test
+18:11:46	STATUS[4]	./test
+18:11:46	STATUS[1]	./test
+18:11:46	STATUS[0]	./test
+18:11:47	STATUS[0]	./test
+18:11:47	STATUS[0]	./test
+18:11:47	STATUS[4]	./test
+18:11:48	STATUS[1]	./test
+18:11:48	STATUS[0]	./test
+18:11:49	STATUS[1]	./test
+18:11:49	STATUS[0]	./test
+18:11:49	STATUS[4]	./test
+18:11:49	STATUS[1]	./test
+18:11:50	STATUS[0]	./test
+18:11:50	STATUS[4]	./test
+18:11:50	STATUS[0]	./test
+18:11:50	STATUS[4]	./test
+18:11:51	STATUS[1]	./test
+18:11:51	STATUS[0]	./test
+18:11:51	STATUS[4]	./test
+18:11:51	STATUS[0]	./test
+18:11:51	STATUS[4]	./test
+18:11:51	STATUS[0]	./test
+18:11:51	STATUS[4]	./test
+18:11:52	STATUS[1]	./test
+18:11:52	STATUS[0]	./test
+18:11:52	STATUS[4]	./test
+18:11:52	STATUS[0]	./test
+18:11:52	STATUS[4]	./test
+18:11:53	STATUS[1]	./test
+18:11:53	STATUS[1]	./test
+18:11:53	STATUS[1]	./test
+18:11:53	STATUS[1]	./test
+18:11:54	STATUS[1]	./test
+18:11:54	STATUS[1]	./test
+18:12:03	STATUS[4]	./test
+18:12:03	STATUS[1]	./test
+18:12:03	STATUS[0]	./test
+18:12:05	STATUS[4]	./test
+18:12:05	STATUS[1]	./test
+18:12:05	STATUS[0]	./test
+18:12:05	STATUS[0]	./test
+18:12:05	STATUS[0]	./test
+18:12:05	STATUS[4]	./test
+18:12:06	STATUS[1]	./test
+18:12:06	STATUS[0]	./test
+18:12:06	STATUS[0]	./test
+18:12:06	STATUS[4]	./test
+18:12:06	STATUS[4]	./test
+18:12:07	STATUS[0]	./test
+18:12:07	STATUS[0]	./test
+18:12:07	STATUS[4]	./test
+18:12:07	STATUS[1]	./test
+18:12:07	STATUS[0]	./test
+18:12:07	STATUS[1]	./test
+18:12:07	STATUS[0]	./test
+18:12:07	STATUS[1]	./test
+18:12:08	STATUS[0]	./test
+18:12:08	STATUS[4]	./test
+18:12:08	STATUS[0]	./test
+18:12:08	STATUS[0]	./test
+18:12:08	STATUS[4]	./test
+18:12:09	STATUS[1]	./test
+18:12:09	STATUS[0]	./test
+18:12:09	STATUS[1]	./test
+18:12:09	STATUS[0]	./test
+18:12:09	STATUS[4]	./test
+18:12:09	STATUS[0]	./test
+18:12:09	STATUS[0]	./test
+18:12:10	STATUS[4]	./test
+18:12:10	STATUS[1]	./test
+18:12:10	STATUS[0]	./test
+18:12:10	STATUS[1]	./test
+18:12:10	STATUS[0]	./test
+18:12:10	STATUS[4]	./test
+18:12:10	STATUS[0]	./test
+18:12:10	STATUS[0]	./test
+18:12:11	STATUS[4]	./test
+18:12:11	STATUS[1]	./test
+18:12:11	STATUS[0]	./test
+18:12:11	STATUS[1]	./test
+18:12:11	STATUS[0]	./test
+18:12:11	STATUS[4]	./test
+18:12:12	STATUS[0]	./test
+18:12:12	STATUS[0]	./test
+18:12:12	STATUS[4]	./test
+18:12:12	STATUS[1]	./test
+18:12:12	STATUS[1]	./test
+18:12:12	STATUS[0]	./test
+18:12:22	STATUS[4]	./test
+18:12:22	STATUS[1]	./test
+18:12:22	STATUS[0]	./test
+18:12:25	STATUS[4]	./test
+18:12:25	STATUS[1]	./test
+18:12:25	STATUS[0]	./test
+18:12:27	STATUS[4]	./test
+18:12:27	STATUS[1]	./test
+18:12:27	STATUS[0]	./test
+18:12:28	STATUS[4]	./test
+18:12:29	STATUS[1]	./test
+18:12:29	STATUS[0]	./test
+18:12:29	STATUS[4]	./test
+18:12:30	STATUS[1]	./test
+18:12:30	STATUS[0]	./test
+18:12:32	STATUS[4]	./test
+18:12:32	STATUS[4]	./test
+18:12:33	STATUS[4]	./test
+18:12:33	STATUS[1]	./test
+18:12:33	STATUS[0]	./test
+18:12:33	STATUS[1]	./test
+18:12:33	STATUS[0]	./test
+18:12:33	STATUS[1]	./test
+18:12:33	STATUS[0]	./test
+18:12:38	STATUS[4]	./test
+18:12:38	STATUS[1]	./test
+18:12:38	STATUS[0]	./test
+18:12:42	STATUS[4]	./test
+18:12:43	STATUS[0]	./test
+18:12:43	STATUS[4]	./test
+18:12:43	STATUS[1]	./test
+18:12:44	STATUS[4]	./test
+18:12:44	STATUS[1]	./test
+18:12:45	STATUS[1]	./test
+18:12:50	STATUS[4]	./test
+18:12:50	STATUS[1]	./test
+18:12:50	STATUS[0]	./test
+18:12:51	STATUS[4]	./test
+18:12:51	STATUS[1]	./test
+18:12:52	STATUS[4]	./test
+18:12:52	STATUS[1]	./test
+18:12:54	STATUS[4]	./test
+18:12:54	STATUS[1]	./test
+18:12:57	STATUS[4]	./test
+18:12:57	STATUS[1]	./test
+18:12:59	STATUS[4]	./test
+18:12:59	STATUS[1]	./test
+18:13:02	STATUS[4]	./test
+18:13:02	STATUS[1]	./test
+18:13:07	STATUS[4]	./test
+18:13:07	STATUS[1]	./test
+18:13:08	STATUS[4]	./test
+18:13:09	STATUS[1]	./test
+18:13:15	STATUS[4]	./test
+18:13:15	STATUS[1]	./test
+18:13:15	STATUS[0]	./test
+18:13:23	STATUS[4]	./test
+18:13:23	STATUS[1]	./test
+18:13:27	STATUS[4]	./test
+18:13:27	STATUS[1]	./test
+18:13:33	STATUS[4]	./test
+18:13:33	STATUS[1]	./test
+18:13:38	STATUS[4]	./test
+18:13:38	STATUS[1]	./test
+18:13:42	STATUS[4]	./test
+18:13:42	STATUS[1]	./test
+18:14:23	STATUS[4]	./test
+18:14:23	STATUS[1]	./test
+18:14:23	STATUS[0]	./test
+18:14:30	STATUS[4]	./test
+18:14:31	STATUS[1]	./test
+18:14:31	STATUS[0]	./test
+18:14:34	STATUS[4]	./test
+18:14:35	STATUS[1]	./test
+18:14:35	STATUS[0]	./test
+18:14:36	STATUS[4]	./test
+18:14:36	STATUS[1]	./test
+18:14:36	STATUS[0]	./test
+18:14:37	STATUS[4]	./test
+18:14:38	STATUS[1]	./test
+18:14:38	STATUS[0]	./test
+18:14:40	STATUS[4]	./test
+18:14:40	STATUS[1]	./test
+18:14:40	STATUS[0]	./test
+18:14:46	STATUS[4]	./test
+18:14:46	STATUS[1]	./test
+18:14:46	STATUS[0]	./test
+18:14:48	STATUS[4]	./test
+18:14:48	STATUS[1]	./test
+18:14:48	STATUS[0]	./test
+18:14:48	STATUS[4]	./test
+18:14:49	STATUS[1]	./test
+18:14:49	STATUS[0]	./test
+18:14:53	STATUS[4]	./test
+18:14:53	STATUS[1]	./test
+18:14:53	STATUS[0]	./test
+18:14:59	STATUS[4]	./test
+18:14:59	STATUS[1]	./test
+18:14:59	STATUS[0]	./test
+18:15:03	STATUS[4]	./test
+18:15:03	STATUS[1]	./test
+18:15:03	STATUS[0]	./test
+18:15:05	STATUS[4]	./test
+18:15:05	STATUS[4]	./test
+18:15:05	STATUS[1]	./test
+18:15:05	STATUS[0]	./test
+18:15:05	STATUS[1]	./test
+18:15:05	STATUS[0]	./test
+18:15:11	STATUS[4]	./test
+18:15:11	STATUS[1]	./test
+18:15:11	STATUS[0]	./test
+18:15:12	STATUS[4]	./test
+18:15:12	STATUS[1]	./test
+18:15:12	STATUS[0]	./test
+18:15:51	STATUS[4]	./test
+18:15:51	STATUS[1]	./test
+18:15:51	STATUS[0]	./test
+18:15:59	STATUS[4]	./test
+18:15:59	STATUS[1]	./test
+18:15:59	STATUS[0]	./test
+18:16:03	STATUS[4]	./test
+18:16:03	STATUS[1]	./test
+18:16:03	STATUS[0]	./test
+18:16:05	STATUS[4]	./test
+18:16:06	STATUS[4]	./test
+18:16:06	STATUS[1]	./test
+18:16:06	STATUS[0]	./test
+18:16:06	STATUS[1]	./test
+18:16:06	STATUS[0]	./test
+18:16:08	STATUS[4]	./test
+18:16:08	STATUS[1]	./test
+18:16:08	STATUS[0]	./test
+18:16:15	STATUS[4]	./test
+18:16:15	STATUS[1]	./test
+18:16:15	STATUS[0]	./test
+18:16:17	STATUS[4]	./test
+18:16:17	STATUS[1]	./test
+18:16:17	STATUS[0]	./test
+18:16:17	STATUS[4]	./test
+18:16:17	STATUS[1]	./test
+18:16:17	STATUS[0]	./test
+18:16:21	STATUS[4]	./test
+18:16:21	STATUS[1]	./test
+18:16:21	STATUS[0]	./test
+18:16:27	STATUS[4]	./test
+18:16:28	STATUS[1]	./test
+18:16:28	STATUS[0]	./test
+18:16:31	STATUS[4]	./test
+18:16:32	STATUS[1]	./test
+18:16:32	STATUS[0]	./test
+18:16:34	STATUS[4]	./test
+18:16:34	STATUS[4]	./test
+18:16:34	STATUS[1]	./test
+18:16:34	STATUS[1]	./test
+18:17:17	STATUS[4]	./test
+18:17:17	STATUS[1]	./test
+18:17:19	STATUS[4]	./test
+18:17:19	STATUS[1]	./test
+18:17:21	STATUS[4]	./test
+18:17:21	STATUS[1]	./test
+18:17:27	STATUS[4]	./test
+18:17:27	STATUS[1]	./test
+18:17:39	STATUS[4]	./test
+18:17:39	STATUS[1]	./test
+18:17:44	STATUS[4]	./test
+18:17:44	STATUS[1]	./test
+18:18:19	STATUS[7]	./test
+18:18:19	STATUS[0]	./test
+18:18:21	STATUS[7]	./test
+18:18:21	STATUS[0]	./test
+18:18:47	STATUS[7]	./test
+18:18:47	STATUS[0]	./test
+18:18:54	STATUS[7]	./test
+18:18:54	STATUS[0]	./test
+18:19:04	STATUS[7]	./test
+18:19:04	STATUS[0]	./test
+18:19:06	STATUS[7]	./test
+18:19:06	STATUS[0]	./test
+18:19:11	STATUS[7]	./test
+18:19:11	STATUS[0]	./test
+18:19:17	STATUS[7]	./test
+18:19:17	STATUS[0]	./test
+18:19:47	STATUS[7]	./test
+18:19:47	STATUS[0]	./test
+18:19:49	STATUS[7]	./test
+18:19:49	STATUS[0]	./test
+18:20:14	STATUS[7]	./test
+18:20:14	STATUS[0]	./test
+18:20:22	STATUS[7]	./test
+18:20:22	STATUS[0]	./test
+18:20:32	STATUS[7]	./test
+18:20:32	STATUS[0]	./test
+18:20:35	STATUS[7]	./test
+18:20:35	STATUS[0]	./test
+18:20:40	STATUS[7]	./test
+18:20:40	STATUS[0]	./test
+18:20:45	STATUS[7]	./test
+18:20:45	STATUS[0]	./test
+18:21:15	STATUS[7]	./test
+18:21:15	STATUS[0]	./test
+18:21:17	STATUS[7]	./test
+18:21:17	STATUS[0]	./test
+18:21:42	STATUS[7]	./test
+18:21:42	STATUS[0]	./test
+18:21:50	STATUS[7]	./test
+18:21:50	STATUS[0]	./test
+18:22:01	STATUS[7]	./test
+18:22:01	STATUS[0]	./test
+18:22:03	STATUS[7]	./test
+18:22:03	STATUS[0]	./test
+18:22:08	STATUS[7]	./test
+18:22:08	STATUS[0]	./test
+18:22:13	STATUS[7]	./test
+18:22:13	STATUS[0]	./test
+18:22:43	STATUS[7]	./test
+18:22:43	STATUS[0]	./test
+18:22:45	STATUS[7]	./test
+18:22:45	STATUS[0]	./test
+18:23:10	STATUS[7]	./test
+18:23:10	STATUS[0]	./test
+18:23:17	STATUS[7]	./test
+18:23:17	STATUS[0]	./test
+18:23:29	STATUS[7]	./test
+18:23:29	STATUS[0]	./test
+18:23:31	STATUS[7]	./test
+18:23:31	STATUS[0]	./test
+18:23:35	STATUS[7]	./test
+18:23:35	STATUS[0]	./test
+18:23:41	STATUS[7]	./test
+18:23:41	STATUS[0]	./test
+18:24:11	STATUS[7]	./test
+18:24:11	STATUS[0]	./test
+18:24:13	STATUS[7]	./test
+18:24:13	STATUS[0]	./test
+18:24:38	STATUS[7]	./test
+18:24:38	STATUS[0]	./test
+18:24:45	STATUS[7]	./test
+18:24:45	STATUS[0]	./test
+18:24:57	STATUS[7]	./test
+18:24:57	STATUS[0]	./test
+18:24:59	STATUS[7]	./test
+18:25:02	STATUS[7]	./test
+18:25:09	STATUS[7]	./test
+18:25:39	STATUS[7]	./test
+18:25:41	STATUS[7]	./test
+18:25:47	STATUS[7]	./test
+18:25:54	STATUS[7]	./test
+18:25:58	STATUS[7]	./test
+18:41:11	STATUS[0]	./test
+18:41:12	STATUS[0]	./test
+18:41:12	STATUS[0]	./test
+18:41:12	STATUS[0]	./test
+18:41:12	STATUS[0]	./test
+18:41:13	STATUS[0]	./test
+18:41:13	STATUS[0]	./test
+18:41:13	STATUS[0]	./test
+18:41:14	STATUS[0]	./test
+18:41:14	STATUS[0]	./test
+18:41:14	STATUS[0]	./test
+18:41:14	STATUS[0]	./test
+18:41:15	STATUS[0]	./test
+18:41:15	STATUS[0]	./test
+18:41:15	STATUS[0]	./test
+18:41:16	STATUS[0]	./test
+18:41:16	STATUS[0]	./test
+18:41:16	STATUS[0]	./test
+18:41:17	STATUS[1]	./test
+18:41:17	STATUS[1]	./test
+18:41:17	STATUS[1]	./test
+18:41:17	STATUS[1]	./test
+18:41:18	STATUS[1]	./test
+18:41:18	STATUS[0]	./test
+18:41:18	STATUS[1]	./test
+18:41:18	STATUS[1]	./test
+18:41:19	STATUS[1]	./test
+18:41:19	STATUS[0]	./test
+18:41:19	STATUS[1]	./test
+18:41:20	STATUS[1]	./test
+18:41:20	STATUS[1]	./test
+18:41:20	STATUS[1]	./test
+18:41:20	STATUS[0]	./test
+18:41:21	STATUS[1]	./test
+18:41:21	STATUS[1]	./test
+18:41:21	STATUS[0]	./test
+18:41:21	STATUS[0]	./test
+18:41:21	STATUS[1]	./test
+18:41:21	STATUS[1]	./test
+18:41:22	STATUS[0]	./test
+18:41:22	STATUS[1]	./test
+18:41:22	STATUS[1]	./test
+18:41:22	STATUS[1]	./test
+18:41:22	STATUS[0]	./test
+18:41:23	STATUS[0]	./test
+18:41:23	STATUS[0]	./test
+18:41:23	STATUS[1]	./test
+18:41:23	STATUS[1]	./test
+18:41:23	STATUS[1]	./test
+18:41:24	STATUS[1]	./test
+18:41:24	STATUS[0]	./test
+18:41:24	STATUS[0]	./test
+18:41:24	STATUS[0]	./test
+18:41:24	STATUS[1]	./test
+18:41:24	STATUS[0]	./test
+18:41:25	STATUS[1]	./test
+18:41:25	STATUS[1]	./test
+18:41:25	STATUS[0]	./test
+18:41:25	STATUS[0]	./test
+18:41:25	STATUS[0]	./test
+18:41:26	STATUS[0]	./test
+18:41:26	STATUS[0]	./test
+18:41:26	STATUS[0]	./test
+18:41:26	STATUS[0]	./test
+18:41:26	STATUS[0]	./test
+18:41:27	STATUS[0]	./test
+18:41:27	STATUS[0]	./test
+18:41:28	STATUS[0]	./test
+18:41:28	STATUS[0]	./test
+18:41:28	STATUS[0]	./test
+18:41:28	STATUS[0]	./test
+18:41:28	STATUS[0]	./test
+18:41:28	STATUS[0]	./test
+18:41:29	STATUS[0]	./test
+18:41:29	STATUS[0]	./test
+18:41:29	STATUS[0]	./test
+18:41:29	STATUS[0]	./test
+18:41:29	STATUS[0]	./test
+18:41:30	STATUS[0]	./test
+18:41:30	STATUS[0]	./test
+18:41:30	STATUS[0]	./test
+18:41:30	STATUS[0]	./test
+18:41:31	STATUS[0]	./test
+18:41:31	STATUS[0]	./test
+18:41:31	STATUS[0]	./test
+18:41:31	STATUS[0]	./test
+18:41:32	STATUS[0]	./test
+18:41:32	STATUS[0]	./test
+18:41:32	STATUS[0]	./test
+18:41:35	STATUS[0]	./test
+18:41:36	STATUS[0]	./test
+18:41:36	STATUS[0]	./test
+18:41:36	STATUS[0]	./test
+18:41:37	STATUS[0]	./test
+18:41:37	STATUS[0]	./test
+18:41:37	STATUS[0]	./test
+18:41:37	STATUS[0]	./test
+18:41:38	STATUS[0]	./test
+18:41:38	STATUS[0]	./test
+18:41:38	STATUS[0]	./test
+18:41:38	STATUS[0]	./test
+18:41:39	STATUS[0]	./test
+18:41:39	STATUS[0]	./test
+18:41:40	STATUS[0]	./test
+18:41:40	STATUS[0]	./test
+18:41:41	STATUS[0]	./test
+18:41:41	STATUS[0]	./test
+18:41:41	STATUS[0]	./test
+18:41:42	STATUS[0]	./test
+18:41:42	STATUS[0]	./test
+18:41:42	STATUS[0]	./test
+18:41:42	STATUS[0]	./test
+18:41:43	STATUS[0]	./test
+18:41:44	STATUS[0]	./test
+18:41:44	STATUS[0]	./test
+18:41:44	STATUS[0]	./test
+18:41:44	STATUS[0]	./test
+18:41:45	STATUS[0]	./test
+18:41:45	STATUS[0]	./test
+18:41:45	STATUS[0]	./test
+18:41:46	STATUS[0]	./test
+18:41:46	STATUS[0]	./test
+18:41:47	STATUS[0]	./test
+18:41:47	STATUS[0]	./test
+18:41:47	STATUS[4]	./test
+18:41:47	STATUS[0]	./test
+18:41:47	STATUS[0]	./test
+18:41:48	STATUS[0]	./test
+18:41:48	STATUS[4]	./test
+18:41:48	STATUS[0]	./test
+18:41:49	STATUS[1]	./test
+18:41:49	STATUS[0]	./test
+18:41:49	STATUS[4]	./test
+18:41:50	STATUS[0]	./test
+18:41:50	STATUS[1]	./test
+18:41:50	STATUS[0]	./test
+18:41:51	STATUS[1]	./test
+18:41:51	STATUS[0]	./test
+18:41:53	STATUS[0]	./test
+18:41:53	STATUS[4]	./test
+18:41:55	STATUS[0]	./test
+18:41:55	STATUS[4]	./test
+18:41:55	STATUS[1]	./test
+18:41:55	STATUS[0]	./test
+18:41:55	STATUS[0]	./test
+18:41:55	STATUS[4]	./test
+18:41:56	STATUS[4]	./test
+18:41:56	STATUS[0]	./test
+18:41:56	STATUS[0]	./test
+18:41:57	STATUS[1]	./test
+18:41:57	STATUS[1]	./test
+18:41:58	STATUS[0]	./test
+18:41:58	STATUS[1]	./test
+18:41:58	STATUS[0]	./test
+18:41:58	STATUS[4]	./test
+18:41:59	STATUS[0]	./test
+18:41:59	STATUS[4]	./test
+18:41:59	STATUS[0]	./test
+18:42:00	STATUS[4]	./test
+18:42:00	STATUS[1]	./test
+18:42:00	STATUS[1]	./test
+18:42:01	STATUS[0]	./test
+18:42:01	STATUS[4]	./test
+18:42:01	STATUS[0]	./test
+18:42:01	STATUS[4]	./test
+18:42:01	STATUS[1]	./test
+18:42:02	STATUS[0]	./test
+18:42:02	STATUS[4]	./test
+18:42:02	STATUS[1]	./test
+18:42:02	STATUS[1]	./test
+18:42:02	STATUS[0]	./test
+18:42:02	STATUS[4]	./test
+18:42:03	STATUS[1]	./test
+18:42:03	STATUS[1]	./test
+18:42:08	STATUS[4]	./test
+18:42:09	STATUS[1]	./test
+18:42:09	STATUS[0]	./test
+18:42:09	STATUS[0]	./test
+18:42:09	STATUS[0]	./test
+18:42:09	STATUS[4]	./test
+18:42:09	STATUS[1]	./test
+18:42:09	STATUS[0]	./test
+18:42:10	STATUS[0]	./test
+18:42:10	STATUS[4]	./test
+18:42:10	STATUS[0]	./test
+18:42:10	STATUS[1]	./test
+18:42:10	STATUS[0]	./test
+18:42:10	STATUS[4]	./test
+18:42:11	STATUS[0]	./test
+18:42:11	STATUS[0]	./test
+18:42:11	STATUS[4]	./test
+18:42:11	STATUS[1]	./test
+18:42:11	STATUS[0]	./test
+18:42:11	STATUS[1]	./test
+18:42:12	STATUS[0]	./test
+18:42:12	STATUS[4]	./test
+18:42:12	STATUS[0]	./test
+18:42:12	STATUS[0]	./test
+18:42:12	STATUS[4]	./test
+18:42:12	STATUS[1]	./test
+18:42:12	STATUS[0]	./test
+18:42:12	STATUS[1]	./test
+18:42:13	STATUS[0]	./test
+18:42:13	STATUS[4]	./test
+18:42:13	STATUS[0]	./test
+18:42:13	STATUS[0]	./test
+18:42:13	STATUS[4]	./test
+18:42:13	STATUS[1]	./test
+18:42:14	STATUS[1]	./test
+18:42:14	STATUS[0]	./test
+18:42:27	STATUS[4]	./test
+18:42:27	STATUS[1]	./test
+18:42:27	STATUS[0]	./test
+18:42:30	STATUS[4]	./test
+18:42:30	STATUS[1]	./test
+18:42:30	STATUS[0]	./test
+18:42:36	STATUS[4]	./test
+18:42:36	STATUS[1]	./test
+18:42:36	STATUS[0]	./test
+18:42:37	STATUS[4]	./test
+18:42:37	STATUS[1]	./test
+18:42:37	STATUS[0]	./test
+18:42:40	STATUS[4]	./test
+18:42:40	STATUS[1]	./test
+18:42:40	STATUS[0]	./test
+18:42:47	STATUS[4]	./test
+18:42:47	STATUS[4]	./test
+18:42:47	STATUS[1]	./test
+18:42:47	STATUS[0]	./test
+18:42:47	STATUS[1]	./test
+18:42:47	STATUS[0]	./test
+18:42:48	STATUS[4]	./test
+18:42:49	STATUS[1]	./test
+18:42:49	STATUS[0]	./test
+18:42:52	STATUS[4]	./test
+18:42:52	STATUS[1]	./test
+18:42:54	STATUS[4]	./test
+18:42:55	STATUS[4]	./test
+18:42:55	STATUS[1]	./test
+18:42:55	STATUS[1]	./test
+18:43:02	STATUS[4]	./test
+18:43:03	STATUS[1]	./test
+18:43:03	STATUS[4]	./test
+18:43:04	STATUS[1]	./test
+18:43:08	STATUS[0]	./test
+18:43:08	STATUS[4]	./test
+18:43:08	STATUS[4]	./test
+18:43:09	STATUS[1]	./test
+18:43:09	STATUS[1]	./test
+18:43:09	STATUS[7]	./test
+18:43:12	STATUS[4]	./test
+18:43:12	STATUS[1]	./test
+18:43:12	STATUS[4]	./test
+18:43:13	STATUS[4]	./test
+18:43:13	STATUS[1]	./test
+18:43:13	STATUS[1]	./test
+18:43:16	STATUS[4]	./test
+18:43:16	STATUS[1]	./test
+18:43:21	STATUS[4]	./test
+18:43:21	STATUS[1]	./test
+18:43:32	STATUS[4]	./test
+18:43:32	STATUS[1]	./test
+18:43:35	STATUS[4]	./test
+18:43:35	STATUS[1]	./test
+18:43:35	STATUS[0]	./test
+18:43:35	STATUS[7]	./test
+18:43:37	STATUS[4]	./test
+18:43:37	STATUS[1]	./test
+18:43:43	STATUS[4]	./test
+18:43:43	STATUS[1]	./test
+18:43:49	STATUS[4]	./test
+18:43:49	STATUS[1]	./test
+18:44:31	STATUS[4]	./test
+18:44:32	STATUS[1]	./test
+18:44:32	STATUS[0]	./test
+18:44:32	STATUS[4]	./test
+18:44:32	STATUS[7]	./test
+18:44:32	STATUS[1]	./test
+18:44:32	STATUS[0]	./test
+18:44:33	STATUS[7]	./test
+18:44:35	STATUS[4]	./test
+18:44:35	STATUS[1]	./test
+18:44:35	STATUS[0]	./test
+18:44:35	STATUS[7]	./test
+18:44:40	STATUS[4]	./test
+18:44:40	STATUS[1]	./test
+18:44:40	STATUS[0]	./test
+18:44:40	STATUS[7]	./test
+18:44:41	STATUS[4]	./test
+18:44:41	STATUS[1]	./test
+18:44:41	STATUS[0]	./test
+18:44:41	STATUS[7]	./test
+18:44:44	STATUS[4]	./test
+18:44:44	STATUS[1]	./test
+18:44:44	STATUS[0]	./test
+18:44:44	STATUS[7]	./test
+18:44:47	STATUS[4]	./test
+18:44:47	STATUS[1]	./test
+18:44:47	STATUS[0]	./test
+18:44:47	STATUS[7]	./test
+18:44:48	STATUS[4]	./test
+18:44:48	STATUS[1]	./test
+18:44:48	STATUS[0]	./test
+18:44:48	STATUS[7]	./test
+18:44:51	STATUS[4]	./test
+18:44:51	STATUS[1]	./test
+18:44:51	STATUS[0]	./test
+18:44:51	STATUS[7]	./test
+18:44:53	STATUS[4]	./test
+18:44:53	STATUS[1]	./test
+18:44:53	STATUS[0]	./test
+18:44:53	STATUS[7]	./test
+18:44:56	STATUS[4]	./test
+18:44:56	STATUS[1]	./test
+18:44:56	STATUS[0]	./test
+18:44:57	STATUS[7]	./test
+18:44:58	STATUS[4]	./test
+18:44:58	STATUS[1]	./test
+18:44:58	STATUS[0]	./test
+18:44:59	STATUS[7]	./test
+18:45:02	STATUS[4]	./test
+18:45:02	STATUS[1]	./test
+18:45:02	STATUS[0]	./test
+18:45:02	STATUS[7]	./test
+18:45:07	STATUS[4]	./test
+18:45:08	STATUS[1]	./test
+18:45:08	STATUS[0]	./test
+18:45:08	STATUS[7]	./test
+18:53:19	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test
+18:53:29	STATUS[7]	./test

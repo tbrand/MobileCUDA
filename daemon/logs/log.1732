@@ -1,0 +1,8 @@
+SD[17]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[17]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[17]	   4[sec]	STATUS[0]	POS[1]	./test
+
+17:24:52	STATUS[0]	./test
+17:24:53	STATUS[0]	./test
+17:24:53	STATUS[0]	./test
+17:24:57	STATUS[7]	./test

@@ -1,0 +1,63 @@
+SD[17]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[17]	   2[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[19]	   4[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[20]	   4[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[21]	   4[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[19]	   1[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[22]	   3[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[23]	   3[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[20]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[21]	   1[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[22]	   2[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[23]	   2[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[24]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[24]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[25]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[25]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[25]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[25]	   1[sec]	STATUS[4]	POS[0]	./matrixMul
+SD[25]	   1[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[25]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[20]	  70[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[17]	 140[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[23]	 139[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[19]	 142[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[22]	 141[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[21]	 142[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[24]	 142[sec]	STATUS[0]	POS[3]	./matrixMul
+
+17:03:55	STATUS[0]	./matrixMul
+17:03:55	STATUS[0]	./matrixMul
+17:03:56	STATUS[0]	./matrixMul
+17:03:56	STATUS[0]	./matrixMul
+17:03:56	STATUS[0]	./matrixMul
+17:03:57	STATUS[0]	./matrixMul
+17:03:57	STATUS[0]	./matrixMul
+17:03:58	STATUS[0]	./matrixMul
+17:03:59	STATUS[0]	./matrixMul
+17:04:00	STATUS[0]	./matrixMul
+17:04:00	STATUS[0]	./matrixMul
+17:04:00	STATUS[0]	./matrixMul
+17:04:00	STATUS[0]	./matrixMul
+17:04:00	STATUS[0]	./matrixMul
+17:04:01	STATUS[0]	./matrixMul
+17:04:01	STATUS[0]	./matrixMul
+17:04:01	STATUS[0]	./matrixMul
+17:04:02	STATUS[0]	./matrixMul
+17:04:02	STATUS[0]	./matrixMul
+17:04:02	STATUS[0]	./matrixMul
+17:04:03	STATUS[0]	./matrixMul
+17:04:10	STATUS[0]	./matrixMul
+17:04:11	STATUS[0]	./matrixMul
+17:04:12	STATUS[0]	./matrixMul
+17:04:12	STATUS[4]	./matrixMul
+17:04:12	STATUS[1]	./matrixMul
+17:04:12	STATUS[0]	./matrixMul
+17:04:12	STATUS[7]	./matrixMul
+17:05:11	STATUS[7]	./matrixMul
+17:06:18	STATUS[7]	./matrixMul
+17:06:21	STATUS[7]	./matrixMul
+17:06:22	STATUS[7]	./matrixMul
+17:06:23	STATUS[7]	./matrixMul
+17:06:23	STATUS[7]	./matrixMul
+17:06:25	STATUS[7]	./matrixMul

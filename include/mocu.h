@@ -32,6 +32,32 @@ typedef struct _event{
   float charge;
 } mocu_event;
 
+typedef struct _array{
+  struct _array *prev,*next;
+  cudaArray_t ar;
+  char* backup;
+  size_t width;
+  size_t height;
+  size_t backup_size;
+  unsigned int flags;
+  struct cudaExtent extent;
+  struct cudaChannelFormatDesc desc;
+  int mode;
+  /*
+    mode
+    0 : cudaMallocArray
+    1 : cudaMalloc3DArray
+  */
+} mocu_array;
+
+typedef struct _textureObject{
+  struct _textureObject *prev,*next;
+  cudaTextureObject_t tx;
+  struct cudaResourceDesc rdesc;
+  struct cudaTextureDesc tdesc;
+  struct cudaResourceViewDesc vdesc;
+} mocu_texture;
+
 typedef struct _region{
   struct _region *prev,*next;
   size_t size;
@@ -129,6 +155,8 @@ enum{
   REGISTERFUNCTION,
   REGISTERVAR,
   HOSTREGISTER,
+  CUPTI_INIT,
+  CUPTI_DESTROY,
 };
 
 typedef struct _apilog{
@@ -149,6 +177,8 @@ typedef struct _apilog{
 typedef struct _context{
   mocu_stream *s0,*s1;
   mocu_event *e0,*e1;
+  mocu_array *ar0,*ar1;
+  mocu_texture *tx0,*tx1;
   region *d0,*d1;
   apilog *a0,*a1;
   symbol *sm0,*sm1;
@@ -312,13 +342,15 @@ typedef struct _mocu{
 } MOCU;
 
 #define CUDA_LIB_PATH  "/usr/local/cuda-5.5/lib64/libcudart.so"  
-#define TRACE(func)  printf("[TRACE -runtime-] %-25s\n",func);
+#define TRACE(func)  //printf("[TRACE -runtime-] %-25s\n",func);
 #define REPLAY(func) printf("[REPLAY] %-25s\n",func);
 #define ENCAP 1
 
 extern MOCU mocu;
 extern int mocu_pos;
 extern int created_context;
+extern int initialized;
+extern int connected;
 
 // migration.c
 extern void mocu_backup();
@@ -340,6 +372,9 @@ extern void mocu_device_restore();
 //stream.c
 extern void mocu_stream_restore();
 
+//array.c
+extern void mocu_array_restore();
+
 //replay.c
 extern int replay(apilog*);
 
@@ -356,6 +391,7 @@ extern void mocu_failed_to_get(int);
 extern void mocu_suspended();
 extern void mocu_register_var(size_t);
 extern void mocu_try_to_allocate(size_t);
+extern void mocu_cuda_free(void*);
 extern void mocu_leave();
 extern void mocu_malloc_done(size_t);
 extern void mocu_mig_done();
@@ -370,6 +406,11 @@ extern void mocu_add_symbol(char*,char*,char*,int,int,int,int);
 extern void mocu_symbol_backup();
 extern void mocu_symbol_restore();
 extern int mocu_symbol_registered(symbol*);
+
+//cupti.c
+extern void init_cupti();
+extern void cupti_destroy();
+extern int  getTrace(RuntimeApiTrace_t*);
 
 #define ENTER  mocu_request();
 #define FINISH 

@@ -121,10 +121,10 @@ all: build
 build: simpleTexture
 
 simpleTexture.o: simpleTexture.cu
-	$(NVCC) $(INCLUDES) $(ALL_CCFLAGS) $(GENCODE_FLAGS) -o $@ -c $<
+	$(NVCC) $(INCLUDES) $(ALL_CCFLAGS) $(GENCODE_FLAGS) -o $@ -c $< -lcudart
 
 simpleTexture: simpleTexture.o
-	$(NVCC) $(ALL_LDFLAGS) -o $@ $+ $(LIBRARIES)
+	$(NVCC) $(ALL_LDFLAGS) -o $@ $+ $(LIBRARIES) -lcudart
 	mkdir -p ../../bin/$(OS_ARCH)/$(OSLOWER)/$(TARGET)$(if $(abi),/$(abi))
 	cp $@ ../../bin/$(OS_ARCH)/$(OSLOWER)/$(TARGET)$(if $(abi),/$(abi))
 

@@ -73,6 +73,19 @@ void add_proc(proc *p){
 }
 
 void remove_proc(proc *p){
+
+  if(p == NULL){
+    printf("p is NULL\n");
+  }
+
+  if(p->next == NULL){
+    printf("p->next is NULL\n");
+  }
+
+  if(p->prev == NULL){
+    printf("p->prev is NULL\n");
+  }
+
   p->next->prev = p->prev;
   p->prev->next = p->next;
   free(p);

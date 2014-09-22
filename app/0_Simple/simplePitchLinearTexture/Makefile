@@ -121,10 +121,10 @@ all: build
 build: simplePitchLinearTexture
 
 simplePitchLinearTexture.o: simplePitchLinearTexture.cu
-	$(NVCC) $(INCLUDES) $(ALL_CCFLAGS) $(GENCODE_FLAGS) -o $@ -c $<
+	$(NVCC) $(INCLUDES) $(ALL_CCFLAGS) $(GENCODE_FLAGS) -o $@ -c $< -lcudart
 
 simplePitchLinearTexture: simplePitchLinearTexture.o
-	$(NVCC) $(ALL_LDFLAGS) -o $@ $+ $(LIBRARIES)
+	$(NVCC) $(ALL_LDFLAGS) -o $@ $+ $(LIBRARIES) -lcudart
 	mkdir -p ../../bin/$(OS_ARCH)/$(OSLOWER)/$(TARGET)$(if $(abi),/$(abi))
 	cp $@ ../../bin/$(OS_ARCH)/$(OSLOWER)/$(TARGET)$(if $(abi),/$(abi))
 

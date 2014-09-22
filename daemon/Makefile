@@ -1,8 +1,8 @@
 CC = gcc
 
-C_FLAGS = -g -lnvidia-ml
+C_FLAGS = -g -lnvidia-ml -lcupti -L/usr/local/cuda/extras/CUPTI/lib64
 
-INCLUDE = -I../include -I/usr/local/cuda/include
+INCLUDE = -I../include -I/usr/local/cuda/include -I/usr/local/cuda/extras/CUPTI/include
 
 OBJS =  mocu_daemon.o \
 	dequeue.o     \

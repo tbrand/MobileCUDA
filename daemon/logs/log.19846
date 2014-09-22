@@ -1,0 +1,91 @@
+SD[17]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[17]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[17]	  71[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[19]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[19]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[19]	  72[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[20]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[20]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[20]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[21]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[21]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[22]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[22]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[23]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[23]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[24]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[24]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[25]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[25]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[26]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[26]	   1[sec]	STATUS[0]	POS[2]	./test
+SD[27]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[27]	   1[sec]	STATUS[0]	POS[3]	./test
+SD[28]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[28]	   1[sec]	STATUS[0]	POS[0]	./test
+SD[29]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[29]	   1[sec]	STATUS[0]	POS[1]	./test
+SD[25]	  86[sec]	STATUS[0]	POS[1]	./test
+SD[25]	   1[sec]	STATUS[4]	POS[1]	./test
+SD[24]	 131[sec]	STATUS[0]	POS[0]	./test
+SD[25]	  44[sec]	STATUS[1]	POS[0]	./test
+SD[23]	 133[sec]	STATUS[0]	POS[3]	./test
+SD[22]	 145[sec]	STATUS[0]	POS[2]	./test
+SD[26]	 144[sec]	STATUS[0]	POS[2]	./test
+SD[27]	 133[sec]	STATUS[0]	POS[3]	./test
+SD[21]	 166[sec]	STATUS[0]	POS[1]	./test
+SD[28]	 155[sec]	STATUS[0]	POS[0]	./test
+SD[29]	 155[sec]	STATUS[0]	POS[1]	./test
+SD[25]	  69[sec]	STATUS[0]	POS[0]	./test
+
+14:04:54	STATUS[0]	./matrixMul
+14:04:54	STATUS[0]	./matrixMul
+14:04:55	STATUS[0]	./matrixMul
+14:06:06	STATUS[7]	./matrixMul
+14:23:42	STATUS[0]	./matrixMul
+14:23:42	STATUS[0]	./matrixMul
+14:23:43	STATUS[0]	./matrixMul
+14:24:55	STATUS[7]	./matrixMul
+14:32:20	STATUS[0]	./matrixMul
+14:32:21	STATUS[0]	./matrixMul
+14:32:22	STATUS[0]	./matrixMul
+14:32:23	STATUS[7]	./matrixMul
+14:32:58	STATUS[0]	./test
+14:32:59	STATUS[0]	./test
+14:32:59	STATUS[0]	./test
+14:33:00	STATUS[0]	./test
+14:33:00	STATUS[0]	./test
+14:33:00	STATUS[0]	./test
+14:33:04	STATUS[0]	./test
+14:33:04	STATUS[0]	./test
+14:33:04	STATUS[0]	./test
+14:33:05	STATUS[0]	./test
+14:33:05	STATUS[0]	./test
+14:33:05	STATUS[0]	./test
+14:33:06	STATUS[0]	./test
+14:33:06	STATUS[0]	./test
+14:33:06	STATUS[0]	./test
+14:33:10	STATUS[0]	./test
+14:33:11	STATUS[0]	./test
+14:33:11	STATUS[0]	./test
+14:33:27	STATUS[0]	./test
+14:33:27	STATUS[0]	./test
+14:33:28	STATUS[0]	./test
+14:33:28	STATUS[0]	./test
+14:33:29	STATUS[0]	./test
+14:33:29	STATUS[0]	./test
+14:33:32	STATUS[0]	./test
+14:33:32	STATUS[0]	./test
+14:33:32	STATUS[0]	./test
+14:34:32	STATUS[4]	./test
+14:34:32	STATUS[1]	./test
+14:35:16	STATUS[7]	./test
+14:35:16	STATUS[0]	./test
+14:35:17	STATUS[7]	./test
+14:35:25	STATUS[7]	./test
+14:35:35	STATUS[7]	./test
+14:35:41	STATUS[7]	./test
+14:35:45	STATUS[7]	./test
+14:36:04	STATUS[7]	./test
+14:36:07	STATUS[7]	./test
+14:36:25	STATUS[7]	./test

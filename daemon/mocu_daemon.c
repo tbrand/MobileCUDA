@@ -61,7 +61,6 @@ int main(int argc,char* argv[]){
   }
 
   /**Setup the log file**/
-
   char log[32];
 
   sprintf(log,"log.%u",sid);
@@ -260,6 +259,10 @@ int main(int argc,char* argv[]){
 
 	      _CUDAMALLOC(i,receivedProc);
 
+	    }else if(receivedProc->REQUEST == CUDAFREE){
+	      
+	      _CUDAFREE(i,receivedProc);
+
 	    }else if(receivedProc->REQUEST == BACKUPED){
 
 	      _BACKUPED(i,receivedProc);
@@ -268,6 +271,10 @@ int main(int argc,char* argv[]){
 
 	      _CONTEXT_CHECK(i,receivedProc);
 	      
+	    }else if(receivedProc->REQUEST == PROFILE){
+
+	      _PROFILE(i,receivedProc);
+
 	    }else if(receivedProc->REQUEST == CONSOLE){
 
 	      _CONSOLE(i);

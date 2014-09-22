@@ -1,0 +1,488 @@
+SD[17]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[17]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[19]	   8[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[20]	  10[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[19]	   2[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[21]	  10[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[20]	   2[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[34]	   7[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[22]	  11[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[21]	   2[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[35]	   8[sec]	STATUS[1]	POS[2]	./matrixMul
+SD[23]	  12[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[24]	  12[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[22]	   2[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[36]	   8[sec]	STATUS[1]	POS[0]	./matrixMul
+SD[23]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[25]	  12[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[26]	  13[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[27]	  12[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[23]	   1[sec]	STATUS[4]	POS[0]	./matrixMul
+SD[37]	   9[sec]	STATUS[1]	POS[0]	./matrixMul
+SD[23]	   1[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[28]	  13[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[24]	   2[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[38]	  10[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[24]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[27]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[29]	  13[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[25]	   3[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[39]	  11[sec]	STATUS[1]	POS[2]	./matrixMul
+SD[23]	   2[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[40]	  10[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[24]	   1[sec]	STATUS[4]	POS[1]	./matrixMul
+SD[41]	  10[sec]	STATUS[1]	POS[3]	./matrixMul
+SD[26]	   2[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[30]	  13[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[42]	  10[sec]	STATUS[1]	POS[3]	./matrixMul
+SD[26]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[29]	   1[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[31]	  14[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[28]	   2[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[43]	  10[sec]	STATUS[1]	POS[3]	./matrixMul
+SD[32]	  14[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[26]	   1[sec]	STATUS[4]	POS[3]	./matrixMul
+SD[30]	   2[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[27]	   3[sec]	STATUS[4]	POS[0]	./matrixMul
+SD[44]	  11[sec]	STATUS[1]	POS[0]	./matrixMul
+SD[33]	  14[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[31]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[29]	   3[sec]	STATUS[4]	POS[2]	./matrixMul
+SD[45]	  12[sec]	STATUS[1]	POS[2]	./matrixMul
+SD[32]	   2[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[33]	   1[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[30]	   1[sec]	STATUS[4]	POS[0]	./matrixMul
+SD[46]	  12[sec]	STATUS[1]	POS[0]	./matrixMul
+SD[31]	   2[sec]	STATUS[4]	POS[0]	./matrixMul
+SD[32]	   1[sec]	STATUS[4]	POS[1]	./matrixMul
+SD[47]	  12[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[33]	   1[sec]	STATUS[4]	POS[2]	./matrixMul
+SD[48]	  12[sec]	STATUS[1]	POS[2]	./matrixMul
+SD[34]	  12[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[35]	  12[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[34]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[35]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[34]	   1[sec]	STATUS[4]	POS[3]	./matrixMul
+SD[36]	  13[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[35]	   1[sec]	STATUS[4]	POS[1]	./matrixMul
+SD[36]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[37]	  13[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[38]	  12[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[39]	  11[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[40]	  11[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[37]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[41]	  12[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[38]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[42]	  12[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[36]	   2[sec]	STATUS[4]	POS[1]	./matrixMul
+SD[36]	   1[sec]	STATUS[1]	POS[3]	./matrixMul
+SD[39]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[43]	  12[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[40]	   2[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[41]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[44]	  11[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[42]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[36]	   2[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[36]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[43]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[37]	   2[sec]	STATUS[4]	POS[0]	./matrixMul
+SD[37]	   1[sec]	STATUS[1]	POS[3]	./matrixMul
+SD[38]	   2[sec]	STATUS[4]	POS[0]	./matrixMul
+SD[44]	   2[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[45]	  12[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[39]	   3[sec]	STATUS[4]	POS[1]	./matrixMul
+SD[39]	   1[sec]	STATUS[1]	POS[2]	./matrixMul
+SD[36]	   1[sec]	STATUS[4]	POS[3]	./matrixMul
+SD[40]	   3[sec]	STATUS[4]	POS[2]	./matrixMul
+SD[40]	   1[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[41]	   3[sec]	STATUS[4]	POS[1]	./matrixMul
+SD[37]	   2[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[37]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[42]	   3[sec]	STATUS[4]	POS[0]	./matrixMul
+SD[42]	   1[sec]	STATUS[1]	POS[3]	./matrixMul
+SD[46]	  13[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[39]	   2[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[39]	   1[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[43]	   3[sec]	STATUS[4]	POS[1]	./matrixMul
+SD[43]	   1[sec]	STATUS[1]	POS[2]	./matrixMul
+SD[37]	   1[sec]	STATUS[4]	POS[3]	./matrixMul
+SD[40]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[40]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[44]	   3[sec]	STATUS[4]	POS[3]	./matrixMul
+SD[46]	   2[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[47]	  14[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[42]	   2[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[42]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[39]	   1[sec]	STATUS[4]	POS[2]	./matrixMul
+SD[45]	   3[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[45]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[48]	  14[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[40]	   1[sec]	STATUS[4]	POS[1]	./matrixMul
+SD[27]	  17[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[43]	   2[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[43]	   1[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[42]	   1[sec]	STATUS[4]	POS[3]	./matrixMul
+SD[29]	  16[sec]	STATUS[1]	POS[3]	./matrixMul
+SD[45]	   1[sec]	STATUS[4]	POS[0]	./matrixMul
+SD[30]	  16[sec]	STATUS[1]	POS[0]	./matrixMul
+SD[47]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[43]	   1[sec]	STATUS[4]	POS[2]	./matrixMul
+SD[31]	  16[sec]	STATUS[1]	POS[2]	./matrixMul
+SD[48]	   2[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[27]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[27]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[46]	   2[sec]	STATUS[4]	POS[3]	./matrixMul
+SD[46]	   1[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[29]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[29]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[30]	   2[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[30]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[27]	   1[sec]	STATUS[4]	POS[1]	./matrixMul
+SD[31]	   1[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[31]	   1[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[29]	   1[sec]	STATUS[4]	POS[3]	./matrixMul
+SD[32]	  17[sec]	STATUS[1]	POS[3]	./matrixMul
+SD[46]	   2[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[46]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[30]	   1[sec]	STATUS[4]	POS[0]	./matrixMul
+SD[33]	  18[sec]	STATUS[1]	POS[0]	./matrixMul
+SD[47]	   3[sec]	STATUS[4]	POS[0]	./matrixMul
+SD[47]	   1[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[48]	   2[sec]	STATUS[4]	POS[1]	./matrixMul
+SD[48]	   1[sec]	STATUS[1]	POS[2]	./matrixMul
+SD[31]	   1[sec]	STATUS[4]	POS[2]	./matrixMul
+SD[46]	   1[sec]	STATUS[4]	POS[1]	./matrixMul
+SD[32]	   2[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[32]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[33]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[33]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[47]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[47]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[48]	   1[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[48]	   1[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[32]	   1[sec]	STATUS[4]	POS[3]	./matrixMul
+SD[34]	  14[sec]	STATUS[1]	POS[3]	./matrixMul
+SD[33]	   1[sec]	STATUS[4]	POS[0]	./matrixMul
+SD[35]	  14[sec]	STATUS[1]	POS[0]	./matrixMul
+SD[47]	   1[sec]	STATUS[4]	POS[1]	./matrixMul
+SD[38]	  10[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[48]	   1[sec]	STATUS[4]	POS[2]	./matrixMul
+SD[41]	   8[sec]	STATUS[1]	POS[2]	./matrixMul
+SD[34]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[34]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[35]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[35]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[38]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[38]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[41]	   1[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[41]	   1[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[34]	   1[sec]	STATUS[4]	POS[3]	./matrixMul
+SD[44]	   7[sec]	STATUS[1]	POS[3]	./matrixMul
+SD[35]	   1[sec]	STATUS[4]	POS[0]	./matrixMul
+SD[38]	   1[sec]	STATUS[4]	POS[1]	./matrixMul
+SD[41]	   1[sec]	STATUS[4]	POS[2]	./matrixMul
+SD[44]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[44]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[44]	   1[sec]	STATUS[4]	POS[3]	./matrixMul
+SD[17]	 126[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[24]	 111[sec]	STATUS[1]	POS[3]	./matrixMul
+SD[24]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[28]	 126[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[26]	 126[sec]	STATUS[1]	POS[3]	./matrixMul
+SD[26]	   1[sec]	STATUS[0]	POS[3]	./matrixMul
+SD[20]	 137[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[27]	 111[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[19]	 139[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[29]	 112[sec]	STATUS[1]	POS[0]	./matrixMul
+SD[27]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[30]	 111[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[29]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[31]	 112[sec]	STATUS[1]	POS[0]	./matrixMul
+SD[30]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[31]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[21]	 138[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[32]	 112[sec]	STATUS[1]	POS[2]	./matrixMul
+SD[32]	   1[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[33]	 111[sec]	STATUS[1]	POS[2]	./matrixMul
+SD[33]	   1[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[22]	 140[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[34]	 112[sec]	STATUS[1]	POS[0]	./matrixMul
+SD[34]	   1[sec]	STATUS[0]	POS[0]	./matrixMul
+SD[23]	 139[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[35]	 114[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[35]	   1[sec]	STATUS[0]	POS[1]	./matrixMul
+SD[25]	 140[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[36]	 125[sec]	STATUS[1]	POS[2]	./matrixMul
+SD[36]	   1[sec]	STATUS[0]	POS[2]	./matrixMul
+SD[42]	 492[sec]	STATUS[1]	POS[3]	./matrixMul
+SD[37]	 499[sec]	STATUS[1]	POS[3]	./matrixMul
+SD[38]	 491[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[39]	 498[sec]	STATUS[1]	POS[2]	./matrixMul
+SD[40]	 497[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[41]	 491[sec]	STATUS[1]	POS[2]	./matrixMul
+SD[43]	 496[sec]	STATUS[1]	POS[2]	./matrixMul
+SD[44]	 490[sec]	STATUS[1]	POS[3]	./matrixMul
+SD[45]	 497[sec]	STATUS[1]	POS[0]	./matrixMul
+SD[46]	 494[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[47]	 492[sec]	STATUS[1]	POS[1]	./matrixMul
+SD[48]	 492[sec]	STATUS[1]	POS[2]	./matrixMul
+
+13:41:19	STATUS[0]	./matrixMul
+13:41:19	STATUS[0]	./matrixMul
+13:41:19	STATUS[0]	./matrixMul
+13:41:20	STATUS[0]	./matrixMul
+13:41:20	STATUS[0]	./matrixMul
+13:41:20	STATUS[0]	./matrixMul
+13:41:20	STATUS[0]	./matrixMul
+13:41:21	STATUS[0]	./matrixMul
+13:41:21	STATUS[0]	./matrixMul
+13:41:21	STATUS[0]	./matrixMul
+13:41:21	STATUS[0]	./matrixMul
+13:41:22	STATUS[0]	./matrixMul
+13:41:22	STATUS[0]	./matrixMul
+13:41:22	STATUS[0]	./matrixMul
+13:41:23	STATUS[0]	./matrixMul
+13:41:23	STATUS[0]	./matrixMul
+13:41:23	STATUS[0]	./matrixMul
+13:41:24	STATUS[0]	./matrixMul
+13:41:24	STATUS[1]	./matrixMul
+13:41:24	STATUS[1]	./matrixMul
+13:41:25	STATUS[1]	./matrixMul
+13:41:25	STATUS[1]	./matrixMul
+13:41:25	STATUS[1]	./matrixMul
+13:41:25	STATUS[1]	./matrixMul
+13:41:26	STATUS[1]	./matrixMul
+13:41:26	STATUS[1]	./matrixMul
+13:41:26	STATUS[1]	./matrixMul
+13:41:27	STATUS[1]	./matrixMul
+13:41:27	STATUS[0]	./matrixMul
+13:41:27	STATUS[1]	./matrixMul
+13:41:27	STATUS[1]	./matrixMul
+13:41:27	STATUS[1]	./matrixMul
+13:41:28	STATUS[1]	./matrixMul
+13:41:28	STATUS[1]	./matrixMul
+13:41:29	STATUS[0]	./matrixMul
+13:41:29	STATUS[0]	./matrixMul
+13:41:30	STATUS[0]	./matrixMul
+13:41:31	STATUS[0]	./matrixMul
+13:41:31	STATUS[0]	./matrixMul
+13:41:31	STATUS[0]	./matrixMul
+13:41:32	STATUS[0]	./matrixMul
+13:41:32	STATUS[0]	./matrixMul
+13:41:32	STATUS[0]	./matrixMul
+13:41:33	STATUS[0]	./matrixMul
+13:41:33	STATUS[0]	./matrixMul
+13:41:33	STATUS[0]	./matrixMul
+13:41:33	STATUS[4]	./matrixMul
+13:41:33	STATUS[0]	./matrixMul
+13:41:34	STATUS[0]	./matrixMul
+13:41:34	STATUS[0]	./matrixMul
+13:41:34	STATUS[1]	./matrixMul
+13:41:34	STATUS[0]	./matrixMul
+13:41:34	STATUS[0]	./matrixMul
+13:41:35	STATUS[0]	./matrixMul
+13:41:35	STATUS[0]	./matrixMul
+13:41:35	STATUS[0]	./matrixMul
+13:41:35	STATUS[4]	./matrixMul
+13:41:35	STATUS[4]	./matrixMul
+13:41:35	STATUS[0]	./matrixMul
+13:41:36	STATUS[0]	./matrixMul
+13:41:36	STATUS[0]	./matrixMul
+13:41:36	STATUS[0]	./matrixMul
+13:41:36	STATUS[0]	./matrixMul
+13:41:36	STATUS[1]	./matrixMul
+13:41:36	STATUS[0]	./matrixMul
+13:41:36	STATUS[0]	./matrixMul
+13:41:36	STATUS[0]	./matrixMul
+13:41:36	STATUS[0]	./matrixMul
+13:41:36	STATUS[4]	./matrixMul
+13:41:36	STATUS[4]	./matrixMul
+13:41:37	STATUS[0]	./matrixMul
+13:41:37	STATUS[0]	./matrixMul
+13:41:37	STATUS[0]	./matrixMul
+13:41:37	STATUS[0]	./matrixMul
+13:41:37	STATUS[1]	./matrixMul
+13:41:38	STATUS[4]	./matrixMul
+13:41:38	STATUS[1]	./matrixMul
+13:41:38	STATUS[0]	./matrixMul
+13:41:38	STATUS[0]	./matrixMul
+13:41:38	STATUS[4]	./matrixMul
+13:41:39	STATUS[1]	./matrixMul
+13:41:39	STATUS[0]	./matrixMul
+13:41:39	STATUS[4]	./matrixMul
+13:41:39	STATUS[4]	./matrixMul
+13:41:39	STATUS[1]	./matrixMul
+13:41:39	STATUS[0]	./matrixMul
+13:41:40	STATUS[1]	./matrixMul
+13:41:40	STATUS[1]	./matrixMul
+13:41:40	STATUS[0]	./matrixMul
+13:41:40	STATUS[1]	./matrixMul
+13:41:40	STATUS[0]	./matrixMul
+13:41:43	STATUS[0]	./matrixMul
+13:41:44	STATUS[0]	./matrixMul
+13:41:44	STATUS[4]	./matrixMul
+13:41:45	STATUS[4]	./matrixMul
+13:41:45	STATUS[1]	./matrixMul
+13:41:46	STATUS[0]	./matrixMul
+13:41:46	STATUS[1]	./matrixMul
+13:41:46	STATUS[4]	./matrixMul
+13:41:47	STATUS[0]	./matrixMul
+13:41:47	STATUS[0]	./matrixMul
+13:41:47	STATUS[0]	./matrixMul
+13:41:47	STATUS[0]	./matrixMul
+13:41:48	STATUS[4]	./matrixMul
+13:41:48	STATUS[0]	./matrixMul
+13:41:48	STATUS[4]	./matrixMul
+13:41:48	STATUS[0]	./matrixMul
+13:41:48	STATUS[1]	./matrixMul
+13:41:48	STATUS[0]	./matrixMul
+13:41:48	STATUS[4]	./matrixMul
+13:41:49	STATUS[0]	./matrixMul
+13:41:49	STATUS[4]	./matrixMul
+13:41:49	STATUS[4]	./matrixMul
+13:41:49	STATUS[0]	./matrixMul
+13:41:49	STATUS[4]	./matrixMul
+13:41:50	STATUS[0]	./matrixMul
+13:41:50	STATUS[4]	./matrixMul
+13:41:50	STATUS[4]	./matrixMul
+13:41:50	STATUS[1]	./matrixMul
+13:41:50	STATUS[0]	./matrixMul
+13:41:50	STATUS[1]	./matrixMul
+13:41:51	STATUS[4]	./matrixMul
+13:41:51	STATUS[0]	./matrixMul
+13:41:51	STATUS[1]	./matrixMul
+13:41:51	STATUS[0]	./matrixMul
+13:41:51	STATUS[1]	./matrixMul
+13:41:52	STATUS[1]	./matrixMul
+13:41:52	STATUS[0]	./matrixMul
+13:41:52	STATUS[1]	./matrixMul
+13:41:52	STATUS[0]	./matrixMul
+13:41:52	STATUS[4]	./matrixMul
+13:41:52	STATUS[1]	./matrixMul
+13:41:52	STATUS[0]	./matrixMul
+13:41:52	STATUS[0]	./matrixMul
+13:41:53	STATUS[0]	./matrixMul
+13:41:53	STATUS[4]	./matrixMul
+13:41:53	STATUS[1]	./matrixMul
+13:41:53	STATUS[0]	./matrixMul
+13:41:53	STATUS[1]	./matrixMul
+13:41:53	STATUS[0]	./matrixMul
+13:41:54	STATUS[4]	./matrixMul
+13:41:54	STATUS[1]	./matrixMul
+13:41:54	STATUS[4]	./matrixMul
+13:41:54	STATUS[0]	./matrixMul
+13:41:54	STATUS[0]	./matrixMul
+13:41:54	STATUS[4]	./matrixMul
+13:41:54	STATUS[1]	./matrixMul
+13:41:54	STATUS[0]	./matrixMul
+13:41:54	STATUS[4]	./matrixMul
+13:41:54	STATUS[0]	./matrixMul
+13:41:55	STATUS[1]	./matrixMul
+13:41:55	STATUS[0]	./matrixMul
+13:41:55	STATUS[0]	./matrixMul
+13:41:55	STATUS[4]	./matrixMul
+13:41:55	STATUS[1]	./matrixMul
+13:41:55	STATUS[0]	./matrixMul
+13:41:55	STATUS[1]	./matrixMul
+13:41:55	STATUS[0]	./matrixMul
+13:41:55	STATUS[4]	./matrixMul
+13:41:56	STATUS[1]	./matrixMul
+13:41:56	STATUS[0]	./matrixMul
+13:41:56	STATUS[4]	./matrixMul
+13:41:56	STATUS[0]	./matrixMul
+13:41:56	STATUS[4]	./matrixMul
+13:41:56	STATUS[1]	./matrixMul
+13:41:56	STATUS[0]	./matrixMul
+13:41:56	STATUS[0]	./matrixMul
+13:41:56	STATUS[4]	./matrixMul
+13:41:57	STATUS[0]	./matrixMul
+13:41:57	STATUS[4]	./matrixMul
+13:41:57	STATUS[1]	./matrixMul
+13:41:57	STATUS[0]	./matrixMul
+13:41:57	STATUS[4]	./matrixMul
+13:41:57	STATUS[1]	./matrixMul
+13:41:57	STATUS[0]	./matrixMul
+13:41:58	STATUS[0]	./matrixMul
+13:41:58	STATUS[4]	./matrixMul
+13:41:58	STATUS[1]	./matrixMul
+13:41:58	STATUS[0]	./matrixMul
+13:41:58	STATUS[1]	./matrixMul
+13:41:58	STATUS[0]	./matrixMul
+13:41:58	STATUS[1]	./matrixMul
+13:41:58	STATUS[0]	./matrixMul
+13:41:58	STATUS[1]	./matrixMul
+13:41:58	STATUS[1]	./matrixMul
+13:41:59	STATUS[0]	./matrixMul
+13:41:59	STATUS[4]	./matrixMul
+13:41:59	STATUS[0]	./matrixMul
+13:41:59	STATUS[4]	./matrixMul
+13:41:59	STATUS[0]	./matrixMul
+13:41:59	STATUS[4]	./matrixMul
+13:41:59	STATUS[0]	./matrixMul
+13:41:59	STATUS[4]	./matrixMul
+13:41:59	STATUS[1]	./matrixMul
+13:41:59	STATUS[0]	./matrixMul
+13:42:00	STATUS[1]	./matrixMul
+13:42:00	STATUS[0]	./matrixMul
+13:42:00	STATUS[1]	./matrixMul
+13:42:00	STATUS[0]	./matrixMul
+13:42:00	STATUS[1]	./matrixMul
+13:42:00	STATUS[0]	./matrixMul
+13:42:00	STATUS[0]	./matrixMul
+13:42:00	STATUS[4]	./matrixMul
+13:42:00	STATUS[0]	./matrixMul
+13:42:01	STATUS[4]	./matrixMul
+13:42:01	STATUS[0]	./matrixMul
+13:42:01	STATUS[4]	./matrixMul
+13:42:01	STATUS[0]	./matrixMul
+13:42:01	STATUS[4]	./matrixMul
+13:42:01	STATUS[1]	./matrixMul
+13:42:01	STATUS[0]	./matrixMul
+13:42:01	STATUS[1]	./matrixMul
+13:42:01	STATUS[1]	./matrixMul
+13:42:01	STATUS[1]	./matrixMul
+13:42:02	STATUS[0]	./matrixMul
+13:42:02	STATUS[4]	./matrixMul
+13:42:02	STATUS[1]	./matrixMul
+13:43:27	STATUS[7]	./matrixMul
+13:43:27	STATUS[0]	./matrixMul
+13:43:28	STATUS[7]	./matrixMul
+13:43:43	STATUS[7]	./matrixMul
+13:43:43	STATUS[0]	./matrixMul
+13:43:44	STATUS[7]	./matrixMul
+13:43:48	STATUS[7]	./matrixMul
+13:43:48	STATUS[0]	./matrixMul
+13:43:48	STATUS[7]	./matrixMul
+13:43:49	STATUS[0]	./matrixMul
+13:43:49	STATUS[7]	./matrixMul
+13:43:49	STATUS[0]	./matrixMul
+13:43:49	STATUS[7]	./matrixMul
+13:43:50	STATUS[0]	./matrixMul
+13:43:50	STATUS[7]	./matrixMul
+13:43:50	STATUS[7]	./matrixMul
+13:43:50	STATUS[7]	./matrixMul
+13:43:51	STATUS[0]	./matrixMul
+13:43:51	STATUS[7]	./matrixMul
+13:43:51	STATUS[0]	./matrixMul
+13:43:51	STATUS[7]	./matrixMul
+13:43:53	STATUS[7]	./matrixMul
+13:43:53	STATUS[0]	./matrixMul
+13:43:53	STATUS[7]	./matrixMul
+13:43:55	STATUS[7]	./matrixMul
+13:43:55	STATUS[0]	./matrixMul
+13:43:55	STATUS[7]	./matrixMul
+13:43:56	STATUS[7]	./matrixMul
+13:43:56	STATUS[0]	./matrixMul
+13:43:56	STATUS[7]	./matrixMul
+13:50:07	STATUS[7]	./matrixMul
+13:50:12	STATUS[7]	./matrixMul
+13:50:12	STATUS[7]	./matrixMul
+13:50:12	STATUS[7]	./matrixMul
+13:50:12	STATUS[7]	./matrixMul
+13:50:12	STATUS[7]	./matrixMul
+13:50:12	STATUS[7]	./matrixMul
+13:50:12	STATUS[7]	./matrixMul
+13:50:12	STATUS[7]	./matrixMul
+13:50:12	STATUS[7]	./matrixMul
+13:50:12	STATUS[7]	./matrixMul
+13:50:12	STATUS[7]	./matrixMul

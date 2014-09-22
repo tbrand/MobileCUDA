@@ -119,9 +119,12 @@ int main(int argc, char **argv)
 void runTest(int argc, char **argv)
 {
     // Set array size
-    const int nx = 2048;
-    const int ny = 2048;
-
+  //TEST
+  //    const int nx = 2048;
+  //    const int ny = 2048;
+  const int nx = 1 << 14;
+  const int ny = 1 << 14;
+  
     // Setup shifts applied to x and y data
     const int x_shift = 5;
     const int y_shift = 7;

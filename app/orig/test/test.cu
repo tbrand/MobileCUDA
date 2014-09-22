@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <cuda_runtime.h>
@@ -33,7 +34,7 @@ static float elapsed(struct timeval tv0,struct timeval tv1){
     * 0.000001f;
 }
 
-int main(){
+void launch(unsigned int _size){
 
   struct timeval t0,t1;
 
@@ -47,7 +48,7 @@ int main(){
   int div = 8;
   int threadNum = 1024;
 
-  unsigned int size = (threadNum*div) * 32000;
+  unsigned int size = (threadNum*div) * _size;
 
   int blockNum  = size/(threadNum*div);
 
@@ -111,6 +112,23 @@ int main(){
   gettimeofday(&t1,NULL);
 
   printf("TIME RESULT : %f[sec](TEST)\n",elapsed(t0,t1));
+
+  free(h_a);
+  free(h_b);
+  cudaFree(d_a);
+  cudaFree(d_b);
+
+}
+
+int main(){
+
+  /*
+   * Default : 32000
+   */
+
+  launch(8000);
+  launch(16000);
+  launch(32000);
 
   return 0;
 

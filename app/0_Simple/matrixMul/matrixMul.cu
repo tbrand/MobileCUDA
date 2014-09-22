@@ -352,9 +352,7 @@ int matrixMultiply(int argc, char **argv, int block_size, dim3 &dimsA, dim3 &dim
 
     printf("\nNote: For peak performance, please refer to the matrixMulCUBLAS example.\n");
 
-    printf("before calling cudaDeviceReset()\n");
     cudaDeviceReset();
-    printf("after calling cudaDeviceReset()\n");
 
     if (correct)
     {
