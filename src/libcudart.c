@@ -804,8 +804,8 @@ cudaError_t cudaSetDevice(int device){
 
   ENTER;
 
-  printf("\tWarning[Mobile CUDA] : CANNOT CALL cudaSetDevice()\n");
-  printf("\tAlways return \"cudaSuccess\"\n");
+  //  printf("\tWarning[Mobile CUDA] : CANNOT CALL cudaSetDevice()\n");
+  //  printf("\tAlways return \"cudaSuccess\"\n");
 
   /*
     mocu_pos = device;
@@ -1254,7 +1254,7 @@ cudaError_t cudaFuncSetSharedMemConfig(const void *func,  enum cudaSharedMemConf
 
 }
 
-int profiled = 1;
+//int profiled = 0;
 
 cudaError_t cudaLaunch(const void *func){
 
@@ -1274,49 +1274,21 @@ cudaError_t cudaLaunch(const void *func){
     rtemp = rtemp->next;
   }
 
-  if(!profiled){
+  /*
 
-    apilog* ac0;
-    apilog* ac1;
+    if(profile_status == PROFILE_BEFORE){
 
-    init_cupti();
+    mocu_init_profile();
+    mocu_take_profile();
 
-    /*
-    ac0 = (apilog*)malloc(sizeof(apilog));
-    ac0->type = CUPTI_INIT;
-    ac0->prev = mocu.cp->a1->prev;
-    ac0->next = mocu.cp->a1;
-    ac0->prev->next = ac0;
-    ac0->next->prev = ac0;
+    }
 
-    printf("\t>>>ADD LOG(CUPTI_INIT)\n");
-    */
+  */
 
-    res = mocu.mocudaLaunch(func);
+  res = mocu.mocudaLaunch(func);
 
-    //    mocu_send_profile();
-
-    cupti_destroy();
-
-    /*
-    ac1 = (apilog*)malloc(sizeof(apilog));
-    ac1->type = CUPTI_DESTROY;
-    ac1->prev = mocu.cp->a1->prev;
-    ac1->next = mocu.cp->a1;
-    ac1->prev->next = ac1;
-    ac1->next->prev = ac1;
-
-    printf("\t>>>ADD LOG(CUPTI_DESTROY)\n");
-    */
-
-    profiled = 1;
-
-  }else{
-
-    res = mocu.mocudaLaunch(func);
-
-  }
-
+  //    mocu_destroy_profile();
+  //    mocu_send_profile();
   LEAVE;
 
   return res;
@@ -1429,15 +1401,15 @@ cudaError_t cudaMalloc(void **devPtr,  size_t size){
 
 cudaError_t cudaMallocHost(void **ptr,  size_t size){
 
-  TRACE("cudaMallocHost");
+  TRACE("cudaMallocHost -> cudaHostAlloc");
 
-  ENTER;
+  //  ENTER;
 
   cudaError_t res;
 
-  res = mocu.mocudaMallocHost(ptr, size);
+  res = cudaHostAlloc(ptr,size,cudaHostAllocPortable);
 
-  LEAVE;
+  //  LEAVE;
 
   return res;
 
@@ -1953,7 +1925,7 @@ cudaError_t cudaArrayGetInfo(struct cudaChannelFormatDesc *desc,  struct cudaExt
 
 cudaError_t cudaMemcpy(void *dst,  const void *src,  size_t count,  enum cudaMemcpyKind kind){
 
-  //  TRACE("cudaMemcpy");
+  TRACE("cudaMemcpy");
 
   ENTER;
 

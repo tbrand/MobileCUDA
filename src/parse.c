@@ -6,6 +6,8 @@
 
 void mocu_parse(void* fatCubin){
 
+  if(fatCubin == NULL)return;
+
   __fatBinC_Wrapper_t* fbinw;
   struct fatBinaryHeader* header;
 
@@ -28,7 +30,7 @@ void mocu_parse(void* fatCubin){
 #endif
 
   char *cubin;
-  int i,len_header,len_fat;
+  int i,len_header,len_fat,found = 0;
 
   len_header = header->headerSize;
   len_fat    = header->fatSize;
@@ -45,6 +47,7 @@ void mocu_parse(void* fatCubin){
        ){
 
       //      printf("Found 0x7f E L F [%p]\n",cubin);
+      found = 1;
 
       break;
 

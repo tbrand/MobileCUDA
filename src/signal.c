@@ -8,6 +8,12 @@ void mocu_request(){
 
   if(!connected)mocu_connect();
 
+  if(profile_status == PROFILE_DONE){
+    mocu_destroy_profile();
+    mocu_send_profile();
+    profile_status = PROFILE_QUIT;
+  }
+
   if(received_signal == NOREQUEST)return;
 
   printf("Received request from DAEMON\n");

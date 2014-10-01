@@ -1,6 +1,6 @@
 #include <mocu.h>
 
-#define BACKUP 0
+#define BACKUP 1
 
 void mocu_backup(){
 

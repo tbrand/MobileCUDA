@@ -162,7 +162,6 @@ void init_cupti(){
   //  printf("res=%d\n", res);
   
   cuptiSubscribe(&subscriber, (CUpti_CallbackFunc)getEventValueCallback,&trace);
-
   cuptiEnableCallback(1,
 		      subscriber,
 		      CUPTI_CB_DOMAIN_RUNTIME_API,
@@ -170,6 +169,8 @@ void init_cupti(){
 }
 
 void cupti_destroy(){
+
+  /*
 
   //  printf("inst : %llu\n",(unsigned long long)trace.inst);
   //  printf("gld  : %llu\n",(unsigned long long)trace.gld);
@@ -195,6 +196,7 @@ void cupti_destroy(){
 
   //  printf("Unsubscribe : %d\n",res);
 
+  */
 }
 
 int getTrace(RuntimeApiTrace_t* _trace){

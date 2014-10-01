@@ -17,6 +17,7 @@ OBJS =  device.o    \
 	symbol.o    \
 	array.o     \
 	cupti.o     \
+	cupti2.o    \
 
 SHARED = libcudart.so
 LINK1  = libcudart.so.5.5

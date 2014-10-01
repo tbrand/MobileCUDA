@@ -163,7 +163,16 @@ void mocu_send_profile(){
 
   mocu.cp->msg->REQUEST = PROFILE;
 
-  getTrace(&mocu.cp->msg->trace);
+  //  getTrace(&mocu.cp->msg->trace);
+  getProfileTrace(&mocu.cp->msg->trace);
+
+  /*
+  printf("inst : gld : gst\t%llu : %llu : %llu\n",
+	 mocu.cp->msg->trace.inst,
+	 mocu.cp->msg->trace.gld,
+	 mocu.cp->msg->trace.gst
+	 );
+  */
 
   SEND;
 
