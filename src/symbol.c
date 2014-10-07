@@ -76,8 +76,9 @@ int mocu_symbol_registered(symbol* s){
   a = mocu.cp->a0->next;
   while(a->next != NULL){
     if(a->type == REGISTERVAR){
-      if(a->data.registerVar.hostVar == s->hostVar)
+      if(a->data.registerVar.hostVar == s->hostVar){
 	return 1;
+      }
     }
     a = a->next;
   }

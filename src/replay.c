@@ -73,6 +73,11 @@ int replay(apilog* a){
 
   case REGISTERVAR:
 
+    //Skip Replay
+
+    return 0;
+    /*
+
     REPLAY("cudaRegisterVar");
 
     //    printf("\thostVar : %p\n",a->data.registerVar.hostVar);
@@ -89,6 +94,7 @@ int replay(apilog* a){
 			     );
 
     return 0;
+    */
 
   case REGISTERFUNCTION:
 
@@ -162,6 +168,37 @@ int replay(apilog* a){
     }else{
       return 0;
     }
+
+  case HOSTUNREGISTER:
+
+    REPLAY("cudaHostUnregister");
+
+    res = mocu.mocudaHostUnregister(a->data.hostUnregister.ptr);
+
+    if(res != cudaSuccess){
+      printf("replay failed in cudaHostUnregister()\n");
+      return -1;
+    }
+
+    return 0;
+
+  case BINDTEXTURE:
+
+    REPLAY("cudaBindTexture");
+
+    res = mocu.mocudaBindTexture(a->data.bindTexture.offset,
+				 (const struct textureReference*)a->data.bindTexture.texref,
+				 a->data.bindTexture.devPtr,
+				 (const struct cudaChannelFormatDesc*)a->data.bindTexture.desc,
+				 a->data.bindTexture.size
+				 );
+
+    if(res != cudaSuccess){
+      printf("replay failed in cudaBindTexture()\n");
+      return -1;
+    }
+
+    return 0;
 
   case CUPTI_INIT:
     

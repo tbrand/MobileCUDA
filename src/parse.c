@@ -39,6 +39,10 @@ void mocu_parse(void* fatCubin){
 
   while(1){
 
+    if(i++ > len_header){
+      break;
+    }
+
     if(
        *cubin     == 0x7f &&
        *(cubin+1) == 'E'  &&

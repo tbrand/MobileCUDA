@@ -5,7 +5,6 @@ int sem_id;
 int mocu_pos;
 
 MOCU mocu;
-
 int initialized = 0;
 
 __attribute__((constructor)) void init_mocu(){
@@ -89,6 +88,12 @@ __attribute__((constructor)) void init_mocu(){
   mocu.cp->rmsg->mem = 0;
   mocu.cp->rmsg->req = 0;
 
+  /*
+  cudaError_t res;
+  res = mocu.mocudaEventCreate(&mocu.cp->e1->e);
+  printf("EventCreate : %d\n",res);
+  */
+
   initialized = 1;
 
   return;
@@ -165,7 +170,10 @@ void** __cudaRegisterFatBinary(void* fatCubin){
 
   ENTER;
 
-  if(!initialized)init_mocu();
+  if(!initialized){
+    printf("[MOCU] constructor ...\n");
+    init_mocu();
+  }
 
   void **fHandle = mocu.__mocudaRegisterFatBinary(fatCubin);
 
@@ -216,21 +224,11 @@ void __cudaRegisterVar(void** fatCubinHandle,char *hostVar,char *deviceAddress,c
 
   mocu.__mocudaRegisterVar(fatCubinHandle,hostVar,deviceAddress,deviceName,ext,size,constant,global);
 
-#if 0
-  printf("\thostVar : %p\n",hostVar);
-  printf("\tdeviceAddress : %p\n",deviceAddress);
-  printf("\tdeviceName : %s\n",deviceName);
-  printf("\text : %d\n",ext);
-  printf("\tsize : %d\n",size);
-  printf("\tconstant : %d\n",constant);
-  printf("\tglobal : %d\n",global);
-#endif
-
   mocu_register_var(size);
 
   mocu_add_symbol(hostVar,deviceAddress,(char*)deviceName,ext,size,constant,global);
 
-#if 0
+#if 1
   apilog* a;
 
   a = (apilog*)malloc(sizeof(apilog));
@@ -1156,6 +1154,8 @@ cudaError_t cudaEventDestroy(cudaEvent_t event){
   ep->next->prev = ep->prev;
   ep->prev->next = ep->next;
 
+  free(ep);
+
   LEAVE;
 
   return res;
@@ -1169,13 +1169,39 @@ cudaError_t cudaEventElapsedTime(float *ms,  cudaEvent_t start,  cudaEvent_t end
 
   ENTER;
 
-  mocu_event *ep1,*ep2;
+  mocu_event *ep0,*ep1;
   cudaError_t res;
+  float f;
 
-  ep1 = (mocu_event*)start;
-  ep2 = (mocu_event*)end;
+  ep0 = (mocu_event*)start;
+  ep1 = (mocu_event*)end;
 
-  res = mocu.mocudaEventElapsedTime(ms,ep1->e,ep2->e);
+  printf("\t\t\t\t\t%d\n",ep0->mode*2+ep1->mode);
+
+  if(ep0->mode == 0 || ep1->mode == 0){
+    return CUDA_ERROR_NOT_READY;
+  }
+
+  //  res = mocu.mocudaEventElapsedTime(ms,ep1->e,ep2->e);
+  switch(ep0->mode*2+ep1->mode){
+  case 3:
+    return mocu.mocudaEventElapsedTime(ms,ep0->e,ep1->e);
+  case 4:
+    res = mocu.mocudaEventElapsedTime(&f,mocu.cp->e0->e,ep0->e);
+    if(res == cudaSuccess){
+      *ms = -ep1->charge-f;
+    }
+    return res;
+  case 5:
+    res = mocu.mocudaEventElapsedTime(&f,mocu.cp->e1->e,ep1->e);
+    if(res == cudaSuccess){
+      *ms = ep0->charge+f;
+    }
+    return res;
+  case 6:
+    *ms = ep0->charge-ep1->charge;
+    return cudaSuccess;
+  }
 
   LEAVE;
 
@@ -1557,7 +1583,13 @@ cudaError_t cudaFreeHost(void *ptr){
 
   cudaError_t res;
 
+  /*
   res = mocu.mocudaFreeHost(ptr);
+  */
+
+  res = cudaHostUnregister(ptr);
+
+  free(ptr);
 
   LEAVE;
 
@@ -1614,17 +1646,15 @@ cudaError_t cudaHostAlloc(void **pHost,  size_t size,  unsigned int flags){
 
   cudaError_t res;
 
-  if(flags&cudaHostAllocMapped){
-
-    *pHost = valloc(size);
-
-    res = cudaHostRegister(*pHost,size,flags|cudaHostRegisterMapped);
-
-  }else{
-    
-    res = mocu.mocudaHostAlloc(pHost, size, flags|cudaHostAllocPortable);
-
-  }
+  //  if(flags&cudaHostAllocMapped){
+  
+  *pHost = valloc(size);
+  
+  res = cudaHostRegister(*pHost,size,flags);
+  
+  //  }else{
+  //    res = mocu.mocudaHostAlloc(pHost, size, flags|cudaHostAllocPortable);
+  //  }
 
   LEAVE;
 
@@ -1672,6 +1702,17 @@ cudaError_t cudaHostUnregister(void *ptr){
   cudaError_t res;
 
   res = mocu.mocudaHostUnregister(ptr);
+
+  apilog* a;
+
+  a = (apilog*)malloc(sizeof(apilog));
+
+  a->type = HOSTUNREGISTER;
+  a->data.hostUnregister.ptr = ptr;
+  a->prev = mocu.cp->a1->prev;
+  a->next = mocu.cp->a1;
+  a->prev->next = a;
+  a->next->prev = a;
 
   LEAVE;
 
@@ -2743,6 +2784,21 @@ cudaError_t cudaBindTexture(size_t *offset,  const struct textureReference *texr
   cudaError_t res;
 
   res = mocu.mocudaBindTexture(offset, texref, devPtr, desc, size );
+
+  apilog *a;
+
+  a = (apilog*)malloc(sizeof(apilog));
+
+  a->type = BINDTEXTURE;
+  a->data.bindTexture.offset = offset;
+  a->data.bindTexture.devPtr = (void*)devPtr;
+  a->data.bindTexture.texref = (struct textureReference*)texref;
+  a->data.bindTexture.desc = (struct cudaChannelFormatDesc*)desc;
+  a->data.bindTexture.size = size;
+  a->prev = mocu.cp->a1->prev;
+  a->next = mocu.cp->a1;
+  a->prev->next = a;
+  a->next->prev = a;
 
   LEAVE;
 
